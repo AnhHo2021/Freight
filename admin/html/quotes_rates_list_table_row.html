@@ -1,0 +1,9 @@
+<tr bgcolor="[bg]">
+	<td></td>
+	<td nowrap>[name]</td>
+	<td align=right>$<input type='text' size='5' onfocus="this.select()" name='cost__[id]__[real_accessorial_id]' id="cost__[id]__[real_accessorial_id]" value='[cost]' style="text-align:right" onblur="this.value=dp(this.value);calcTotals([id])"><input type='hidden' name='calc_cost__[id]__[real_accessorial_id]' value='[calc_cost]'></td>
+	<td align=right>$<input type='text' size='5' onfocus="this.select()" name='rate__[id]__[real_accessorial_id]' id='rate__[id]__[real_accessorial_id]' value='[rate]' style="text-align:right" onblur="this.value=dp(this.value);calcTotals([id])"><input type='hidden' name='calc_rate__[id]__[real_accessorial_id]' value='[calc_rate]'></td>
+	<td align=right>$<div id="profit__[id]__[real_accessorial_id]" style="display:inline">[profit]</div></td>
+	<td align=right><div id="percent__[id]__[real_accessorial_id]" style="display:inline">[percent]</div>%</td>
+	<td bgcolor="#FFFFFF"><a href="javascript:calcRow([id],[real_accessorial_id])"  tabindex="9999"><img src="images/icon-calc.gif" width="16" height="16" border="0" tabindex="9999"></a></td>
+</tr>

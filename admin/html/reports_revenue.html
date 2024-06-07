@@ -1,0 +1,83 @@
+<script>
+	function submitForm(print){
+		document.report.print.value='';
+			document.report.target="_self";
+		if(print){
+			document.report.print.value='true';
+			document.report.target="_blank";
+		}
+		document.report.submit();
+	}
+	function sortBy(orderby,orderdir){
+		document.report.orderby.value=orderby;
+		document.report.orderdir.value=orderdir;
+		document.report.submit();
+	}
+</script>
+
+<form name="report" method="post" action="./?action=reports_revenue&do=run">
+<input type="hidden" name="orderby" value="[orderby]">
+<input type="hidden" name="orderdir" value="[orderdir]">
+<input type="hidden" name="print">
+<fieldset style="width:750">
+	<legend>Report Filters</legend>
+	<table>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td align="right"><b>Invoice Start Date:</b></td>
+						<td>
+							<input type="text" name="start_date" id="start_date_id" value="[start_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_start_date" onmouseover="this.style.cursor='hand'">
+							<script type="text/javascript">
+								Calendar.setup({
+									inputField     :    "start_date_id",
+									ifFormat       :    "%Y-%m-%d",
+									button         :    "icon_start_date",
+									singleClick    :    true,
+									step           :    1
+								});
+							</script>
+						</td>
+					</tr>
+					<tr>
+						<td align="right"><b>Invoice End Date:</b></td>
+						<td>
+							<input type="text" name="end_date" id="end_date_id" value="[end_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_end_date" onmouseover="this.style.cursor='hand'">
+							<script type="text/javascript">
+								Calendar.setup({
+									inputField     :    "end_date_id",
+									ifFormat       :    "%Y-%m-%d",
+									button         :    "icon_end_date",
+									singleClick    :    true,
+									step           :    1
+								});
+							</script>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td valign="top"><b>Reps</b></td>
+						<td>
+							<select multiple name="reps[]">
+								[reps]
+							</select>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'><input type="button" value="Go" onclick="submitForm()"></td>
+		</tr>
+	</table>
+</fieldset>
+</form>
+<br><br>
+<fieldset style="width:750">
+	<legend align="right"><a href="javascript:submitForm(true)">Print Report</a></legend>
+	[REPORT]
+</fieldset>

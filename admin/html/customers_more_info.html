@@ -1,0 +1,66 @@
+<table width="100%">
+	<tr>
+		<td>
+			<div align=right><a href="./?action=shipments_history&customer_id=[id]"><img src="images/icon-shipment.gif" border="0" title="View Shipments" width="16" height="16"> View Shipments</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./?action=quotes&customer_id=[id]"><img src="images/icon-quote.gif" border="0" title="View Quotes" width="16" height="16"> View Quotes</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./?action=quotes_edit&customer_id=[id]"><img src="images/icon-add-quote.gif" border="0" title="Add Quote" width="16" height="16"> Add Quote</a></div>
+			<fieldset>
+				<legend>Dashboard</legend>
+				<table width="100%" cellpadding="3">
+					<tr>
+						<td>&nbsp;</td>
+						<td align="center" class="tblHeader"><strong>MTD</strong></td>
+						<td align="center" class="tblHeader"><strong>YTD</strong></td>
+						<td align="center" class="tblHeader"><strong>LYTD</strong></td>
+					</tr>
+					<tr>
+						<td valign="top" align="right"># Quotes</td>
+						<td valign="top" align="center">[mtd_quotes]</td>
+						<td valign="top" align="center">[ytd_quotes]</td>
+						<td valign="top" align="center">[lytd_quotes]</td>
+					</tr>
+					<tr>
+						<td valign="top" align="right"># Shipments</td>
+						<td valign="top" align="center">[mtd_shipments]</td>
+						<td valign="top" align="center">[ytd_shipments]</td>
+						<td valign="top" align="center">[lytd_shipments]</td>
+					</tr>
+					<tr>
+						<td valign="top" align="center">Total Revenue</td>
+						<td valign="top" align="center">$[mtd_revenue]</td>
+						<td valign="top" align="center">$[ytd_revenue]</td>
+						<td valign="top" align="center">$[lytd_revenue]</td>
+					</tr>
+					<tr>
+						<td valign="top" align="center">Total Profit</td>
+						<td valign="top" align="center">$[mtd_profit]</td>
+						<td valign="top" align="center">$[ytd_profit]</td>
+						<td valign="top" align="center">$[lytd_profit]</td>
+					</tr>
+					<tr>
+						<td valign="top" align="right">Last Quote</td>
+						<td valign="top" colspan=3 align="right">[last_quote]</td>
+					</tr>
+					<tr>
+						<td valign="top" align="right">Last Shipment</td>
+						<td valign="top" colspan=3 align="right">[last_shipment]</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Logins</legend>
+				<iframe src="index.php?action=customers_logins&id=[id]" width="260" height="136" align="center" frameborder="0"></iframe>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Notes</legend>
+				<iframe src="index.php?action=customers_notes&id=[id]" width="260" height="226" align="center" frameborder="0"></iframe>
+			</fieldset>
+		</td>
+	</tr>
+</table>

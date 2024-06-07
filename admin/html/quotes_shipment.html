@@ -1,0 +1,219 @@
+<form action="index.php?action=quotes_shipment&id=[id]" method="POST" name="quote_shipment" onsubmit="this.submit.disabled=true">
+<table>
+	<tr>
+		<td>Please confirm the following shipment information</td>
+	</tr>
+	<tr>
+		<td valign='top' width='50%'>
+		<fieldset>
+		<legend><b>Origin</b></legend>
+		<table>
+			<tr>
+				<td NOWRAP align='right'><b>Company (From:)</b></td>
+				<td>[o_to]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Attention</b></td>
+				<td>[o_attention]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>Address 1</b></td>
+				<td>[o_address1]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>Address 2</b></td>
+				<td>[o_address2]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>City, State, Zip</b></td>
+				<td NOWRAP>[o_city] [o_state], [o_zip]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Contact</b></td>
+				<td>[o_contact_name]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Phone</b></td>
+				<td>[o_contact_phone]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Fax</b></td>
+				<td>[o_contact_fax]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Email</b></td>
+				<td>[o_contact_email]</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td align='right'><b>PO</b></td>
+				<td>[o_po]</td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+		<td width='50%'>
+		<fieldset>
+		<legend><b>Destination</b></legend>
+		<table>
+			<tr>
+				<td NOWRAP align='right'><b>Company (To:)</b></td>
+				<td>[d_to]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Attention</b></td>
+				<td>[d_attention]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>Address 1</b></td>
+				<td>[d_address1]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>Address 2</b></td>
+				<td>[d_address2]</td>
+			</tr>
+			<tr>
+				<td NOWRAP align='right'><b>City, State, Zip</b></td>
+				<td NOWRAP>[d_city] [d_state], [d_zip]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Contact</b></td>
+				<td>[d_contact_name]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Phone</b></td>
+				<td>[d_contact_phone]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Fax</b></td>
+				<td>[d_contact_fax]</td>
+			</tr>
+			<tr>
+				<td align='right'><b>Email</b></td>
+				<td>[d_contact_email]</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td align='right'><b>PO</b></td>
+				<td>[d_po]</td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td colspan='2'>
+		<table>
+			<tr>
+				<td>
+				<fieldset>
+				<legend>service details</legend>
+				[shipments_services]
+				</fieldset>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan='2'>
+		<fieldset width="100%">
+		<legend>terminals</legend>
+		<table>
+			<tr>
+				<td><b>Pickup Terminal</b> <select name="shipped_o_carrier_terminal_id" id="shipped_o_carrier_terminal_id"></select></td>
+			</tr>
+			<tr>
+				<td><b>Delivery Terminal</b> <select name="shipped_d_carrier_terminal_id" id="shipped_d_carrier_terminal_id"></select></td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td>
+		[shipments_rates]
+		</td>
+	</tr>
+	<tr>
+		<td align='center'><input type='submit' name="submit" value='Create Shipment'></td>
+	</tr>
+</table>
+</form>
+<script>
+	document.body.onload=doTerminals;
+	function doTerminals(){
+		var elem=document.getElementById("shipped_o_carrier_terminal_id");
+		if(elem){
+			elem.options.length=0;
+		}
+
+		var elOptNew = document.createElement('option');
+		elOptNew.text = 'None Selected';
+		elOptNew.value = '0';
+		elem.add(elOptNew);
+
+
+		var elem=document.getElementById("shipped_d_carrier_terminal_id");
+		if(elem){
+			elem.options.length=0;
+		}
+
+		var elOptNew = document.createElement('option');
+		elOptNew.text = 'None Selected';
+		elOptNew.value = '0';
+		elem.add(elOptNew);
+
+
+		var rate_id = 0;
+		var ii = document.quote_shipment.shipped_shipment_rate_id.length;
+		if(ii){
+			for(i=0;i<ii;i++){
+				if(document.quote_shipment.shipped_shipment_rate_id[i].checked){
+					rate_id=document.quote_shipment.shipped_shipment_rate_id[i].value;
+				}
+			}
+		}else{
+			rate_id=document.quote_shipment.shipped_shipment_rate_id.value;
+		}
+
+		
+		var url = "?action=quotes_shipment-terminals&shipment_id=[id]&rate_id="+rate_id;
+		var xmlhttp;
+		if(xmlhttp && xmlhttp.readyState != 0){
+			xmlhttp.abort()
+		}
+		xmlhttp=getXMLHTTP();
+		if(xmlhttp){
+			xmlhttp.open("GET",url,true);
+			xmlhttp.onreadystatechange=function() {
+			if(xmlhttp.readyState==4 && xmlhttp.responseText){
+				eval(xmlhttp.responseText);
+			}
+		}
+		xmlhttp.send(null);
+		}
+	}
+	function getXMLHTTP(){
+	  var ret=null;
+	  try{
+		ret=new ActiveXObject("Msxml2.XMLHTTP");
+	  }catch(e){
+		try{
+		  ret=new ActiveXObject("Microsoft.XMLHTTP");
+		} catch(oc){
+		  ret=null;
+		}
+	  }
+	  if(!ret && typeof XMLHttpRequest != "undefined"){
+		ret=new XMLHttpRequest();
+	  }
+	  return ret;
+	}
+</script>

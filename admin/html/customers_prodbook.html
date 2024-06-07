@@ -1,0 +1,29 @@
+<script language="JavaScript">
+<!--
+function confirm_contact_delete(id){
+	if(confirm("Are you sure you want to remove this product book group?")){
+		window.location.href = "./?action=customers_prodbook&mode=remove&customer_id=[customer_id]&id="+id;
+	}
+}
+-->
+</script>
+<div align="center" style="color:red;font-weight:bold;">[msg]</div>
+<div align="center" class="tblHeader2">Customer: <select style="width:320px" name="customer_id" onchange="document.location = './?action=customers_prodbook&customer_id=' + this.value;"><option value="0"></option>[customer_list]</select></div>
+<table width="100%">
+	<tr>
+		<td>
+			<table cellpadding="3" cellspacing="1" width="100%">
+				<tr>
+					<td colspan='5' align='right'><a href='./?action=customers_prodbook&id=NEW&customer_id=[customer_id]'><b><img src="images/icon-add.gif" border="0" align="absmiddle"> ADD Group</b></a></td>
+				</tr>
+			</table>
+			<table cellpadding="3" cellspacing="1" width="100%">
+				<tr>
+					<td class="tblHeader" width="100%">Name</td>
+					<td class="tblHeader">Action</td>
+				</tr>
+				[customers_prodbook_list_row]
+			</table>
+		</td>
+	</tr>
+</table>

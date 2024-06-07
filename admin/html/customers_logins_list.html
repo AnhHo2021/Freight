@@ -1,0 +1,26 @@
+[error]
+<script language="JavaScript">
+<!--
+function confirm_login_delete(customer_id,id){
+	if(confirm("Are you sure you want to remove this customer's login information?")){
+		window.location.href = "./?action=customers_logins&id="+customer_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<small>Bolded Username is Admin</small>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td class="tblHeader">Username</td>
+		<td class="tblHeader">Password</td>
+		<td class="tblHeader">Action</td>
+	</tr>
+	<form method='POST' action='./?action=customers_logins&id=[action_id]'>
+	<tr>
+		<td><input size='10' type='text' name='username' value=''></td>
+		<td><input size='10' type='text' name='password' value=''></td>
+		<td align="center"><input type='submit' value='Add'></td>
+	</tr>
+	</form>
+	[customers_logins_list_row]
+</table>

@@ -1,0 +1,66 @@
+<script>
+function savePrint() {
+	document.list_form.action='./?action=accounting_edit&id=[id]&print=true';
+	document.list_form.submit();	
+}
+[javascript]
+</script>
+<font color=red>[message]</font>
+<form name='list_form' method='POST' action='./?action=accounting_edit&id=[id]'>
+<table>
+	<tr>
+		<td>
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td>BOL #</td>
+		<td><a href="/?action=shipments_edit&id=[shipment_id]">[shipped_tracknum]</a></td>
+	</tr>
+	<tr>
+		<td>Invoice #</td>
+		<td><a href="javascript:savePrint();">[id]</a></td>
+	</tr>
+	<tr>
+		<td>Shipment #</td>
+		<td><a href="/?action=shipments_edit&id=[shipment_id]">[shipment_id]</a></td>
+	</tr>
+	<tr>
+		<td>Final Invoice Date</td>
+		<td>[invoice_final_date]</td>
+	</tr>
+	<tr>
+		<td>Invoice Date</td>
+		<td NOWRAP><input type="text" name="invoice_date" id="invoice_date_id" value="[invoice_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_invoice_date" onmouseover="this.style.cursor='hand'">
+		<script type="text/javascript">
+			Calendar.setup({
+				inputField     :    "invoice_date_id",
+				ifFormat       :    "%Y-%m-%d",
+				button         :    "icon_invoice_date",
+				singleClick    :    true,
+				step           :    1
+			});
+		</script></td>
+	</tr>
+	<tr>
+		<td>Due Date</td>
+		<td NOWRAP><input type="text" name="due_date" id="due_date_id" value="[due_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_due_date" onmouseover="this.style.cursor='hand'">
+		<script type="text/javascript">
+			Calendar.setup({
+				inputField     :    "due_date_id",
+				ifFormat       :    "%Y-%m-%d",
+				button         :    "icon_due_date",
+				singleClick    :    true,
+				step           :    1
+			});
+		</script></td>
+	</tr>
+</table>
+[accounting_rates]
+<table width='100%'>
+	<tr>
+		<td align='center'><input type='submit' value='save'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='button' value='save & print' onClick='savePrint()'></td>
+	</tr>
+</table>
+		</td>
+	</tr>
+</table>
+</form>

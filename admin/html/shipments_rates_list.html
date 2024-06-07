@@ -1,0 +1,72 @@
+<script language="JavaScript">
+<!--
+function addCarrier(shipment_id) {
+	document.getElementById("carrierform").action="./?action=quotes_rates&id="+shipment_id+"&add";
+	document.carrierform.submit();
+}
+function updateCarrier(id,name,place_holder) {
+	var carrier_id = "carrier_id__"+place_holder;
+	var place_holder_id = "carrier__"+place_holder;
+	document.getElementById(carrier_id).value = id;
+	document.getElementById(place_holder_id).innerHTML = name;
+}
+function carrierFinder(place_holder) {
+	window.open("/?action=carrierfinder&place_holder="+place_holder,"carrier_finder","top=0,left=0,width=270,height=160,scrollbars=yes,menu=no");
+}
+function confirm_rate_delete(rate_id,id){
+	if(confirm("Are you sure you want to remove this carrier's rate?")){
+		window.location.href = "./?action=quotes_rates&id="+rate_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<table>
+	<tr>
+		<td>
+		<table cellpadding="3" cellspacing="1" width="100%">
+			<tr>
+				<td align='right'><a href=''>+ auto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript:addCarrier([id])'>+ add carrier</a></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div align=right><a href="javascript:buttonFunction('autoquote','[id]')">>> automatic quote <<</a></div>
+					<fieldset>
+					<legend>edit carrier rates</legend>
+					<table cellpadding="3" cellspacing="1" width="100%">
+						<tr>
+							<td class="tblHeader">Service Level</td>
+							<td class="tblHeader">Carrier</td>
+							<td class="tblHeader">Transit</td>
+							<td class="tblHeader">Cost</td>
+							<td class="tblHeader">Rate</td>
+						</tr>
+						<tr bgcolor="[bg]" style="cursor:hand">
+							<td><select name="service_id__[id]">
+							[service_list]
+							</select>
+							</td>
+							<td nowrap><span id='carrier__[id]'>[company]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:carrierFinder([id])'>(change)</a><input type='hidden' id='carrier_id__[id]' name='carrier_id__[id]' value='[carrier_id]'></td>
+							<td nowrap><input type='text' size='1' style="width:20px" name='transit_days__[id]' value='[transit_days]'> days</td>
+							<td align=right>$<input type='text' size='5' name='cost__[id]' value='[cost]' style="text-align:right"><input type='hidden' name='calc_cost__[id]' value='[calc_cost]'></td>
+							<td align=right>$<input type='text' size='5' name='rate__[id]' value='[rate]' style="text-align:right"><input type='hidden' name='calc_rate__[id]' value='[calc_rate]'></td>
+							<td align='right'>$[profit]</td>
+							<td align='right'>%[percent]</td>
+						</tr>
+						[quotes_rates_list_table_row]
+						<tr bgcolor="[bg]" style="cursor:hand">
+							<td></td>
+							<td></td>
+							<td><b>TOTAL</b></td>
+							<td align=right><b>$[total_cost]</b></td>
+							<td align=right><b>$[total_rate]</b></td>
+						</tr>
+					</table>
+					</fieldset>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>

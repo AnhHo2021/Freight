@@ -1,0 +1,55 @@
+<script language="javascript">
+	var class_list = '[class_list]';
+	var packaging_list = '[packaging_list]';
+	
+	function checkForm(){
+		var r = true;
+		var error = "";
+		var f = document.prodbook;
+	
+		if(!f.name.value){
+			r=false;
+			error +="\n  + Product Book Group Name";
+		}
+		
+		if(error){	
+			alert("Please check the following fields:"+error);
+		}
+		return r;
+	}
+</script>
+<script src="js/prodbook.js"></script>
+<div align="center" class="tblHeader2">Customer: <select style="width:320px" name="customer_id" onchange="document.location = './?action=customers_prodbook&customer_id=' + this.value;"><option value="0"></option>[customer_list]</select></div>
+<form action="./?action=customers_prodbook&id=[id]&customer_id=[customer_id]" method="post" onSubmit="return checkForm();" name="prodbook">
+<p></p>
+<table width="100%" border="0" cellpadding="3" cellspacing="2">
+	<tr>
+		<td valign="top" align="right" width="43%"><b>Group Name</b></td>
+		<td valign="top"><input name="name" size="25" value="[name]"><br></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<fieldset>
+				<legend style="font-size:14px"><b>Pieces and Weight</b></legend>
+				<table width="100%" cellpadding="3" id="commodityTable">
+					<tr>
+						<td class="tblHeader" nowrap>Pieces</td>
+						<td class="tblHeader" nowrap>Pack</td>
+						<td class="tblHeader" nowrap>Dimensions (L x W x H)</td>
+						<td class="tblHeader" nowrap>Class</td>
+						<td class="tblHeader" nowrap>NMFC</td>
+						<td class="tblHeader" nowrap>Description</td>
+						<td class="tblHeader" nowrap>Actual Weight</td>
+					</tr>
+					[commodity_rows]
+				</table>
+				<br>+ <a href="javascript:addCommodityRow()"><u>Add Another Piece</u></a>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><br><input type="submit" value="Save Product Book"></td>
+	</tr>
+</table>
+</form>

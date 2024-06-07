@@ -1,0 +1,24 @@
+body,table,tr,td,a,input,textarea,select {font-family: Arial; font-size: 11px; color: #000000; text-decoration:none}
+a:hover {text-decoration:underline}
+
+.toptab_off {font-weight:bold;padding-left:10px;padding-right:10px;font-size: 12px; text-decoration:none; background-color: #C4C384;}
+.toptab_off:hover {background-color: #8D8A39;  text-decoration:none;}
+.toptab_on {font-weight:bold;padding-left:10px;padding-right:10px;font-size: 12px; text-decoration:none; background-color: #685a00; color: white}
+.toptab_on:hover {background-color: #685a00;  text-decoration:none;}
+
+.subtab_off {padding-left:5px;padding-right:5px;font-size: 11px; text-decoration:none;color:white}
+.subtab_on {padding-left:5px;padding-right:5px;font-size: 11px; text-decoration:underline;color:white}
+
+h1 {font-weight:bold;font-size:14px;color:#685a00}
+h2,.subHeader {font-weight:bold;font-size:12px;color:#685a00}
+
+.tblHeader {font-weight:bold;font-size:11px;background-color:#685a00;color:#FFFFFF}
+.tblHeader a {color:#FFFFFF}
+fieldset,legend {color: black;}
+
+ul{list-style: none; margin-left: 3px;}
+
+fieldset {padding:5,5,5,5;}
+
+.button { height: 25px; font-size: 14px; font-family: Arial }
+

@@ -1,0 +1,36 @@
+<script language="JavaScript">
+<!--
+function confirm_user_delete(id){
+	if(confirm("Are you sure you want to remove this user?")){
+		window.location.href = "./?action=settings_logins&remove="+id;
+	}
+}
+-->
+</script>
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td colspan='5'><h2>Active Users</h2></td>
+	</tr>
+	<tr>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=fname&asc_fname=[asc_fname]">First Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=lname&asc_lname=[asc_lname]">Last Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=username&asc_username=[asc_username]">User Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=access_level&asc_access=[asc_access]">Access</a></td>
+		<td class="tblHeader">Actions</a></td>
+	</tr>
+	[logins_active]
+</table>
+<br><br>
+<table>
+	<tr>
+		<td colspan='5'><h2>Inactive Users</h2></td>
+	</tr>
+	<tr class="tblHeader">
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=fname&asc_fname=[asc_fname]">First Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=lname&asc_lname=[asc_lname]">Last Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=username&asc_username=[asc_username]">User Name</a></td>
+		<td class="tblHeader"><a href="./?action=settings_logins&sort=access_level&asc_access=[asc_access]">Access</a></td>
+		<td class="tblHeader">Actions</a></td>
+	</tr>
+	[logins_inactive]
+</table>

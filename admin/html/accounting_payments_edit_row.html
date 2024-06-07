@@ -1,0 +1,11 @@
+<tr bgcolor="[bg]" onmouseover="style.backgroundColor='white';" onmouseout="style.backgroundColor='[bg]'">
+	<td align="center">[due_date]</td>
+	<td align="center">[invoice_id]</td>
+	<td align="center">[shipped_tracknum]</td>
+	<td>[origin]</td>
+	<td>[destination]</td>
+	<td nowrap align="right">$[total_due]</td>
+	<td nowrap align="right"><input type="text" name="applied_[invoice_id]" id="applied_[invoice_id]" value="0.00" size="5" maxlength="10" style="text-align:right;" onkeyup="formatInts(this);setPayment([invoice_id]);"></td>
+	<td><input type="checkbox" onclick="autoFill([invoice_id])" id="auto_[invoice_id]"></td>
+</tr>
+<input type="hidden" name="items[]" value="[invoice_id]">

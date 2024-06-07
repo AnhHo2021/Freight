@@ -1,0 +1,55 @@
+[message]
+<script>
+function checkAll() {
+	for(i=1;i<document.list_form.elements.length;i++) {
+		var check_it = (document.list_form.elements[0].checked) ? 1 : 0;
+		if(document.list_form.elements[i].type == "checkbox") {
+			document.list_form.elements[i].checked = check_it;
+		}
+	}
+}
+function setInvoiced(){
+	document.list_form.action='./?action=accounting_setinvoiced';
+	document.list_form.target='_self';
+	document.list_form.submit();
+}
+</script>
+<table>
+	<tr>
+		<td>
+<fieldset>
+<legend>To Be Invoiced</legend>
+<form name='list_form' method='POST' action='./?action=accounting_listprint' target="_blank">
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=id&asc_id=[asc_id]">ID</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=invoice_date&asc_invoice_date=[asc_invoice_date]">Invoice Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=due_date&asc_due_date=[asc_due_date]">Due Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=days_old&asc_days_old=[asc_days_old]">Days Old</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=shipped_pickup_date&asc_shipped_pickup_date=[asc_shipped_pickup_date]">Ship Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=shipped_tracknum&asc_shipped_tracknum=[asc_shipped_tracknum]">Tracking</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=company&asc_company=[asc_company]">Customer</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=cost&asc_cost=[asc_cost]">Cost</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=total&asc_total=[asc_total]">Rate</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=profit&asc_profit=[asc_profit]">Profit</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_tobeinvoiced&sort=margin&asc_margin=[asc_margin]">Margin</a></td>
+		<td class='tblHeader'><input type="checkbox" name="check_all" onClick="checkAll()"></td>
+	</tr>
+	[accounting_tobeinvoiced_row]
+	<tr>
+		<td class='tblHeader' colspan=7>Totals</td>
+		<td class='tblHeader' align=right>$[total_cost]</td>
+		<td class='tblHeader' align=right>$[total_rate]</td>
+		<td class='tblHeader' align=right>$[total_profit]</td>
+		<td class='tblHeader' align=right>[total_margin]%</td>
+		<td class='tblHeader'>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan='12' align='right'><input type="button" value="invoiced" onclick="setInvoiced()"> &nbsp;&nbsp;&nbsp; <input type='submit' value='print'></td>
+	</tr>
+</table>
+</form>
+</fieldset>
+		</td>
+	</tr>
+</table>

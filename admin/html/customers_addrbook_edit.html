@@ -1,0 +1,47 @@
+<a href="/?action=customers_addrbook&customer_id=[customer_id]"><strong><< Back to Main</strong></a>
+<form action="/?action=customers_addrbook&id=[id]&customer_id=[customer_id]" method="post">
+<table width="100%">
+	<tr>
+		<td valign="top"><b>Type</b></td>
+		<td valign="top">
+			<select name="type" size="1">
+				<option value="origin"[origin_selected]>Origin</option>
+				<option value="destination"[destination_selected]>Destination</option>
+				<option value="both"[both_selected]>Both</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top"><b>To</b></td>
+		<td valign="top"><input name="to" size="20" value="[to]"><br></td>
+	</tr>
+	<tr>
+		<td valign="top"><b>Contact Name</b></td>
+		<td valign="top"><input name="contact_name" size="20" value="[contact_name]"></td>
+	</tr>
+	<tr>
+		<td valign="top"><b>Contact Phone</b></td>
+		<td valign="top"><input name="contact_phone" size="20" value="[contact_phone]"></td>
+	</tr>
+	<tr>
+		<td valign="top"><b>Contact Fax</b></td>
+		<td valign="top"><input name="contact_fax" size="20" value="[contact_fax]"></td>
+	</tr>
+	<tr>
+		<td valign="top"><b>Contact Email</b></td>
+		<td valign="top"><input name="contact_email" size="20" value="[contact_email]"></td>
+	</tr>
+	<tr>
+		<td valign="top"><b>Address</b></td>
+		<td valign="top">
+			<input name="address1" size="20" value="[address1]"><br>
+			<input name="address2" size="20" value="[address2]"><br>
+			<input name="city" size="10" value="[city]"> <select name="state" size="1">[states]</select> <input name="zip" size="5" value="[zip]">
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><input type="submit" value="Save Address"></td>
+	</tr>
+</table>
+</form>

@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Norway Freight Login</title>
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+</head>
+<body>	
+	<div align=center>
+		<img class="login-login" src="images/logo_admin.png"><br><br>
+		<font color="#FF0000"><b>[login_mssg]</b></font>
+
+		<form name="login" method="post" action="index.php?action=login">
+		<table class="login-tbl" cellpadding="3" cellspacing="0">
+			<tr bgcolor="#ec3027">
+				<td colspan="2"><font color="#FFFFFF"><b>Please Login</b></font></td>
+			</tr>
+			<tr bgcolor="#FFFFFF">
+				<td style="border-left:1px solid black;" align="right">Username: </td>
+				<td style="border-right:1px solid black;"><input type="text" name="username" size="10"></td>
+			</tr>
+			<tr bgcolor="#FFFFFF">
+				<td style="border-left:1px solid black;" align="right">Password: </td>
+				<td style="border-right:1px solid black;"><input type="password" name="password" size="10"></td>
+			</tr>
+			<tr>
+				<td style="border-left:1px solid black;border-bottom:1px solid black;">&nbsp;</td>
+				<td style="border-right:1px solid black;border-bottom:1px solid black;">
+					<input type="submit" value="Login"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+
+	<script language="javascript">
+		document.login.username.focus();
+	</script>
+</body>
+</html>

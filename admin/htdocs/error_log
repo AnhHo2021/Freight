@@ -1,0 +1,86 @@
+[18-Sep-2018 04:11:24 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:12:31 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:15:38 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:16:02 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:14 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:58 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'hillman_freight'@'localhost' to database 'norwayfreight' in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:25:04 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'hillman_freight'@'localhost' to database 'norwayfreight' in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:30:34 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:05:18 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:16:41 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 175
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 176
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 173
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fopen(public_html/freight/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 173

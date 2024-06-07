@@ -1,0 +1,29 @@
+<table cellpadding="3" cellspacing="1" align=center>
+	<tr bgcolor="black">
+		<td colspan=6><input type="hidden" name="service_ids_[carrier_id][]" value="[service_id]">
+			<div style="width:100%">
+			<div style="float:left"><font color=white>[service]</font></div>
+			<div style="float:right"><select name='type_[carrier_id]_[service_id]'>[type]</select></div></div></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Direction</td>
+		<td class="tblHeader">Cost</td>
+		<td class="tblHeader">Min Cost</td>
+		<td class="tblHeader">Rate</td>
+		<td class="tblHeader">Min Rate</td>
+	</tr>
+	<tr bgcolor="[bg2]" style="cursor:hand" onmouseover="style.backgroundColor='white';" onmouseout="style.backgroundColor='[bg2]'">
+		<td>Intrastate</td>
+		<td align=right>[cost_intrastate]%</td>
+		<td align=right>$[min_cost_intrastate]</td>
+		<td align=right><input onfocus="this.select()" size='2' type='text' name='rate_[carrier_id]_[service_id]_intrastate' value='[rate_intrastate]' style="text-align:right">%</td>
+		<td align=right>$<input onfocus="this.select()" size='2' type='text' name='min_rate_[carrier_id]_[service_id]_intrastate' value='[min_rate_intrastate]' style="text-align:right"></td>
+	</tr>
+	<tr bgcolor="[bg1]" style="cursor:hand" onmouseover="style.backgroundColor='white';" onmouseout="style.backgroundColor='[bg1]'">
+		<td>Interstate</td>
+		<td align=right>[cost_interstate]%</td>
+		<td align=right>$[min_cost_interstate]</td>
+		<td align=right><input onfocus="this.select()" size='2' type='text' name='rate_[carrier_id]_[service_id]_interstate' value='[rate_interstate]' style="text-align:right">%</td>
+		<td align=right>$<input onfocus="this.select()" size='2' type='text' name='min_rate_[carrier_id]_[service_id]_interstate' value='[min_rate_interstate]' style="text-align:right"></td>
+	</tr>
+</table><br>

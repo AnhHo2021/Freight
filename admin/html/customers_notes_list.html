@@ -1,0 +1,23 @@
+<script language="JavaScript">
+<!--
+function confirm_note_delete(customer_id,id){
+	if(confirm("Are you sure you want to remove this note?")){
+		window.location.href = "./?action=customers_notes&id="+customer_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<form method='POST' action='./?action=customers_notes&id=[action_id]'>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td colspan="2" valign="top"><textarea name='note' cols='30' rows='4'></textarea></td>
+		<td valign="top"><input type='submit' value='Add'></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Date</td>
+		<td class="tblHeader">Note</td>
+		<td class="tblHeader">Action</td>
+	</tr>
+	[customers_notes_list_row]
+</table>
+</form>

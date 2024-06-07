@@ -1,0 +1,65 @@
+<table>
+	<tr>
+		<td>
+		<table cellpadding="3" cellspacing="1">
+			<tr>
+				<td class="tblHeader" NOWRAP>Req Pickup</td>
+				<td NOWRAP><input type="text" name="req_pickup_date" id="req_pickup_date_id" value="[req_pickup_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_pickup_date" onmouseover="this.style.cursor='hand'">
+						<script type="text/javascript">
+							Calendar.setup({
+								inputField     :    "req_pickup_date_id",
+								ifFormat       :    "%Y-%m-%d",
+								button         :    "icon_pickup_date",
+								singleClick    :    true,
+								step           :    1
+							});
+						</script></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Pickup Window</td>
+				<td><select name='req_pickup_time_start'>
+				[req_pickup_time_start]
+				</select>
+				<select name='req_pickup_time_end'>
+				[req_pickup_time_end]
+				</select>		
+				</td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Delivery Window</td>
+				<td><select name='req_delivery_time_start'>
+				[req_delivery_time_start]
+				</select>
+				<select name='req_delivery_time_end'>
+				[req_delivery_time_end]
+				</select>		
+				</td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Insurance Amount</td>
+				<td><input type='text' name='insurance' size='10' value='[insurance]'></td>
+			</tr>
+		</table>
+		</td>
+		<td valign='top'>
+		<table cellpadding=3 cellspacing=1>
+			<tr>
+				<td class="tblHeader">Pro Number</td>
+				<td><input type='text' name='shipped_carrier_pronum' size='10' value='[shipped_carrier_pronum]'></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Tracking Number</td>
+				<td><input type='text' name='shipped_tracknum' size='10' value='[shipped_tracknum]'></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Sales Rep</td>
+				<td><select name='sales_admin_login_id'>[sales_reps]</select></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Freight Rep</td>
+				<td><select name='freight_admin_login_id'>[freight_reps]</select></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>

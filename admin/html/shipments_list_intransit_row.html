@@ -1,0 +1,16 @@
+	<tr bgcolor="[bg]" onmouseover="style.backgroundColor='white';" onmouseout="style.backgroundColor='[bg]'">
+		<td NOWRAP><a href="?action=shipments_edit&id=[id]">[id]</a></td>
+		<td NOWRAP><a href="?action=shipments_edit&id=[id]">[req_delivery_date]</a></td>
+		<td NOWRAP><a href="?action=shipments_edit&id=[id]">[req_delivery_time_start]</a></td>
+		<td NOWRAP><a href="?action=customers_edit&id=[customer_id]" onMouseOver="popLayer([customer_layer])" onMouseOut="hideLayer()">[company]</a></td>
+		<td NOWRAP><a href="?action=carriers_edit&id=[carrier_id]" onMouseOver="popLayer([carrier_layer])" onMouseOut="hideLayer()">[carrier]</a></td>
+		<td NOWRAP><a href="?action=shipments_edit&id=[id]" onMouseOver="popLayer([o_layer])" onMouseOut="hideLayer()">[origin]</a></td>
+		<td NOWRAP><a href="?action=shipments_edit&id=[id]" onMouseOver="popLayer([d_layer])" onMouseOut="hideLayer()">[destination]</a></td>
+		<td NOWRAP><a href="javascript:trackingPop([id])" onMouseOver="popLayer([track_layer])" onMouseOut="hideLayer()">[tracking]</a></td>
+		<td NOWRAP><a href="javascript:bolPop([id])" onMouseOver="popLayer([bol_layer])" onMouseOut="hideLayer()">BOL</a></td>
+		<td align='right' NOWRAP><a href="?action=shipments_edit&id=[id]" onMouseOver="popLayer([cost_layer])" onMouseOut="hideLayer()">[cost]</a></td>
+		<td align='right' NOWRAP><a href="?action=accounting_edit&id=[invoice_id]" onMouseOver="popLayer([total_layer])" onMouseOut="hideLayer()">[total]</a></td>
+		<td align='right' NOWRAP><a href="?action=accounting_edit&id=[invoice_id]" onMouseOver="popLayer([margin_layer])" onMouseOut="hideLayer()">[profit]</a></td>
+		<td><input type='checkbox' name='[id]' id="check_[id]"></td>
+	</tr>
+

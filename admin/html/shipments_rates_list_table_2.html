@@ -1,0 +1,29 @@
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td class="tblHeader">Service Level</td>
+		<td class="tblHeader">Carrier</td>
+		<td class="tblHeader">Transit</td>
+		<td class="tblHeader">Cost</td>
+		<td class="tblHeader">Rate</td>
+		<td rowspan='60' bgcolor='white'><a href='javascript:confirm_rate_delete([shipment_id],[id]);'>remove</a></td>
+	</tr>
+	<tr bgcolor="[bg]" style="cursor:hand">
+		<td><select name="service_id__[id]">
+		[service_list]
+		</select>
+		</td>
+		<td nowrap><span id='carrier__[id]'>[company]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:carrierFinder([id])'>(change)</a><input type='hidden' id='carrier_id__[id]' name='carrier_id__[id]' value='[carrier_id]'></td>
+		<td nowrap><input type='text' size='1' style="width:20px" name='transit_days__[id]' value='[transit_days]'> days</td>
+		<td align=right>$<input type='text' size='5' name='cost__[id]' value='[cost]' style="text-align:right"><input type='hidden' name='calc_cost__[id]' value='[calc_cost]'></td>
+		<td align=right>$<input type='text' size='5' name='rate__[id]' value='[rate]' style="text-align:right"><input type='hidden' name='calc_rate__[id]' value='[calc_rate]'></td>
+	</tr>
+	[quotes_rates_list_table_row]
+	<tr bgcolor="[bg]" style="cursor:hand">
+		<td></td>
+		<td></td>
+		<td><b>TOTAL</b></td>
+		<td align=right><b>$[total_cost]</b></td>
+		<td align=right><b>$[total_rate]</b></td>
+	</tr>
+</table>
+

@@ -1,0 +1,57 @@
+<script language="JavaScript">
+<!--
+function confirm_load_delete(id){
+    if(confirm("Are you sure you want to remove this volume load?")){
+		window.location.href = "./?action=volumeloads&remove="+id;
+	}
+}
+-->
+</script>
+<table width="100%">
+    <tr>
+        <td>
+            <fieldset>
+                <legend>Sales</legend>
+                <form style="margin-bottom: 0;" action="?action=volumeloads_edit" method="POST" name="volumeloadsedit" id="volumeloadsedit">
+                    <table width="100%" cellpadding="3">
+                        <tr>
+                            <td NOWRAP class="tblHeader">Origin City</td>
+                            <td NOWRAP class="tblHeader">Orig. State</td>
+                            <td NOWRAP class="tblHeader">Destination City</td>
+                            <td NOWRAP class="tblHeader">Dest. State</td>
+                            <td NOWRAP class="tblHeader">Pallets</td>
+                            <td NOWRAP class="tblHeader">Space</td>
+                            <td NOWRAP class="tblHeader">Weight</td>
+                            <td NOWRAP class="tblHeader">Rate</td>
+                            <td NOWRAP class="tblHeader">Partner</td>
+                            <td NOWRAP class="tblHeader">Actions</td>
+                        </tr>
+                        [loads]
+                        <tr><td colspan="10" align="right"><input type="submit" value="Update All Loads"></td></tr>
+                    </table>
+                </form>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Add New Load</legend>
+                <form style="margin-bottom: 0;" action="?action=volumeloads_add" method="POST" name="volumeloadsadd" id="volumeloadsadd">
+                    <table width="100%" cellpadding="3">
+                        <tr>
+                            <td NOWRAP class="tblHeader">Origin City</td>
+                            <td NOWRAP class="tblHeader">Orig. State</td>
+                            <td NOWRAP class="tblHeader">Destination City</td>
+                            <td NOWRAP class="tblHeader">Dest. State</td>
+                            <td NOWRAP class="tblHeader">Pallets</td>
+                            <td NOWRAP class="tblHeader">Space</td>
+                            <td NOWRAP class="tblHeader">Weight</td>
+                            <td NOWRAP class="tblHeader">Rate</td>
+                            <td NOWRAP class="tblHeader">Partner</td>
+                        </tr>
+                        [new_load]
+                        <tr><td colspan="9" align="right"><input type="submit" value="Add Load"></td></tr>
+                    </table>
+                </form>
+            </fieldset>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,42 @@
+[error]
+<script language="JavaScript">
+<!--
+function editContact(id,contact,type,phone,fax,email) {
+	document.contact.id.value = id;
+	document.contact.submitme.value = "update";
+	document.contact.contact.value=contact;
+	document.contact.type.value=type;
+	document.contact.phone.value=phone;
+	document.contact.fax.value=fax;
+	document.contact.email.value=email;
+}
+function confirm_contact_delete(carrier_id,id){
+	if(confirm("Are you sure you want to remove this contact information?")){
+		window.location.href = "./?action=carriers_contacts&id="+carrier_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td class="tblHeader">Name</td>
+		<td class="tblHeader">Type</td>
+		<td class="tblHeader">Phone</td>
+		<td class="tblHeader">Fax</td>
+		<td class="tblHeader">Email</td>
+	</tr>
+	<form name="contact" method='POST' action='./?action=carriers_contacts&id=[action_id]'>
+	<input type='hidden' name='id' value=''>
+	<tr>
+		<td><input size='10' type='text' name='contact' value=''></td>
+		<td><select name='type'><option value='0'></option>
+		[type]
+		</select></td>
+		<td><input size='10' type='text' name='phone' value=''></td>
+		<td><input size='10' type='text' name='fax' value=''></td>
+		<td><input size='10' type='text' name='email' value=''></td>
+		<td><input name='submitme' type='submit' value='add'></td>
+	</tr>
+	</form>
+	[carriers_contacts_list_row]
+</table>

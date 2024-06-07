@@ -1,0 +1,23 @@
+<fieldset>
+<legend>[carrier_company]</legend>
+<table cellpadding=3>
+	<tr>
+		<td class="tblHeader">Company</td>
+		<td class="tblHeader">City</td>
+		<td class="tblHeader">State</td>
+		<td class="tblHeader">Zip</td>
+		<td class="tblHeader">Action</td>
+	</tr>
+	<tr bgcolor="[bg]" style="cursor:hand" onmouseover="style.backgroundColor='white';" onmouseout="style.backgroundColor='[bg]'">
+		<td nowrap>[company]</td>
+		<td nowrap>[city]</td>
+		<td nowrap>[state]</td>
+		<td nowrap>[zip]</td>
+		<td align='center'> <a href='javascript:confirm_contact_delete([id]);'><img src="images/icon-remove.gif" width="16" height="16" border="0"></a>  </td>
+	</tr>
+	<tr>
+		<td colspan="5" align=right class="tblHeader"><a href='javascript:openClasses([carrier_id],[carrier_fak_address_id]);'>View Class List</a></td>
+	</tr>
+</table>
+</fieldset>
+<br><br>

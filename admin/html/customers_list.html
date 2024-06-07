@@ -1,0 +1,44 @@
+<script language="JavaScript">
+<!--
+function confirm_company_delete(id){
+    if(confirm("Are you sure you want to remove this customer?")){
+		window.location.href = "./?action=customers&remove="+id+"[url]";
+	}
+}
+-->
+</script>
+<form method='GET'>
+<input type='hidden' name='action' value='customers_list'>
+<table>
+	<tr>
+		<td class="subHeader" valign="top"><label for='search'>Search</label></td>
+		<td valign="top"><input type='text' name='search' id='search'></td>
+		<td class="subHeader" valign="top"><label for='search'>Type Filter</label></td>
+		<td valign="top"><select name="type_filter[]" multiple size=5>[TYPE_OPTS]</select></td>
+    <td valign="top"><input type='submit' value='Search'></td>
+  </tr>
+</table>
+</form>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td colspan='2' class="subHeader">Customer List</td>
+		<td colspan='8' align="right"><a href='./?action=customers&search_alpha=1'>A-C</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=2'>D-F</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=3'>G-I</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=4'>J-L</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=5'>M-O</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=6'>P-R</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=7'>S-U</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=8'>V-Z</a> &nbsp;|&nbsp; <a href='./?action=customers&search_alpha=0'>0-9</a></td>
+	</tr>
+	<tr>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=id&asc_id=[asc_id][url]">ID</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=company&asc_company=[asc_company][url]">Company Name</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=address&asc_address=[asc_address][url]">Address</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=city&asc_city=[asc_city][url]">City</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=state&asc_state=[asc_state][url]">State</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=zip&asc_zip=[asc_zip][url]">Zip</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=contact_name&asc_contact_name=[asc_contact_name][url]">Contact Name</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=contact_phone&asc_contact_phone=[asc_contact_phone][url]">Contact Phone</a></td>
+		<td class="tblHeader"><a href="./?action=customers_list&sort=contact_email&asc_contact_email=[asc_contact_email][url]">Contact Email</a></td>
+		<td class="tblHeader">Action</td>
+	</tr>
+	[customers_list]
+	<tr>
+		<td colspan="5"><br>[prev_page]</td>
+		<td colspan="5" align="right"><br>[next_page]</td>
+	</tr>
+</table>

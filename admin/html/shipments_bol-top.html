@@ -1,0 +1,55 @@
+<form name="shipmentbol" method="post" target="main" action="/?action=shipments_bol-main&id=[id]&send=true">
+	<table>
+		<tr>
+			<td colspan=5><big><b><font color=white>Shipment #[id]</font></b></big></td>
+			<td colspan=6 align=right><input type="checkbox" name="send_fax" value="true" id="send_fax"> <label for="send_fax"><font color=white><b>FAX</b></font></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="send_email" value="true" id="send_email"> <label for="send_email"><font color=white><b>EMAIL</b></font></label></td>
+		</tr>
+		<tr>
+			<td colspan=11>
+			<div>
+			<div style="float:left"><font color=white><b>Select Contact Type: <select name="contact_type">[contact_types]</select> <input type="button" value="Update Contacts" onclick="window.location.href='/?action=shipments_bol-top&id=[id]&contact_type='+document.shipmentbol.contact_type.value"></b></font></div>
+			<div style="float:right">
+				<input type="checkbox" name="do_rateconfirm" value="true" id="do_rateconfirm"> <label for="do_rateconfirm"><font color=white><b>Rate Confirm</b></font></label>
+				&nbsp;&nbsp; <input type="checkbox" name="do_w9" value="true" id="do_w9"> <label for="do_w9"><font color=white><b>W9</b></font></label>
+				&nbsp;&nbsp; <input type="checkbox" name="do_mc" value="true" id="do_mc" DISABLED> <label for="do_mc"><font color=white><b>Auth</b></font></label>
+				&nbsp;&nbsp; <input type="checkbox" name="do_bond" value="true" id="do_bond" DISABLED> <label for="do_bond"><font color=white><b>Bond</b></font></label>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="Refresh" onclick="document.shipmentbol.action='/?action=shipments_bol-main&id=[id]';document.shipmentbol.submit()">
+			</div>
+			</div>
+			</td>
+		</tr>			
+		<tr>
+			<td><font color=white><b>Email:</b></font></td>
+			<td><input type="text" size="20" name="email[]" value="[email1]" tabindex=1 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="email[]" value="[email2]" tabindex=3 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="email[]" value="[email3]" tabindex=5 onfocus="this.select()"></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td><font color=white><b>Fax:</b></font></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax1]" tabindex=7 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax2]" tabindex=9 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax3]" tabindex=11 onfocus="this.select()"></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><font color=white><b>Name:</b></font></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname1]" tabindex=2 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname2]" tabindex=4 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname3]" tabindex=6 onfocus="this.select()"></td>
+			<td></td>
+			<td><font color=white><b>Name:</b></font></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname1]" tabindex=8 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname2]" tabindex=10 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname3]" tabindex=12 onfocus="this.select()"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><font color=white><b>Subject:</b></font></td>
+			<td colspan=8><input type="text" size="135" name="set_outgoing_subject" value="[email_subject]" onfocus="this.select()"></td>
+			<td><input type="submit" value="Send" onclick="document.shipmentbol.action='/?action=shipments_bol-main&id=[id]&send=true'" tabindex=13></td>
+		</tr>
+	</table>
+</form>

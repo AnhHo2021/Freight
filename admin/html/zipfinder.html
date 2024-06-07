@@ -1,0 +1,32 @@
+<form action="./?action=zipfinder&[o_or_d]" method="post" name="zipfinder">
+<table cellpadding="3" cellspacing="1" border="0" align="center">
+	<tr>
+		<td>City: <input type='text' name='city' size='10' value=''></td>
+		<td align='center'><strong>OR</strong></td>
+		<td valign="top">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">Zip: <input type='text' name='zip' size='4' value=''> </td>
+					<td>&nbsp;</td>
+					<td>Radius: <select name='radius'>
+					<option value='0'>N/A</option>
+					<option value='5'>5</option>
+					<option value='10'>10</option>
+					<option value='15'>15</option>
+					<option value='25'>25</option>
+					<option value='50'>50</option>
+					</select></td>
+				</tr>
+			</table>
+		</td>
+		<td><input type='submit' value='Search'></td>
+	</tr>
+</table>
+</form>
+<div align=center>
+[city_list]
+[zip_list]
+</div>
+<script>
+	document.zipfinder.city.focus();
+</script>

@@ -1,0 +1,208 @@
+<script>
+function populateEmail() {
+	if(document.requestform.email_selector.value != ''){
+		var send_array = document.requestform.email_selector.value.split("_");
+		document.requestform.request_update_contact.value = send_array[0];
+		document.requestform.request_update_email.value = send_array[1];
+	}
+}
+</script>
+<table border=0 width="100%">
+	<tr>
+		<td valign='top'>
+		<table>
+			<tr>
+				<td><b>Shipment ID:</b></td><td>[id]</td>
+			</tr>
+			<tr>
+				<td><b>Tracking #</b></td><td>[shipped_tracknum]</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td colspan='2'>
+				<fieldset>
+				<legend>Tracking Log</legend>
+				<form name='logform' action="./?action=trackingfinder_updatelog&id=[id]" method="POST">
+				<table>
+					<tr>
+						<td>Date / Time</td><td><input type='text' size='25' name='date_show' value='[today]'</td>
+						<td rowspan='2'><input type='submit' value='go'></td>
+					</tr>
+					<tr>
+						<td valign=top>Status Log</td>
+						<td><textarea cols="45" rows="3" name="tracking" onblur="tracking_focus=false"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan=3 align=center>
+						<input type="button" value="Scheduled" onclick="document.logform.tracking.value='Pickup Scheduled';document.logform.tracking.focus();">
+						<input type="button" value="In Transit" onclick="document.logform.tracking.value='Shipment In Transit';document.logform.tracking.focus();">
+						<input type="button" value="Delayed" onclick="document.logform.tracking.value='Delayed: ';document.logform.tracking.focus();">
+						<input type="button" value="Out" onclick="document.logform.tracking.value='Out for Delivery';document.logform.tracking.focus();">
+						<input type="button" value="Delivered" onclick="document.logform.tracking.value='Delivered To: ';document.logform.tracking.focus();">
+						</td>
+					</tr>
+				</table>
+				</form>
+				<table>
+					<tr>
+						<td colspan='2'><iframe src="index.php?action=trackingfinder_log&id=[id]" width="340" height="215" align="center" frameborder="0"></iframe></td>
+					</tr>
+				</table>
+				</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<fieldset>
+				<legend>Request Update</legend>
+				<form name='requestform' action="?action=trackingfinder&id=[id]&do=requpdate" method="POST" onsubmit="this.submit.disabled=true">
+				<table>
+					<tr>
+						<td><select name="email_selector" onChange="populateEmail()">
+						<option value=''></option>
+						[email_options]
+						</select>
+						</td>
+					</tr>
+					<tr>
+						<td><input type='text' name='request_update_contact' size="20" value=''> <input type='text' name='request_update_email' size="20" value=''><input type='submit' name="submit" value='go'></td>
+					</tr>
+				</table>
+				</form>
+				</fieldset>
+				</td>
+			</tr>
+		</table>
+		</td>
+		<td valign='top'>
+		<fieldset>
+		<legend>Customer</legend>
+		<form name='mainform' action="?action=trackingfinder&id=[id]&do=sendupdate" method="POST" onsubmit="this.submit.disabled=true">
+		<input type="hidden" name="closewindow">
+		<table>
+			<tr>
+				<td>[company]</td>
+			</tr>
+			<tr>
+				<td>[customer_address]</td>
+			</tr>
+			<tr>
+				<td>[main_contact_phone]</td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_1' value='[main_contact_fax]'><input type='checkbox' name='chk_sendto_1'></td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_2' value='[main_contact_email]'><input type='checkbox' name='chk_sendto_2'></td>
+			</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend>Origin</legend>
+		<table>
+			<tr>
+				<td>[o_to]</td>
+			</tr>
+			<tr>
+				<td>[o_address]</td>
+			</tr>
+			<tr>
+				<td>[o_contact_phone]</td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_3' value='[o_contact_fax]'><input type='checkbox' name='chk_sendto_3'></td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_4' value='[o_contact_email]'><input type='checkbox' name='chk_sendto_4'></td>
+			</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend>Destination</legend>
+		<table>
+			<tr>
+				<td>[d_to]</td>
+			</tr>
+			<tr>
+				<td>[d_address]</td>
+			</tr>
+			<tr>
+				<td>[d_contact_phone]</td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_5' value='[d_contact_fax]'><input type='checkbox' name='chk_sendto_5'></td>
+			</tr>
+			<tr>
+				<td><input type='text' name='sendto_6' value='[d_contact_email]'><input type='checkbox' name='chk_sendto_6'></td>
+			</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend>Carrier</legend>
+		<table>
+			<tr>
+				<td>[carrier_company]</td>
+			</tr>
+			<tr>
+				<td>PRO: <input type='text' name="shipped_carrier_pronum" value='[shipped_carrier_pronum]'></td>
+			</tr>
+		</table>
+		</fieldset>
+    <fieldset>
+		<legend>Status</legend>
+		<table>
+			<tr>
+				<td><select name='status'>
+				[status_options]
+				</select></td>
+			</tr>
+		</table>
+		</fieldset>
+		<table width="100%">
+			<tr>
+				<td align='center'><br><input type='submit' name="submit" value='Save'></td>
+				<td align='center'><br><input type='submit' name="submit" value='Save & Close' onclick="document.mainform.closewindow.value='1'"></td>
+			</tr>
+		</table>
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2>
+		<fieldset width="100%">
+		<legend>Notes</legend>
+		<form name='noteform' action="" method="POST">
+		<table width="100%">
+			<tr>
+				<td><iframe src="index.php?action=quotes_notes&id=[id]" width="450" height="200" align="center" frameborder="0"></iframe></td>
+			</tr>
+		</table>
+		</form>
+		</fieldset>
+		</td>
+	</tr>
+</table>
+<script>
+	var tracking_focus=true;
+	document.logform.tracking.focus();
+
+	document.onkeypress = checkKeyPress;
+	if (document.captureEvents) document.captureEvents(Event.KEYPRESS);
+		
+	function checkKeyPress(e){
+		if (!e) var e = window.event
+		if (e.keyCode) code = e.keyCode;
+		else if (e.which) code = e.which;
+		switch(code){
+			case 13:
+				if(tracking_focus){
+					document.logform.submit();
+					e.cancelBubble = true;
+					if (e.stopPropagation) e.stopPropagation();
+					return false;
+				}
+				break;
+		}
+	}
+</script>

@@ -1,0 +1,36 @@
+<table border=0 width="100%">
+	<tr>
+		<td width="100%">
+<form name='[age]_list_form' method='POST' action='./?action=accounting_listprint' target="_blank">
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=id&asc_id=[asc_id]">ID</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=invoice_date&asc_invoice_date=[asc_invoice_date]">Invoice Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=due_date&asc_due_date=[asc_due_date]">Due Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=days_old&asc_days_old=[asc_days_old]">Days Old</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=shipped_pickup_date&asc_shipped_pickup_date=[asc_shipped_pickup_date]">Ship Date</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=shipped_tracknum&asc_shipped_tracknum=[asc_shipped_tracknum]">Tracking</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=company&asc_company=[asc_company]">Customer</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=cost&asc_cost=[asc_cost]">Cost</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=total&asc_total=[asc_total]">Rate</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=profit&asc_profit=[asc_profit]">Profit</a></td>
+		<td class='tblHeader'><a href="./?action=accounting_ageview&sort=margin&asc_margin=[asc_margin]">Margin</a></td>
+		<td class='tblHeader'><input type="checkbox" name="check_all" onClick="checkAll('[age]_list_form')"></td>
+	</tr>
+	[accounting_listview_row]
+	<tr>
+		<td class='tblHeader' colspan=7>Totals</td>
+		<td class='tblHeader' align=right>$[total_cost]</td>
+		<td class='tblHeader' align=right>$[total_rate]</td>
+		<td class='tblHeader' align=right>$[total_profit]</td>
+		<td class='tblHeader' align=right>[total_margin]%</td>
+		<td class='tblHeader'>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan='12' align='right'><input type='submit' value='print'></td>
+	</tr>
+</table>
+</form>
+		</td>
+	</tr>
+</table>

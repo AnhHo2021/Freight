@@ -1,0 +1,8 @@
+[19-Sep-2018 03:31:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/hillman/public_html/freight/php/volumeloads.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/hillman/public_html/freight/php/volumeloads.php on line 6
+[19-Sep-2018 03:31:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/hillman/public_html/freight/php/volumeloads.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/hillman/public_html/freight/php/volumeloads.php on line 6

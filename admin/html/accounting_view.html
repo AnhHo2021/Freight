@@ -1,0 +1,39 @@
+<script>
+	function invoicePrint(){
+		window.open("index.php/?action=accounting_listprint&id=[id]","accounting_print","top=0,left=0,width=850,height=700,scrollbars=yes,menu=no,resizable=yes");
+	}
+</script>
+<table>
+	<tr>
+		<td>
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td>Invoice #</td>
+		<td>[id]</td>
+	</tr>
+	<tr>
+		<td>Shipment #</td>
+		<td><a href="./?action=shipments_edit&id=[shipment_id]">[shipment_id]</a></td>
+	</tr>
+	<tr>
+		<td>Final Invoice Date</td>
+		<td>[invoice_final_date]</td>
+	</tr>
+	<tr>
+		<td>Invoice Date</td>
+		<td NOWRAP>[invoice_date]</td>
+	</tr>
+	<tr>
+		<td>Due Date</td>
+		<td NOWRAP>[due_date]</td>
+	</tr>
+</table>
+[accounting_rates]
+<table width='100%'>
+	<tr>
+		<td align='center'><input type='button' value='print' onClick='invoicePrint()'></td>
+	</tr>
+</table>
+		</td>
+	</tr>
+</table>

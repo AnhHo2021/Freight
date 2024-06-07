@@ -1,0 +1,130 @@
+<div style="color:red">[error_message]</div>
+<table width='1'>
+	<tr>
+		<td valign='top'>
+			<form name='greatform' method="POST" action="./?action=carriers_update&id=[id]">
+			<table width='100%' cellpadding='0' cellspacing='0'>
+				<tr>
+					<td>
+						<fieldset>
+						<legend>edit company</legend>
+						<table width='100%' cellpadding='3' cellspacing='0'>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>Carrier Name</td>
+								<td><input type='text' name='company' value='[company]'></td>
+							</tr>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>Carrier Type</td>
+								<td><select name='type'><option value='0'></option>
+								[carrier_type]
+								</select>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Billing</td>
+								<td><select name='billing_id'><option value='0'></option>
+								[billing_options]
+								</select></td>
+							</tr>
+						</table>
+						</fieldset>
+					</td>
+				</tr>
+			</table>
+			<table width='100%' cellpadding='0' cellspacing='0'>
+				<tr>
+					<td>
+						<fieldset>
+						<legend>edit address</legend>
+						<table>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>Address 1</td><td><input type='text' name='address1' value='[address1]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Address 2</td><td><input type='text' name='address2' value='[address2]'></td>
+							</tr>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>City</td><td><input type='text' name='city' value='[city]'></td>
+							</tr>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>State</td><td><select name='state'><option value=''></option>
+								[states]
+								</select>
+								</td>
+							</tr>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>Zip</td><td><input type='text' name='zip' value='[zip]'></td>
+							</tr>
+							<tr>
+								<td><span style="color:red">*</span></td>
+								<td NOWRAP>Phone</td><td><input type='text' name='phone' value='[phone]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Fax</td><td><input type='text' name='fax' value='[fax]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Email</td><td><input type='text' name='email' value='[email]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Account Number</td><td><input type='text' name='account_num' value='[account_num]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Quotes Phone</td><td><input type='text' name='quotes_phone' value='[quotes_phone]'></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td NOWRAP>Pickups Phone</td><td><input type='text' name='pickups_phone' value='[pickups_phone]'></td>
+							</tr>
+						</table>
+						</fieldset>
+					</td>
+				</tr>
+			</table>
+			<table align='center'>
+				<tr>
+					<td><input type='submit' value='save'></td>
+				</tr>
+			</table>
+        </form>
+		</td>
+		<td valign='top'>
+			[carriers_logins]
+			[carriers_more_info]
+		</td>
+	</tr>
+	<!--<tr>
+		<td colspan="2">
+			[carriers_fak_addresses]
+			<div style="display:none">
+				[carriers_fak_classes]
+			</div>
+		</td>
+	</tr> -->
+</table>
+<br>
+<table cellpadding='3' cellspacing='0'>
+	<tr>
+		<td valign='top'>[carriers_more_info_3]</td>
+		<td valign='top'>[carriers_more_info_4]</td>
+	</tr>
+</table>
+<br>
+<table>
+	<tr>
+		<td>[carriers_more_info_2]</td>
+	</tr>
+</table>
+
+

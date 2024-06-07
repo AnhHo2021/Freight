@@ -1,0 +1,282 @@
+<?php
+
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
+// includes
+include("../php/functions.php");
+include("../php/db.php");
+
+// env vars
+if($_POST){extract($_POST);}
+if($_GET){extract($_GET);}
+if($_COOKIE){extract($_COOKIE);}
+
+// paths
+$htmlpath = "/opt/www/htdocs/norwayfreight.com/html/";
+$phppath = "/opt/www/htdocs/norwayfreight.com/php/";
+$htpath = "/opt/www/htdocs/norwayfreight.com/htdocs/";
+$admin_phppath = "/opt/www/htdocs/admin.norwayfreight.com/php/";
+$admin_htpath = "/opt/www/htdocs/admin.norwayfreight.com/htdocs/";
+$pdfpath = "/opt/www/htdocs/admin.norwayfreight.com/pdf/";
+
+$msg = "";
+if($action == "trackingview" && $id)
+{
+    include $phppath.'trackingview.php';
+    if(array_key_exists("shipped_tracknum", $vars))
+    {
+        $Tracking = $vars["shipped_tracknum"];
+    }
+    else
+    {
+        $msg = "No shipment information is available for ID: " .$id;
+        $Tracking = $action;
+    }
+}
+else
+{
+    if($Tracking && strlen($Tracking) > 3){
+        $sql = "SELECT id FROM shipment WHERE shipped_tracknum = '$Tracking' OR shipped_carrier_pronum = '$Tracking'";
+        $sel_shipment = $db->query($sql);
+        if($sel_shipment){
+            $id = $sel_shipment[0]["id"];
+            include $phppath.'trackingview.php';
+        }else{
+            $msg = "Invalid Tracking Number";
+        }
+    }else{
+        $msg = "Invalid Tracking Number";
+    }
+}
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- This file was originally generated at http://psd2cssonline.com on March 31, 2010, 3:57 pm -->
+<!-- psd2css Online version 1.77 -->
+
+<title>Welcome to Norway Freight</title>
+
+<!-- Some META tags to help with Search Engine Optimization.  Please 
+note however that META tags are NOT a magic bullet to get your web page
+to the top of search engine rankings.  They are just part of that effort.  You 
+can get more information by googling SEO or visiting the psd2css Online forums. -->
+<meta name="description" content="Put the description of this page here" />
+<meta name="keywords" content="Put keywords for this page here separated by commas" />
+<meta name="generator" content="psd2css Online - Dynamic Web Pages from your Photoshop Design in seconds" />
+
+<!-- The CSS Reset from Eric Meyers -->
+<!-- <link rel="stylesheet" type="text/css" href="cssreset.css" media="screen" /> -->
+
+<!-- The Primary External CSS style sheet. -->
+<link rel="stylesheet" type="text/css" href="css/psd2css.css" media="screen" />
+
+<!-- We use the jquery javascript library for DOM manipulation and
+some javascript tricks.  We serve the script from Google because it's
+faster than most ISPs.  Get more information and documentation
+at http://jquery.com -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<!-- This is Drew Diller's PNG fix script that fixes the PNG
+transparency problem with IE6.  It's available from here:
+http://www.dillerdesign.com/experiment/DD_belatedPNG -->
+<!--[if lt IE 7 ]>
+<script type="text/javascript" src="scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+<![endif]-->
+
+<!-- All the javascript generated for your design is in this file -->
+<script type="text/javascript" src="scripts/psd2css.js"></script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function setpage ( pagetype )
+{
+  document.trackingForm.pagetype.value = pagetype ;
+}
+
+function DisplayDIV(d)
+{
+    document.getElementById(d).style.display = "block";
+    setpage(d);
+    switch(d)
+    {
+        case "Layer-about":
+            document.getElementById('Layer-18').style.fontWeight = "bold";
+            break;
+        case "Layer-learn":
+            document.getElementById('Layer-16').style.fontWeight = "bold";
+            break;
+        case "Layer-contact":
+            document.getElementById('Layer-14').style.fontWeight = "bold";
+            break;
+    }
+}
+function HideDIV(d)
+{
+    document.getElementById(d).style.display = "none";
+    switch(d)
+    {
+        case "Layer-about":
+            document.getElementById('Layer-18').style.fontWeight = "normal";
+            break;
+        case "Layer-learn":
+            document.getElementById('Layer-16').style.fontWeight = "normal";
+            break;
+        case "Layer-contact":
+            document.getElementById('Layer-14').style.fontWeight = "normal";
+            break;
+    }
+}
+-->
+</script>
+
+</head>
+<body>
+  <!--This extends the middle stripe across the page-->
+  <div id="Layer-2"></div>
+  
+  <!-- This is 'Background_center2' -->
+  <div id="Layer-1-wrapper">
+    <div id="Layer-1"  >      
+      <!-- This is 'tracking_form' -->
+      <div id="Layer-5"  >
+        <form name="trackingForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <img src="images/Layer-5.png" width="250" height="250" alt="tracking" class="pngimg" />
+        <!-- This is 'Track_submit_linkover' -->
+        <div id="Layer-10"  >
+            <a href="javascript:document.trackingForm.submit();"><img src="images/Layer-10.png" width="67" height="29" alt="Track" class="pngimg" border="0" /></a></div>
+
+        <!-- This is 'Track_submit_link' -->
+        <div id="Layer-9"  >
+            <a href="javascript:document.trackingForm.submit();"><img src="images/Layer-9.png" width="67" height="29" alt="Track" class="pngimg" border="0" /></a></div>
+
+        <!-- This is 'Enter Tracking \#' -->
+        <div id="Layer-7"  >
+          <img src="images/Layer-7.png" width="120" height="13" alt="Enter Tracking \#" class="pngimg" /></div>
+
+        <!-- This is 'Tracking_inputtext' -->
+        <div id="Layer-6"  >
+          <!-- This is your Tracking_inputtext input field.  Change the size to fit your form -->
+          <input type="text" name="Tracking" id="Tracking" />          
+        </div>
+        <input type="hidden" name="pagetype"/>
+        </form>
+      </div>
+
+      <!-- This is 'Call anytime' -->
+      <div id="Layer-call"  >
+          <img src="images/Layer-call.png" width="131" height="52" alt="Call us anytime 888-439-6679" class="pngimg" />
+      </div>
+      <!-- This is 'Logo' -->
+      <div id="Layer-4"  >
+          <a href="<?php echo $_SERVER['PHP_SELF']; ?>" onmouseover="javascript:HideDIV('Layer-about');HideDIV('Layer-learn');HideDIV('Layer-contact')"><img src="images/Layer-4.png" width="231" height="55" border="0" alt="Logo" class="pngimg" /></a>
+      </div>
+
+      <div id="Layer-viking"  >
+          <img src="images/viking.png" width="239" height="383" border="0" alt="Logo" class="pngimg" usemap="#resume" />
+      </div>
+      <map name="resume" id="resume">
+          <area shape="rect" coords="19,249,152,359" onmouseover="DisplayDIV('Layer-resume')" onmouseout="HideDIV('Layer-resume')" alt="Leif's Resume`"/>
+      </map>
+
+      <!-- This is 'about_linkover' -->
+      <div id="Layer-18" <?php if($pagetype == "Layer-about") echo "style=\"font-weight: bold;\""; ?>>
+            <a href="javascript:DisplayDIV('Layer-about')" onmouseover="DisplayDIV('Layer-about');HideDIV('Layer-learn');HideDIV('Layer-contact')">About Us</a>
+      </div>
+
+      <!-- This is 'Learn More' -->
+      <div id="Layer-16" <?php if($pagetype == "Layer-learn") echo "style=\"font-weight: bold;\""; ?>>
+          <a href="javascript:DisplayDIV('Layer-learn')" onmouseover="DisplayDIV('Layer-learn');HideDIV('Layer-about');HideDIV('Layer-contact')">Services</a>
+      </div>
+
+      <!-- This is 'Contact Us' -->
+      <div id="Layer-14" <?php if($pagetype == "Layer-contact") echo "style=\"font-weight: bold;\""; ?>>
+          <a href="javascript:DisplayDIV('Layer-contact')" onmouseover="DisplayDIV('Layer-contact');HideDIV('Layer-about');HideDIV('Layer-learn')">Contact Us</a>
+      </div>
+
+      <!-- This is 'Shape 1' -->
+      <div id="Layer-2">
+        <div id="Layer-about" <?php if($pagetype == "Layer-about") echo "style=\"display: block;\""; ?>>
+            Shipping throughout the United States and Canada, our Air and Ground services can meet your various needs.<br/>
+            <br/>With over 11 years of experience in freight management and our comprehensive network of agents and carriers throughout the country, we hope to save you time and money.<br/>
+            <br/>Please call for a quote today! &nbsp;&nbsp;<b>888-439-6679</b>
+        </div>
+        <div id="Layer-learn" <?php if($pagetype == "Layer-learn") echo "style=\"display: block;\""; ?>>
+            <b>Airfreight</b>: Next day, 2nd day, and 3rd day services.<br/>
+            <br/><b>Ground</b>: Discounts on Hub truck, LTL, and Partial loads.<br/>
+            <br/><b>Full Truckload</b>: A huge network of Direct, fully insured drivers!<br/>
+            <br/>*We also specialize in Oversize, Ebay, Residential, and Events.
+        </div>
+        <div id="Layer-contact" <?php if($pagetype == "Layer-contact") echo "style=\"display: block;\""; ?>>
+            <table>
+                <tr><td><b>Phone</b></td><td>888-Hey-Norway</td></tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr><td><b>Int'l</b></td><td>801-254-9600</td></tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr><td><b>Fax</b></td><td>801-905-6054</td></tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr><td><b>Email</b></td><td><a href="mailto:support@norwayfreight.com">support@norwayfreight.com</a></td></tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr><td><b>Mail</b></td><td>P.O. Box 95461</td></tr>
+                <tr><td></td><td>Salt Lake City, UT 84095</td></tr>
+            </table>
+        </div>
+        <div id="Layer-13" class="textcontent"  />
+      </div>
+      <?php
+        if(isset($Tracking))
+        {
+      ?>
+      <!-- This is 'Tracking Results' -->
+      <div id="Layer-3"  >
+        <img src="images/Layer-3.png" width="198" height="18" alt="Tracking Results" class="pngimg" /></div>
+
+      <!-- This is 'Tracking Details' -->
+      <div id="Layer-12"  >
+        <?php
+            if(strlen($msg) > 0)
+            {
+                echo "<br/>".$msg;
+            }
+            else
+            {
+                echo replace($vars,rf($htmlpath."trackingview.html"));
+                echo "<div id=\"copyright\">&copy; 2010 Norway Freight. All rights reserved.</div>";
+            }
+        ?>
+      </div>      
+      <?php
+        }        
+      ?>      
+    </div>
+    <?php if(strlen($msg) > 0) { ?>
+      <div id="award-center">
+          <div id="award-vik500">
+              <img src="images/award-vik500.png" width="117" height="150" alt="Viking 500" class="pngimg" />
+          </div>
+          <div id="award-bvb">
+              <img src="images/award-bvb.png" width="86" height="150" alt="Better Viking Bureau" class="pngimg" />
+          </div>
+          <div id="award-bir">
+              <img src="images/award-bir.png" width="114" height="150" alt="Best In Row" class="pngimg" />
+          </div>
+      </div>
+      <div id="copyright">
+          &copy; 2010 Norway Freight. All rights reserved.
+      </div>
+    <?php } ?>
+      <div id="Layer-resume" />
+  </div>
+</body>
+</html>

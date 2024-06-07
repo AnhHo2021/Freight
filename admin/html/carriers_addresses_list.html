@@ -1,0 +1,51 @@
+[error]
+<script language="JavaScript">
+<!--
+function editAddress(id,billing_id,company,city,state,zip,discount) {
+	document.address_form.billing_id.value=billing_id;
+	document.address_form.company.value=company;
+	document.address_form.city.value=city;
+	document.address_form.state.value=state;
+	document.address_form.zip.value=zip;
+	document.address_form.discount.value=discount;
+	document.address_form.submitme.value = "update";
+	document.address_form.id.value = id;
+}
+function openClasses(carrier_id,id) {
+	window.open("/?action=carriers_classes&id="+id+"&carrier_id="+carrier_id,"open_classes","top=0,left=0,width=150,height=625,scrollbars=yes,menu=no,resizable=yes");
+}
+function confirm_contact_delete(carrier_id,id){
+	if(confirm("Are you sure you want to remove this address information?")){
+		window.location.href = "./?action=carriers_addresses&id="+carrier_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td class="tblHeader">billing</td>
+		<td class="tblHeader">company</td>
+		<td class="tblHeader">city</td>
+		<td class="tblHeader">state</td>
+		<td class="tblHeader">zip</td>
+		<td class="tblHeader">discount</td>
+	</tr>
+	<form name='address_form' id='address_form_id' method='POST' action='./?action=carriers_addresses&id=[action_id]'>
+	<input type='hidden' name='id' value=''>
+	<tr>
+		<td><select name='billing_id'><option value='0'></option>
+		[billing_options]
+		</select></td>
+		<td><input size='15' type='text' name='company' value=''></td>
+		<td><input size='15' type='text' name='city' value=''></td>
+		<td><select name='state'><option value=''></option>
+		[states]
+		</select>
+		</td>
+		<td><input size='5' type='text' name='zip' value=''></td>
+		<td><input size='2' type='text' name='discount' value=''>%</td>
+		<td><input name='submitme' type='submit' value='add'></td>
+	</tr>
+	</form>
+	[carriers_addresses_list_row]
+</table>

@@ -1,0 +1,33 @@
+<table>
+	<tr>
+		<td>
+		<fieldset>
+		<legend>invoice line items</legend>
+		<table cellpadding="3" cellspacing="1" width="100%">
+			<tr>
+				<td class="tblHeader">Service</td>
+				<td class="tblHeader">Cost</td>
+				<td class="tblHeader">Rate</td>
+				<td class="tblHeader">Profit</td>
+				<td class="tblHeader">Percent</td>
+			</tr>
+			<tr bgcolor="[bg]" style="cursor:hand">
+				<td nowrap>Freight Charges</td>
+				<td align=right NOWRAP>$[cost]</td>
+				<td align=right NOWRAP>$[rate]</td>
+				<td align=right>$[profit]</td>
+				<td align=right>[percent]%</td>
+			</tr>
+			[accounting_rates_list_table_row]
+			<tr bgcolor="[bg]" style="cursor:hand">
+				<td><b>TOTAL</b></td>
+				<td align=right NOWRAP><b>$[total_cost]</b></td>
+				<td align=right NOWRAP><b>$[total_rate]</b></td>
+				<td align=right><b>$[total_profit]</b></td>
+				<td align=right><b>[total_percent]%</b></td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+	</tr>
+</table>

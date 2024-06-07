@@ -1,0 +1,19 @@
+<script>
+	function submitForm(print){
+		document.report.print.value='';
+			document.report.target="_self";
+		if(print){
+			document.report.print.value='true';
+			document.report.target="_blank";
+		}
+		document.report.submit();
+	}
+</script>
+
+<form name="report" method="post" action="./?action=reports_snapshot&do=run">
+<input type="hidden" name="print">
+<fieldset style="width:750">
+	<legend align="right"><a href="javascript:submitForm(true)">Print Report</a></legend>
+	[REPORT]
+</fieldset>
+</form>

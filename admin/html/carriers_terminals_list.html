@@ -1,0 +1,58 @@
+[error]
+<script language="JavaScript">
+<!--
+function editTerminal(id,code,name,address1,address2,city,state,zip,contact,phone,fax,email) {
+	document.terminals.id.value = id;
+	document.terminals.submitme.value = "update";
+	document.terminals.code.value=code;
+	document.terminals.name.value=name;
+	document.terminals.address1.value=address1;
+	document.terminals.address2.value=address2;
+	document.terminals.city.value=city;
+	document.terminals.state.value=state;
+	document.terminals.zip.value=zip;
+	document.terminals.contact.value=contact;
+	document.terminals.phone.value=phone;
+	document.terminals.fax.value=fax;
+	document.terminals.email.value=email;
+}
+function confirm_terminal_delete(carrier_id,id){
+	if(confirm("Are you sure you want to remove this terminal?")){
+		window.location.href = "./?action=carriers_terminals&id="+carrier_id+"&remove="+id;
+	}
+}
+-->
+</script>
+<table cellpadding="3" cellspacing="1" width='1'>
+	<tr>
+		<td class="tblHeader">Code</td>
+		<td class="tblHeader">Terminal</td>
+		<td class="tblHeader">Address1</td>
+		<td class="tblHeader">Address2</td>
+		<td class="tblHeader">City</td>
+		<td class="tblHeader">State</td>
+		<td class="tblHeader">Zip</td>
+		<td class="tblHeader">Contact</td>
+		<td class="tblHeader">Phone</td>
+		<td class="tblHeader">Fax</td>
+		<td class="tblHeader">Email</td>
+	</tr>
+	<form name="terminals" method='POST' action='./?action=carriers_terminals&id=[action_id]'>
+	<input type='hidden' name='id' value=''>
+	<tr>
+		<td><input size='5' type='text' name='code' value=''></td>
+		<td><input size='10' type='text' name='name' value=''></td>
+		<td><input size='10' type='text' name='address1' value=''></td>
+		<td><input size='10' type='text' name='address2' value=''></td>
+		<td><input size='10' type='text' name='city' value=''></td>
+		<td><input size='2' type='text' name='state' value=''></td>
+		<td><input size='5' type='text' name='zip' value=''></td>
+		<td><input size='10' type='text' name='contact' value=''></td>
+		<td><input size='10' type='text' name='phone' value=''></td>
+		<td><input size='10' type='text' name='fax' value=''></td>
+		<td><input size='10' type='text' name='email' value=''></td>
+		<td><input name='submitme' type='submit' value='add'></td>
+	</tr>
+	</form>
+	[carriers_terminals_list_row]
+</table>

@@ -1,0 +1,8 @@
+filnm=coversheet.jpg
+rwidth=850
+rheight=1100
+f_name=to,from,company,date,fax,pages,re
+f_x=95,460,135,460,145,620,100
+f_y=308,308,362,362,411,411,465
+f_w=270,270,270,270,270,50,325
+f_h=15,15,15,15,15,15,15

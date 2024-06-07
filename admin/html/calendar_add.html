@@ -1,0 +1,29 @@
+<fieldset>
+<legend>Add Calendar Event</legend>
+<form action="./?action=calendar_update" method="post" name="calendar_add_form">
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td class="tblHeader">Date:</td>
+		<td><input type='text' name='date' size='8' value='[date]'></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">For:</td>
+		<td><select name='for'>
+		<option value='0'>Everyone</option>
+		[for_options]
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Description</td>
+		<td><textarea cols="15" rows="2" id="description" name="description"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan='2' align='center'><input type='submit' value='save'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='button' value='close' onClick="window.opener.location.href='./?action=calendar&ym=[ym]';window.close();"></td>
+		
+</table>
+</form>
+</fieldset>
+
+
+

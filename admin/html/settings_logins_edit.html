@@ -1,0 +1,45 @@
+<div style="color:red">[error_message]</div>
+<form method="POST" action="./?action=settings_logins_update&id=[id]">
+<table width='1'>
+	<tr>
+		<td>
+<fieldset>
+<legend>edit login</legend>
+<table>
+	<tr>
+		<td align='right' NOWRAP><label for="fname"><b>First Name</b></label></td>
+		<td><input type='text' name='fname' id="fname" value='[fname]'></td>
+	</tr>
+	<tr>
+		<td align='right' NOWRAP><label for="lname"><b>Last Name</b></label></td>
+		<td><input type='text' name='lname' id="lname" value='[lname]'></td>
+	</tr>
+	<tr>
+		<td align='right' NOWRAP><label for="user_username"><b>Username</b></label></td>
+		<td><input type='text' name='user_username' id="user_username" value='[username]'></td>
+	</tr>
+	<tr>
+		<td align='right' NOWRAP><label for="user_password"><b>Password</b></label></td>
+		<td><input type='password' name='user_password' id='user_password' value='[password]'></td>
+	</tr>
+	<tr>
+		<td align='right' NOWRAP><b>Active?</b></td>
+		<td><label for="active_1">Yes</label> <input type='radio' name='active' id="active_1" value='1'[active_selected_yes]> &nbsp;&nbsp; <label for="active_0">No</label> <input type='radio' name='active' id="active_0" value='0'[active_selected_no]></td>
+	</tr>
+	<tr>
+		<td align='right' NOWRAP><b>Access Level</b></td>
+		<td><select name='access_level'>
+		[access_levels]
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><br><input type='submit' value='save'></td>
+	</tr>
+</table>
+</fieldset>
+		</td>
+	</tr>
+</table>
+</form>

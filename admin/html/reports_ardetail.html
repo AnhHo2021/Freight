@@ -1,0 +1,29 @@
+<script>
+	function submitForm(print){
+		document.report.print.value='';
+			document.report.target="_self";
+		if(print){
+			document.report.print.value='true';
+			document.report.target="_blank";
+		}
+		document.report.submit();
+	}
+</script>
+
+<form name="report" method="post" action="./?action=reports_ardetail&do=run">
+<input type="hidden" name="print">
+<fieldset style="width:750">
+	<legend>Report Filters</legend>
+	<table>
+		<tr>
+			<td><b>Show customers owing more than $<input type="text" name="total_min" size="5" value="[total_min]"></b></td>
+			<td><input type="button" value="Go" onclick="submitForm()"></td>
+		</tr>
+	</table>
+</fieldset>
+</form>
+<br><br>
+<fieldset style="width:750">
+	<legend align="right"><a href="javascript:submitForm(true)">Print Report</a></legend>
+	[REPORT]
+</fieldset>

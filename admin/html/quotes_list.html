@@ -1,0 +1,54 @@
+<form method='GET'>
+<input type='hidden' name='action' value='quotes_list'>
+<table>
+	<tr>
+		<td class="subHeader"><label for='search'>Search</label></td>
+		<td><input type='text' name='search' id='search'></td>
+		<td class="subHeader">Date Range</td>
+		<td><input type='text' size='8' name='b_date' id='b_date_id' READONLY><img src="images/icon-calendar.gif" id="icon_date_range_start" onmouseover="this.style.cursor='hand'">
+		<script type="text/javascript">
+					Calendar.setup({
+						inputField     :    "b_date_id",
+						ifFormat       :    "%Y-%m-%d",
+						button         :    "icon_date_range_start",
+						singleClick    :    true,
+						step           :    1
+					});
+				</script></td>
+		<td> - </td>
+		<td><input type='text' size='8' name='e_date' id='e_date_id' READONLY><img src="images/icon-calendar.gif" id="icon_date_range_end" onmouseover="this.style.cursor='hand'">
+		<script type="text/javascript">
+					Calendar.setup({
+						inputField     :    "e_date_id",
+						ifFormat       :    "%Y-%m-%d",
+						button         :    "icon_date_range_end",
+						singleClick    :    true,
+						step           :    1
+					});
+				</script></td>
+		<td><input type='submit' value='Search'></td>
+	</tr>
+</table>
+</form>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td colspan='2' class="subHeader">Quote List</td>
+		<td colspan='8' align="right"><a href='./?action=quotes&search_alpha=1'>A-C</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=2'>D-F</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=3'>G-I</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=4'>J-L</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=5'>M-O</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=6'>P-R</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=7'>S-U</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=8'>V-Z</a> &nbsp;|&nbsp; <a href='./?action=quotes&search_alpha=0'>0-9</a></td>
+	</tr>
+	<tr>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=id&asc_id=[asc_id][url]">ID</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=id&asc_date_created=[asc_date_created][url]">Date / Time</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=company&asc_company=[asc_company][url]">Company Name</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=pieces&asc_pieces=[asc_pieces][url]">Pieces</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=class&asc_class=[asc_class][url]">Class</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=weight&asc_weight=[asc_weight][url]">Weight</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=origin&asc_origin=[asc_origin][url]">Origin</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=destination&asc_destination=[asc_destination][url]">Destination</a></td>
+		<td class="tblHeader"><a href="./?action=quotes_list&sort=req_pickup_date&asc_req_pickup_date=[asc_req_pickup_date][url]">Pickup Date</a></td>
+	</tr>
+	[quotes_list]
+	<tr>
+		<td colspan="5"><br>[prev_page]</td>
+		<td colspan="5" align="right"><br>[next_page]</td>
+	</tr>
+</table>

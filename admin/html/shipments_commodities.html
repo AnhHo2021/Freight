@@ -1,0 +1,160 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+
+	document.onkeypress = checkKeyPress;
+	if (document.captureEvents) document.captureEvents(Event.KEYPRESS);
+		
+	function checkKeyPress(e){
+		if (!e) var e = window.event
+		if (e.keyCode) code = e.keyCode;
+		else if (e.which) code = e.which;
+		switch(code){
+			case 43:
+				addRow();
+				e.cancelBubble = true;
+				if (e.stopPropagation) e.stopPropagation();
+				return false;
+				break;
+		}
+	}
+
+
+	function addRow(){
+		var tbl = document.getElementById("commodityTable");
+		if(tbl){
+			var x = 0;
+			var ii = tbl.rows.length;
+			for(i=0;i<=ii;i++){
+				var trow=tbl.rows[i];				
+				if(trow && trow.id && trow.id.substring(0,4)=="row_"){
+					x = trow.id.substring(4);
+				}
+			}
+			x--;
+			row_id = "row_"+x;
+
+			var row = tbl.insertRow(tbl.rows.length -1);
+			if(row){
+				row.id = row_id;
+
+				var cell = row.insertCell(0);
+                cell.innerHTML='<select class="product_cls" name="product_id[]" id="product_id'+row_id+'" ><option value="0"></option>[product_list]</select>';
+				/*cell.innerHTML='<input size="2" id="pieces_'+row_id+'" style="width:30px" type="text" name="pieces[]">';
+				
+
+				var cell = row.insertCell(1);
+				cell.innerHTML='<select name="packaging_list_id[]"><option value="0"></option>[packaging_list]</select>';
+
+				var cell = row.insertCell(2);
+				cell.innerHTML='<nobr><input size="1" style="width:25px" type="text" name="dim_d[]"> x <input size="1" type="text" style="width:25px" name="dim_w[]"> x <input size="1" style="width:25px" type="text" name="dim_h[]"></nobr>';
+
+				var cell = row.insertCell(3);
+				cell.innerHTML='<select name="class_list_id[]"><option value="0"></option>[class_list]</select>';
+
+				var cell = row.insertCell(4);
+				cell.innerHTML='<input size="3" type="text" name="nmfc[]">';
+                */
+
+                var cell = row.insertCell(1);
+                cell.innerHTML='<div>$</div><input class="container_cost in_line" type="number" name="container_cost[]">';
+                var cell = row.insertCell(2);
+                cell.innerHTML='<div>$</div><input class="container_price in_line"  type="number" name="container_price[]">';
+
+				var cell = row.insertCell(3);
+				cell.innerHTML='<input  type="text" name="description[]">';
+
+				var cell = row.insertCell(4);
+				cell.innerHTML='<input  type="weight" name="weight[]">';
+
+				var cell = row.insertCell(5);
+				cell.innerHTML='<input type="button" value="X" onclick="removeRow(\''+row_id+'\')">';
+
+				document.getElementById('product_id'+row_id).focus();
+			}
+		}
+	}
+	function removeRow(row_id){
+		var tbl = document.getElementById("commodityTable");
+		if(tbl){
+			var ii = tbl.rows.length;
+			for(i=0;i<=ii;i++){
+				var trow=tbl.rows[i];				
+				if(trow && trow.id && trow.id==row_id){
+					tbl.deleteRow(i);
+				}
+			}
+            var container_cost = 0;
+            $("#commodityTable .container_cost").each(function(){
+                container_cost = parseFloat(container_cost) + parseFloat($(this).val());
+            })
+            $("#commodityTable #total_container_cost div").text("$"+container_cost);
+
+            var container_price = 0;
+            $("#commodityTable .container_price").each(function(){
+                container_price = parseFloat(container_price) + parseFloat($(this).val());
+            })
+            $("#commodityTable #total_container_price div").text("$"+container_price);
+		}
+	}
+
+    $('body').ready(function(){
+        $(document).on('change', '.container_cost', function(){
+            var container_cost = 0;
+            $("#commodityTable .container_cost").each(function(){
+                container_cost = parseFloat(container_cost) + parseFloat($(this).val());
+
+            })
+
+            //console.log("contaner ="+container_cost);
+            $("#commodityTable #total_container_cost div").text("$"+container_cost);
+
+        });
+
+        $(document).on('change', '.container_price', function(){
+            var container_price = 0;
+            $("#commodityTable .container_price").each(function(){
+                container_price = parseFloat(container_price) + parseFloat($(this).val());
+
+            })
+
+            //console.log("container_price ="+container_price);
+            $("#commodityTable #total_container_price div").text("$"+container_price);
+
+        });
+    })
+</script>
+<style type="text/css">
+    table #commodityTable td {min-width: 115px!important}
+    table #commodityTable td div {display:inline;width:110px;text-align: right}
+    table #commodityTable td .in_line{display:inline;width:105px;text-align: right}
+    table #commodityTable .product_cls{width:110px;}
+    table #commodityTable .boder_cls{border: 1px solid #000000}
+
+</style>
+
+<table cellpadding="3" cellspacing="1" width="100%" id="commodityTable">
+	<tr>
+		<!--<td class="tblHeader">pcs</td>
+		<td class="tblHeader">pkg</td>
+		<td class="tblHeader">dims</td>
+		<td class="tblHeader">class</td>
+		<td class="tblHeader">nmfc</td> -->
+        <td class="tblHeader">product</td>
+        <td class="tblHeader">Container cost</td>
+        <td class="tblHeader">Container Price</td>
+		<td class="tblHeader">description</td>
+		<td class="tblHeader">weight</td>
+	</tr>
+	[commodity_rows]
+    <tr style="margin-top: 10px!important">
+        <td style="font-size: 14px; font-weight: bold">Total</td>
+        <td id="total_container_cost"  style="font-size: 13px; font-weight: bold; text-align:right;">
+            <div style="padding-right: 22px">[total_container_cost]</div>
+        </td>
+        <td id="total_container_price" style="font-size: 13px; font-weight: bold; text-align:right;">
+            <div style="padding-right: 22px">[total_container_price]</div></td>
+        <td ></td>
+        <td ></td>
+        <td></td>
+    </tr>
+</table>

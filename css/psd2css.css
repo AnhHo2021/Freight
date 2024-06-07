@@ -1,0 +1,674 @@
+*  psd2css.css
+ *
+ *  This is your external CSS style sheet. It defines all of the CSS styles that you
+ *  are using in your page.  If you are going to create multiple pages from the same
+ *  PSD file (like a template), you will share this CSS style sheet between the various
+ *  pages.
+ *
+ *  This file was originally generated at http://psd2cssonline.com 
+ *  March 31, 2010, 3:57 pm with psd2css Online version 1.77
+*
+ */
+
+body {
+    margin: 0; padding: 0;
+}
+
+/* This is a wrapper for the Background_center2 layer you made */
+/*#Layer-1-wrapper {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}*/
+
+/* You named this layer Background_center2 */
+#Layer-new {
+    position: absolute;
+    left: +0px;
+    /*top: -159px;*/
+    width: 800px;
+    height: 600px;
+    z-index: 1;
+}
+
+#Layer-1 {
+    position: absolute;
+    left: +0px;
+    /*top: -159px;*/
+    width: 800px;
+    height: 600px;
+    z-index: 1;
+}
+
+/* You named this layer Shape 1 */
+#Layer-2 {
+    position: absolute;
+    left: 0px;
+    top: 159px;
+    width: 100%;
+    height:100%;
+    z-index: 0;
+    background-image: url(/images/Layer-2s.png);
+    background-repeat: repeat-x;
+    /*background-color:#d7d7d2 ;*/
+}
+
+#Layer-2-inner {
+    position: absolute;
+    left: 0px;
+    top: 159px;
+    width: 100%;
+    height:100%;
+    z-index: 0;
+
+}
+
+/* You named this layer Tracking Results */
+/*#Layer-3 {
+    position: absolute;
+    left: 0px;
+    top: 234px;
+    width: 198px;
+    height: 18px;
+    z-index: 3;
+}*/
+
+/* You named this layer Logo */
+#Layer-4 {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    width: 231px;
+    height: 55px;
+    z-index: 4;
+}
+
+/*#Layer-viking {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 239px;
+  height: 383px;
+  z-index: 24;
+}*/
+
+
+#Layer-viking {
+    position: absolute;
+    left: -280px;
+    top: 127px;
+    width: 239px;
+    z-index: 24;
+}
+
+#Layer-viking  .layer-viking-image {
+    height:220px;
+}
+
+/* You named this layer tracking_form */
+#Layer-5 {
+    width: 250px;
+    height: 250px;
+    z-index: 5;
+    position: absolute;
+}
+
+
+#Layer-call {
+    position: absolute;
+    left: 662px;
+    top: 44px;
+    width: 160px;
+    height: 52px;
+    z-index: 25;
+}
+
+#Layer-call .middle {
+    font-size: x-large;
+    font-weight: bold;
+    vertical-align: middle;
+    position: relative;
+    top: -7px;
+}
+
+/* You named this layer Tracking_inputtext */
+#Layer-6 {
+    position: absolute;
+    left: 42px;
+    top: 108px;
+    width: 165px;
+    height: 26px;
+    z-index: 6;
+    text-align: left;
+    background: url(/images/Layer-6.png);
+}
+
+#Layer-6 #Tracking {
+    text-align: center;
+    float: left;
+    margin: 2px;
+    width: 160px;
+    height: 20px;
+    border: 0;
+    background: none;
+}
+
+/* You named this layer Enter Tracking \# */
+#Layer-7 {
+    position: absolute;
+    left: 64px;
+    top: 90px;
+    width: 120px;
+    height: 13px;
+    z-index: 7;
+}
+
+/* You named this layer Track_submit_link */
+#Layer-9 {
+    position: absolute;
+    left: 91px;
+    top: 157px;
+    width: 67px;
+    height: 29px;
+    z-index: 9;
+}
+
+/* You named this layer Track_submit_linkover */
+#Layer-10 {
+    position: absolute;
+    left: 91px;
+    top: 157px;
+    width: 67px;
+    height: 29px;
+    z-index: 10;
+}
+
+/* You named this layer Tracking\#  112189911   Tracking Log  DateTime 2010-02-17 18:56 */
+/*#Layer-12 {
+    position: absolute;
+    left: 0px;
+    top: 249px;
+    z-index: 12;
+    color: #000 ;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-bottom: 60px;
+    width: 100%;
+}*/
+
+#Layer-about {
+    /* If you don't want scroll bars when your content gets bigger than the space
+     * you designed for it, remove the following line.      */
+    overflow: hidden;
+    display: none;
+}
+
+#Layer-learn {
+    
+    /* If you don't want scroll bars when your content gets bigger than the space
+     * you designed for it, remove the following line.      */
+    overflow: hidden;
+    display: block;
+}
+
+#Layer-contact {
+    
+    /* If you don't want scroll bars when your content gets bigger than the space
+     * you designed for it, remove the following line.      */
+    overflow: hidden;
+    display: none;
+}
+
+#Layer-loads {
+    
+    /* If you don't want scroll bars when your content gets bigger than the space
+     * you designed for it, remove the following line.      */
+    overflow: hidden;
+    display: none;
+}
+
+/*#Layer-resume {
+    position: absolute;
+    left: 149px;
+    top: 10px;
+    width: 450px;
+    height: 579px;
+    z-index: 50;
+    background-image: url(/images/resume.png);
+    display: none;
+}*/
+
+#Layer-contact td a:link {
+    color: blue;
+    text-decoration:underline;
+    font-size: 0.9em;
+}
+
+#Layer-contact td a:hover {
+    font-weight: normal;
+}
+
+/*#Layer-Loads-title {
+    position: absolute;
+    left: 457px;
+    top: 139px;
+    z-index: 12;
+}*/
+
+/* You named this layer Contact Us */
+#Layer-14 {
+    position: absolute;
+    left: 363px;
+    top: 139px;
+    z-index: 14;
+}
+
+/* You named this layer Learn More */
+#Layer-16 {
+    position: absolute;
+    left: 283px;
+    top: 139px;
+    z-index: 16;
+    font-weight: bold;
+}
+
+/* You named this layer about */
+#Layer-18 {
+    position: absolute;
+    left: 200px;
+    top: 139px;
+    z-index: 18;
+}
+
+/*#copyright {
+    position:absolute;
+    bottom:-30px;
+    width:100%;
+    height:20px;   
+    text-align: center;
+    left: 249px;
+    font-size: 9px;
+    color: #5a2a0a;
+}*/
+
+/*#award-center {
+    position: absolute;
+    bottom: 0px;
+    width: 544px;
+    height: 150px;
+    left: 68px;
+    text-align: center;
+}
+
+#award-vik500 {
+    position: absolute;
+    left: 0px;
+    width: 117px;
+    height: 150px;
+}
+
+#award-bvb {
+    position: absolute;
+    left: 236px;
+    width: 86px;
+    height: 150px;
+}
+
+#award-bir {
+    position: absolute;
+    width: 114px;
+    height: 150px;
+    right: 0px;
+}*/
+
+/* Here are some examples of how you might want to change the
+ * look and behavior of the links on your page.  Some examples for
+ * further customization are included in comments.  */
+a {
+    cursor: pointer;
+    outline: none;
+}
+a:link {
+    color:#000/* #5a2a0a*/;
+    text-decoration: none;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+a:visited {
+    color:#000/* #5a2a0a*/;
+    text-decoration: none;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+a:hover {
+    color: #000; /*#5a2a0a;*/
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#bigger-link {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+/*************/
+
+#Layer-header{
+    width:100%;
+    margin-top:20px;
+    display: inline-block;
+}
+
+#Layer-header .header-left{
+    width:45%;
+    text-align:right;
+    float:left;
+}
+
+#Layer-header .header-right{
+    width:40%;
+    text-align:center;
+    float:left;
+}
+
+.menu-items{
+    width:100%;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+    margin-top:67px;
+    padding-bottom: 25px;
+    padding-left: 1%;
+}
+
+.menu-items .menu-items-center{
+    width:500px;
+    margin:0 auto;
+}
+
+.menu-items-center > div{
+    float:left;
+    width:19%;
+    text-align:center;
+    font-weight: normal;
+}
+
+.contain-body{
+    height:100%;
+    width:100%;
+    min-height:185px;
+    background-color: #d7d7d2;
+    display: flex;
+}
+
+.contain-left{
+    width:33%;
+    float:left;
+    position: relative;
+}
+
+.contain-center{
+    width:33%;
+    float:left;
+}
+
+.contain-right{
+    width:33%;
+    float:right;
+    position: relative;
+    margin-top: -30px;
+}
+
+.contain-left #Layer-viking {
+    position: relative;
+    right:0;
+    top: -20px;
+    width: 239px;
+    z-index: 24;
+}
+.layer-viking-image{
+    margin-top:-30px;
+    width:319px;
+    height:219px;
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+}
+
+#award-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    bottom: 0px;
+}
+
+#award-vik500 {
+    float: left;
+}
+
+#award-bvb {
+    margin: 0 10%;
+    float: left;
+}
+
+#award-bir{
+    float: left;
+}
+
+#copyright {
+    width:100%;
+    height:20px;
+    text-align: center;
+    font-size: 9px;
+    color: #5a2a0a;
+    margin-top:106px;
+}
+
+.Layer-footer{
+    position: relative;
+    height:auto;
+}
+
+/* You named this layer Tracking Results */
+#Layer-3 {
+    width: 198px;
+    height: 18px;
+    position: absolute;
+    left: 20%;
+    margin-top: 3%;
+}
+
+#Layer-12 {
+    color: #000;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 15px;
+    position: absolute;
+    width: 800px;
+    left: 20%;
+    margin-top: 4%;
+    
+}
+
+#Layer-call-new{
+    width: 160px;
+    height: 52px;
+    padding-left: 182px;
+    margin-top: -10px;
+    text-align: right;
+}
+
+#Layer-4-new{
+    margin-right:100px;
+}
+
+
+#Layer-call-new p:nth-child(2),#Layer-call p:nth-child(2){
+    font-weight:bold;
+}
+
+#Layer-call-new .middle,#Layer-call .middle {
+    font-size: x-large;
+    font-weight: bold;
+    vertical-align: middle;
+    position: relative;
+    top: -7px;
+}
+
+#Layer-call-new p{
+    margin-top:2px;
+    margin-bottom:1px;
+}
+
+.line1, .line2  {
+    border-top: 1px solid #ec3027;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+}
+
+.line1 {
+    margin-top: 10px;
+}
+
+.line2 {
+    margin-top: 14px;
+}
+
+.width400{
+    width:400px;
+    padding-top: 26px;
+    padding-left: 37px;
+    padding-bottom: 30px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+}
+
+@media only screen and (max-width: 1366px){
+    .menu-items{
+        padding-left: 4%;
+    }
+    
+    .layer-viking-image{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .layer-viking-image{
+        width:259px;
+        height:219px;
+        position: absolute;
+        margin-right: 60px;
+}
+
+    .menu-items{
+    width:100%;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+    margin-top:67px;
+    padding-bottom: 25px;
+    margin-left:-2%;
+}
+    
+    .menu-items-center > div{
+    float:left;
+    width:19%;
+    text-align:center;
+    font-weight: normal;
+    position: relative;
+    left: 9%;
+}
+
+    .contain-center{
+    width:33%;
+    float:left;
+    position: relative;
+    left: -6%;
+}
+
+    .contain-right{
+    width:33%;
+    float:left;
+    position: relative;
+    margin-top: -30px;
+    left: 1%;
+}
+
+    #Layer-about {
+    margin-top:26px;
+    width: 370px;
+    overflow: hidden;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+    display: none;
+    padding-bottom: 5%;
+}
+
+    #Layer-learn {
+    margin-top:26px;
+    width: 370px;
+    overflow: hidden;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+    display: block;
+    padding-bottom: 5%;
+}
+
+    #Layer-contact {
+    margin-top:26px;
+    width: 370px;
+    overflow: hidden;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+    display: none;
+    padding-bottom: 5%;
+}
+
+    #Layer-loads {
+    margin-top:26px;
+    width: 370px;
+    overflow: hidden;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+    display: none;
+    padding-bottom: 5%;
+}
+
+    #Layer-3 {
+    width: 198px;
+    height: 18px;
+    position: absolute;
+    left: 17%;
+    margin-top: 3%;
+}
+
+    #Layer-12 {
+    color: #000;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-top: 15px;
+    position: absolute;
+    width: 700px;
+    left: 17%;
+    margin-top: 4%;
+}
+
+    .width400{
+    margin-top:26px;
+    width:350px;
+    padding-top: 10%;
+    padding-bottom: 30px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #000;
+}
+}

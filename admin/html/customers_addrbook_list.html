@@ -1,0 +1,30 @@
+<script language="JavaScript">
+<!--
+function confirm_contact_delete(id){
+	if(confirm("Are you sure you want to remove this address information?")){
+		window.location.href = "./?action=customers_addrbook&customer_id=[customer_id]&mode=remove&id="+id;
+	}
+}
+-->
+</script>
+<table width="100%">
+	<tr>
+		<td>
+			<table cellpadding="3" cellspacing="1" width="100%">
+				<tr>
+					<td colspan='5' align='right'><a href='/?action=customers_addrbook&customer_id=[customer_id]&id=NEW'><b><img src="images/icon-add.gif" border="0"></b></a></td>
+				</tr>
+			</table>
+			<table cellpadding="3" cellspacing="1" width="100%">
+				<tr>
+					<td class="tblHeader">Type</td>
+					<td class="tblHeader">To</td>
+					<td class="tblHeader">Contact</td>
+					<td class="tblHeader">Address</td>
+					<td class="tblHeader">Action</td>
+				</tr>
+				[customers_addrbook_list_row]
+			</table>
+		</td>
+	</tr>
+</table>

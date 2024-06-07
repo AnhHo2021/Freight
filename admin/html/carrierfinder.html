@@ -1,0 +1,20 @@
+<fieldset>
+<legend>Carrier Finder</legend>
+<form action="./?action=carrierfinder&place_holder=[place_holder]" method="post" name="carrierfinder">
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td>Carrier:</td>
+		<td><input type='text' name='carrier' size='15'></td>
+	</tr>
+	<tr>
+		<td colspan='2' align='center'><input type='submit' value='go'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='button' value='close' onClick="window.opener.location.reload(true);window.close();"></td>
+	</tr>
+</table>
+</form>
+</fieldset>
+<br><div align=center>
+[carrier_list]
+</div>
+<script>
+	document.carrierfinder.carrier.focus();
+</script>

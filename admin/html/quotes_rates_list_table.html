@@ -1,0 +1,40 @@
+<table id="tb_rate" border=0 cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td colspan="6" bgcolor="black" style="color:white"><span id='carrier__[id]' style="color:white">[company]</span>&nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:carrierFinder([id])' style="color:white">change carrier</a><input type='hidden' id='carrier_id__[id]' name='carrier_id__[id]' value='[carrier_id]'></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Service Level</td>
+		<td class="tblHeader">Transit</td>
+		<td class="tblHeader" align=right>Cost</td>
+		<td class="tblHeader" align=right>Rate</td>
+		<td class="tblHeader" align=right>Profit</td>
+		<td class="tblHeader" align=right>Margin</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr bgcolor="[bg]" style="cursor:hand" class='tr_rate'>
+		<td><select name="service_id__[id]">
+		[service_list]
+		</select>
+		</td>
+		<td nowrap><input type='text' size='1' style="width:20px" name='transit_days__[id]' value='[transit_days]'> days</td>
+		<td align=right>$<input type='text' class="cost_cost" size='5' name='cost__[id]' onfocus="this.select()"  value='[cost]' style="text-align:right"><input type='hidden' name='calc_cost__[id]' value='[calc_cost]'></td>
+		<td align=right>$<input type='text' class="rate_rate" size='5' name='rate__[id]' onfocus="this.select()"  value='[rate]' style="text-align:right"><input type='hidden' name='calc_rate__[id]' value='[calc_rate]'></td>
+		<td align=right>$<div id="profit__[id]" class="profit_profit" style="display:inline">[profit]</div></td>
+		<td align=right><div id="percent__[id]" class="percent_percent" style="display:inline">[percent]</div>%</td>
+		<td bgcolor="#FFFFFF"></td>
+	</tr>
+	[quotes_rates_list_table_row]
+	<tr bgcolor="[bg]" style="cursor:hand" class='tr-rate'>
+		<td>+ <a href='javascript:confirm_rate_delete([id])'  tabindex="9999">remove rate/carrier</a></td>
+		<td><b>TOTAL</b></td>
+		<td align=right><b>$<div id="total_cost_[id]" class ="total_cost" style="display:inline">[total_cost]</div></b></td>
+		<td align=right><b>$<div id="total_rate_[id]" class="total_rate" style="display:inline">[total_rate]</div></b></td>
+		<td align=right><b>$<div id="total_profit_[id]" class="total_profit" style="display:inline">[total_profit]</div></b></td>
+		<td align=right><b><div id="total_percent_[id]" class="total_percent" style="display:inline">[total_percent]</div>%</b></td>
+		<td bgcolor="#FFFFFF"><a href="javascript:calcRow([id],0)"  tabindex="9999"><img src="images/icon-calc.gif" width="16" height="16" border="0"  tabindex="9999"></a></td>
+	</tr>
+
+</table>
+
+<br>

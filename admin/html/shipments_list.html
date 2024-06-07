@@ -1,0 +1,45 @@
+<script>
+function trackingPop(id) {
+	window.open("./?action=trackingfinder&id="+id,"tracking_finder","top=0,left=0,width=600,height=650,scrollbars=yes,menu=no,resizable=yes");
+}
+function bolPop(id) {
+	window.open("./?action=shipments_bol&id="+id,"shipments_bol","top=0,left=0,width=850,height=700,scrollbars=yes,menu=no,resizable=yes");
+}
+function checkAll(whichForm) {
+	for(i=0;i<document.forms.length;i++) {
+		if(document.forms[i].name == whichForm) {
+			var workingForm = i;
+		}
+	}
+	for(i=1;i<document.forms[workingForm].elements.length;i++) {
+		var check_it = (document.forms[workingForm].elements[0].checked) ? 1 : 0;
+		if(document.forms[workingForm].elements[i].type == "checkbox") {
+			document.forms[workingForm].elements[i].checked = check_it;
+		}
+	}
+}
+</script>
+
+<table width='100%'>
+	<tr>
+		<td>
+		<fieldset>
+		<legend>Status Filters</legend>
+		<table>
+			<tr>
+				<form method='POST'>[filters]</form><td width='20px'></td><td>[admin_filter]</td>
+			</tr>
+		</table>
+		</fieldset>
+		<br>
+		<div align=center><b>Bold = welcome call made.&nbsp;&nbsp;&nbsp;&nbsp;Yellow = roll off.&nbsp;&nbsp;&nbsp;&nbsp;Orange = expedited.</b></div>
+		<br>
+		[tobescheduled]
+		[scheduled]
+		[intransit]
+		[outfordelivery]
+		[delivered]
+		[problem]
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,272 @@
+<script>
+function copy_contact() {
+	document.greatform.bill_contact_name.value = document.greatform.main_contact_name.value;
+	document.greatform.bill_contact_phone.value = document.greatform.main_contact_phone.value;
+	document.greatform.bill_contact_cell.value = document.greatform.main_contact_cell.value;
+	document.greatform.bill_contact_fax.value = document.greatform.main_contact_fax.value;
+	document.greatform.bill_contact_email.value = document.greatform.main_contact_email.value;
+}
+function copy_mailing() {
+	document.greatform.bill_address1.value = document.greatform.mail_address1.value;
+	document.greatform.bill_address2.value = document.greatform.mail_address2.value;
+	document.greatform.bill_city.value = document.greatform.mail_city.value;
+	document.greatform.bill_state.selectedIndex = document.greatform.mail_state.selectedIndex;
+	document.greatform.bill_zip.value = document.greatform.mail_zip.value;
+}
+
+</script>
+<div style="color:red">[error_message]</div>
+&nbsp;&nbsp;&nbsp;<strong>Customer # [id]</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div style="display:[show_date_created]">Created by [creator] on [date_created]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div style="display:[show_date_updated]">Updated by [updater] on [date_updated]</div>
+<form name='greatform' method="POST" action="./?action=customers_update&id=[id]">
+<table width='100%'>
+	<tr>
+		<td valign='top'>
+			<table width='100%'>
+				<tr>
+					<td>
+						<fieldset>
+						<legend>Edit Customer</legend>
+						<table width='100%'>
+							<tr>
+								<td><span style="color:red">*</span>Company</td>
+								<td><input type='text' name='company' size="30" value='[company]'></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td NOWRAP><span style="color:red">*</span>Sales Rep</td>
+								<td><select name='sales_admin_login_id'><option value='0'></option>
+									[sales_reps]
+									</select>
+								</td>
+							</tr>
+							<tr><!-- anh
+								<td>Known Shipper Ref</td>
+								<td><input type="text" size="15" name="known_shipper_ref" value="[known_shipper_ref]"></td>
+                                -->
+                                <td>Type</td>
+                                <td ><select name="type">[TYPE_OPTS]</select></td>
+
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td NOWRAP><span style="color:red">*</span>Dispatcher</td><td><select name='freight_admin_login_id'><option value='0'></option>
+								[freight_reps]
+								</select>
+								</td>
+							</tr>
+              <!--anh<tr>
+                <td>Type</td>
+                <td colspan=3><select name="type">[TYPE_OPTS]</select></td>
+              </tr> -->
+						</table>
+						</fieldset>
+					</td>
+				</tr>
+			</table>
+			
+			<table width='100%' cellpadding='0' cellspacing='0'>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td width='50%'>
+									<fieldset>
+									<legend>Pickup Info</legend>
+									<table>
+										<tr>
+											<td><span style="color:red">*</span></td>
+											<td NOWRAP>Mailing address 1</td><td><input type='text' name='mail_address1' value='[mail_address1]'></td>
+										</tr>
+										<tr>
+											<td></td>
+											<td NOWRAP>Mailing address 2</td><td><input type='text' name='mail_address2' value='[mail_address2]'></td>
+										</tr>
+										<tr>
+											<td><span style="color:red">*</span></td>
+											<td NOWRAP>Mailing City</td><td><input type='text' name='mail_city' value='[mail_city]'></td>
+										</tr>
+										<tr>
+											<td><span style="color:red">*</span></td>
+											<td NOWRAP>Mailing State</td><td><select name='mail_state'><option value=''></option>
+											[mailing_states]
+											</select>
+											</td>
+										</tr>
+										<tr>
+											<td><span style="color:red">*</span></td>
+											<td NOWRAP>Mailing Zip</td><td><input type='text' name='mail_zip' value='[mail_zip]'></td>
+										</tr>
+									</table>
+									</fieldset>
+								</td>
+								<td><a href='javascript:copy_mailing();'><img src="images/copy_over.gif" border="0"></a></td>
+								<td width='50%'>
+									<fieldset>
+									<legend>Billing Info</legend>
+									<table>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Billing address 1</td><td><input type='text' name='bill_address1' value='[bill_address1]'></td>
+										</tr>
+										<tr>
+											<td></td>
+											<td NOWRAP>Billing address 2</td><td><input type='text' name='bill_address2' value='[bill_address2]'></td>
+										</tr>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Billing City</td><td><input type='text' name='bill_city' value='[bill_city]'></td>
+										</tr>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Billing State</td><td><select name='bill_state'><option value=''></option>
+											[billing_states]
+											</select>
+											</td>
+										</tr>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Billing Zip</td><td><input type='text' name='bill_zip' value='[bill_zip]'></td>
+										</tr>
+									</table>
+									</fieldset>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+							
+			<table width='100%' cellpadding='0' cellspacing='0'>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td width='50%'>
+									<fieldset>
+									<legend>Main Contact Info</legend>
+									<table>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Main contact name</td><td><input type='text' name='main_contact_name' value='[main_contact_name]'></td>
+										</tr>
+										<tr>
+											<td><span style="color:red"></span></td>
+											<td NOWRAP>Main contact phone</td><td><input type='text' name='main_contact_phone' value='[main_contact_phone]'></td>
+										</tr>
+										<tr>
+											<td></td>
+											<td NOWRAP>Main contact cell</td><td><input type='text' name='main_contact_cell' value='[main_contact_cell]'></td>
+										</tr>
+										<tr>
+											<td></td>
+											<td NOWRAP>Main contact fax</td><td><input type='text' name='main_contact_fax' value='[main_contact_fax]'></td>
+										</tr>
+										<tr>
+											<td></td>
+											<td NOWRAP>Main contact email</td><td><input type='text' name='main_contact_email' value='[main_contact_email]'></td>
+										</tr>
+									</table>
+									</fieldset>
+									</td>
+									<td><a href='javascript:copy_contact();'><img src="images/copy_over.gif" border="0"></a></td>
+									<td width='50%'>
+									<fieldset>
+									<legend>Billing Contact Info</legend>
+									<table>
+										<tr>
+											<td NOWRAP>Billing contact name</td><td><input type='text' name='bill_contact_name' value='[bill_contact_name]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Billing contact phone</td><td><input type='text' name='bill_contact_phone' value='[bill_contact_phone]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Billing contact cell</td><td><input type='text' name='bill_contact_cell' value='[bill_contact_cell]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Billing contact fax</td><td><input type='text' name='bill_contact_fax' value='[bill_contact_fax]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Billing contact email</td><td><input type='text' name='bill_contact_email' value='[bill_contact_email]'></td>
+										</tr>
+									</table>
+									</fieldset>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<!--anh
+			<table width='100%'>
+				<tr>
+					<td>
+						<fieldset>
+						<legend>Additional Contacts</legend>
+						<table>
+							<tr>
+								<td>
+									<fieldset>
+									<legend>Alternate Contact 1</legend>
+									<table>
+										<tr>
+											<td NOWRAP>Alternate 1 contact name</td><td><input type='text' name='alt1_contact_name' value='[alt1_contact_name]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 1 contact phone</td><td><input type='text' name='alt1_contact_phone' value='[alt1_contact_phone]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 1 contact cell</td><td><input type='text' name='alt1_contact_cell' value='[alt1_contact_cell]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 1 contact fax</td><td><input type='text' name='alt1_contact_fax' value='[alt1_contact_fax]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 1 contact email</td><td><input type='text' name='alt1_contact_email' value='[alt1_contact_email]'></td>
+										</tr>
+									</table>
+									</fieldset>
+								</td>
+								<td>
+									<fieldset>
+									<legend>Alternate Contact 2</legend>
+									<table>
+										<tr>
+											<td NOWRAP>Alternate 2 contact name</td><td><input type='text' name='alt2_contact_name' value='[alt2_contact_name]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 2 contact phone</td><td><input type='text' name='alt2_contact_phone' value='[alt2_contact_phone]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 2 contact cell</td><td><input type='text' name='alt2_contact_cell' value='[alt2_contact_cell]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 2 contact fax</td><td><input type='text' name='alt2_contact_fax' value='[alt2_contact_fax]'></td>
+										</tr>
+										<tr>
+											<td NOWRAP>Alternate 2 contact email</td><td><input type='text' name='alt2_contact_email' value='[alt2_contact_email]'></td>
+										</tr>
+									</table>
+									</fieldset>
+								</td>
+							</tr>
+						</table>
+						</fieldset>
+					</td>
+				</tr>
+			</table>-->
+		</td>
+		<td valign='top'>[customers_more_info]</td>
+	</tr>
+</table>
+<br>
+<div align="center"><button onclick="document.location = '/?action=customers_defaults&customer_id=[id]'; return(false);" class="button">Edit Defaults</button> <button onclick="document.location = '/?action=customers_prodbook&customer_id=[id]'; return(false);" class="button">Edit Product Books</button> <input type='submit' value='Save Customer' class="button"></div>
+<br>
+<div style="padding-left:3px;">
+	<table width="880">
+		<tr>
+			<td width="50%">[customers_more_info_2]</td>
+			<td width="50%">[customers_more_info_3]</td>
+		</tr>
+		<tr>
+			<td width="50%">[customers_fak_addresses]</td>
+			<td width="50%">[customers_addrbook]</td>
+		</tr>
+	</table>
+</div>
+</form>

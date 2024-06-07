@@ -1,0 +1,191 @@
+<script language="javascript">
+var invoices = new Array()
+[jscript_invoices]
+
+function autoFill(v){
+	if(document.getElementById("auto_"+v).checked==true){
+		if(Number(document.getElementById('remaining').value) - Number(invoices[v][0]) <= 0.00){
+			if(Number(document.getElementById('remaining').value) > 0.00){
+				setPayment(v,Number(document.getElementById('remaining').value));
+			}else{
+				alert("No available received payment remaining to apply.");
+				document.getElementById("auto_"+v).checked=false;
+			}
+		}else{
+			setPayment(v,invoices[v][0]);
+		}
+	}else{
+		invoices[v][1] = formatCurrency(Number(0.00));
+		document.getElementById('applied_'+v).value = formatCurrency(Number(0.00));
+	}
+	setTotals();
+}
+
+function enableApplied(){
+	if(document.getElementById("amount").value){
+		for(var i in invoices){
+			document.getElementById("applied_"+i).style.backgroundColor = "#FFFFFF";
+			document.getElementById("applied_"+i).disabled = false;
+			
+			document.getElementById("apply_to").style.backgroundColor = "#FFFFFF";
+			document.getElementById("apply_to").disabled = false;
+		}
+	}else{
+		for(var i in invoices){
+			document.getElementById("applied_"+i).style.backgroundColor = "#CCCCCC";
+			document.getElementById("applied_"+i).disabled = true;
+			
+			document.getElementById("apply_to").style.backgroundColor = "#CCCCCC";
+			document.getElementById("apply_to").disabled = true;
+		}
+	}
+}
+
+function setPayment(invoice_id,setAmt){
+	if(Number(document.getElementById('amount').value) < Number(document.getElementById('applied_'+invoice_id).value)){
+		alert("The available payment received is lower than the amount your trying to apply.");
+		document.getElementById('applied_'+invoice_id).value = formatCurrency(Number(0.00));
+		invoices[invoice_id][1] = formatCurrency(Number(0.00));
+	}else if(Number(document.getElementById('applied_'+invoice_id).value) > Number(invoices[invoice_id][0])){
+		document.getElementById('applied_'+invoice_id).value = Number(invoices[invoice_id][0]);
+		invoices[invoice_id][1] = document.getElementById('applied_'+invoice_id).value;
+	}else{
+		if(setAmt){
+			document.getElementById('applied_'+invoice_id).value = Number(setAmt);	
+			invoices[invoice_id][1] = document.getElementById('applied_'+invoice_id).value;
+		}else{
+			invoices[invoice_id][1] = document.getElementById('applied_'+invoice_id).value;
+		}
+	}
+	setTotals();
+}
+	
+function setTotals(){
+	paymentsVal = 0;
+	for(var i in invoices){
+		paymentsVal += Number(invoices[i][1]);
+	}
+	document.getElementById("remaining").value = formatCurrency(Number(document.getElementById("amount").value)-Number(paymentsVal));
+	document.getElementById("applied").value = formatCurrency(Number(paymentsVal));
+}
+
+function applyTo(){
+	var invoiceSet = document.getElementById("apply_to").value;
+	if(invoiceSet){
+		if(Number(document.getElementById("amount").value) <= Number(invoices[invoiceSet][0])){
+			setPayment(invoiceSet,document.getElementById("amount").value);
+		}else{
+			alert("The received payment amount is higher than the invoice you are trying to apply it to.");
+		}
+	}
+	
+}
+
+function checkForm(f){
+	var error="";
+
+	if(f.type.value==""){error+=" + Payment Type\n";}
+	if(f.type.value!="Cash" && f.ref.value==""){error+=" + Reference Number\n";}
+	if(f.amount.value=="" || f.amount.value <= 0.00){error+=" + Amount\n";}
+	if(parseFloat(document.getElementById("remaining").value) > 0){
+		error+=" + Payment amount still remains to be applied\n";
+	}
+	if(parseFloat(document.getElementById("remaining").value) < 0){
+		error+=" + Over applied payments\n";
+	}
+	
+	if(error){
+		alert("Check the following fields:\n"+error);
+		return false;	
+	}
+}
+</script>
+<div align="center"><b>Receive Payments For: [RECEIVE_CUSTOMER]</b></div>
+<div align="center" style="color=#C5240F; font-weight:bold;">[msg]</div>
+<form name="payment" method="post" action="/?action=accounting_payments_edit" onSubmit="return checkForm(this)">
+<fieldset>
+<legend>Received Payment</legend>
+<br>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td align="right"><b>Date</b></td>
+		<td>
+			<input type="text" name="date_payment" id="date_payment" value="[date_payment]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_date_payment" onmouseover="this.style.cursor='hand'">
+			<script type="text/javascript">
+				Calendar.setup({
+					inputField     :    "date_payment",
+					ifFormat       :    "%Y-%m-%d",
+					button         :    "icon_date_payment",
+					singleClick    :    true,
+					step           :    1
+				});
+			</script>
+		</td>
+		<td align=right><b>Type</b></td>
+		<td>
+			<select name="type">
+				<option value="">-Select-</option>
+				[types]
+			</select>
+		</td>
+		<td align=right><b>Ref #</b></td>
+		<td><input type="text" name="ref" size="20"></td>
+		<td align=right><b>Amount</b></td>
+		<td>$<input type="text" name="amount" id="amount" size="5" maxlength="10" onkeyup="formatInts(this);" onblur="enableApplied();setTotals();" style="text-align:right;"></td>
+	</tr>
+</table>
+<br>
+</fieldset>
+<p></p>
+<fieldset>
+<legend>Apply Payment</legend>
+<br>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td align="center"><b>Apply To</b> <input type="text" name="apply_to" id="apply_to" size="30"> <input type="button" value="Go" onclick="applyTo();"></td>
+	</tr>
+</table>
+<br>
+</fieldset>
+<p></p>
+<fieldset>
+<legend>Invoices</legend>
+<br>
+<table border="0" cellpadding="3" cellspacing="1" align="center" width="100%">
+	<tr>
+		<td class="tblHeader" nowrap align="center"><b>Due Date</b></td>
+		<td class="tblHeader" nowrap align="center"><b>Invoice #</b></td>
+		<td class="tblHeader" nowrap align="center"><b>BOL #</b></td>
+		<td class="tblHeader" nowrap align="center"><b>Origin</b></td>
+		<td class="tblHeader" nowrap align="center"><b>Destination</b></td>
+		<td class="tblHeader" nowrap align="right"><b>Amount Due</b></td>
+		<td class="tblHeader" nowrap align="right"><b>Applied</b></td>
+		<td>&nbsp;</td>
+	</tr>
+	[invoices]
+	<tr>
+		<td colspan="5" nowrap align="right">&nbsp;</td>
+		<td nowrap align="right" nowrap><b>$[total_due]</b></td>
+		<td nowrap align="right" nowrap><b>$</b><input type="text" id="applied" name="applied" style="text-align:right; border:none;font-weight:bold;" readonly="true" size="8" value="0.00"></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="5" nowrap align="right">&nbsp;</td>
+		<td nowrap align="right" nowrap><b>Remaining To Apply</b></td>
+		<td nowrap align="right" nowrap><b>$</b><input type="text" id="remaining" name="remaining" style="text-align:right; border:none;font-weight:bold;" readonly="true" size="8" value="0.00"></td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+</fieldset>
+<p></p>
+<div align="center"><input type="submit" value="Save Payment"></div>
+</form>
+<script language="javascript">
+	//disable applied amounts for default
+	document.getElementById("apply_to").style.backgroundColor = "#CCCCCC";
+	document.getElementById("apply_to").disabled = true;
+	for(var i in invoices){
+		document.getElementById("applied_"+i).style.backgroundColor = "#CCCCCC";
+		document.getElementById("applied_"+i).disabled = true;
+	}
+</script>

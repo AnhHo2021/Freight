@@ -1,0 +1,22 @@
+<script language="JavaScript">
+<!--
+function confirm_note_delete(quote_id,id){
+	if(confirm("Are you sure you want to remove this note?")){
+		window.location.href = "./?action=quotes_notes&id="+quote_id+"&remove="+id;
+	}
+}
+-->
+</script>
+
+<form method='POST' action='./?action=quotes_notes&id=[action_id]'>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td colspan='2' class="tblHeader">notes</td>
+	</tr>
+	<tr>
+		<td><textarea name='note' cols='50' rows='4'></textarea></td>
+		<td><input type='submit' value='save'></td>
+	</tr>
+	[quotes_notes_list_row]
+</table>
+</form>

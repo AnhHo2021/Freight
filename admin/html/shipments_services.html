@@ -1,0 +1,108 @@
+<table>
+	<tr>
+		<td valign=top>
+		<table cellpadding="3" cellspacing="1">
+			<tr>
+				<td class="tblHeader" NOWRAP>Req pickup</td>
+				<td NOWRAP><input type="text" name="req_pickup_date" id="req_pickup_date_id" value="[req_pickup_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_pickup_date" onmouseover="this.style.cursor='hand'">
+						<script type="text/javascript">
+							Calendar.setup({
+								inputField     :    "req_pickup_date_id",
+								ifFormat       :    "%Y-%m-%d",
+								button         :    "icon_pickup_date",
+								singleClick    :    true,
+								step           :    1
+							});
+						</script></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Pickup by</td>
+				<td><select name='req_pickup_time_start'>
+				[req_pickup_time_start]
+				</select>
+				<select name='req_pickup_time_end'>
+				[req_pickup_time_end]
+				</select>		
+				</td>
+			</tr>
+			<tr>
+				<td class="tblHeader" NOWRAP>Req delivery</td>
+				<td NOWRAP><input type="text" name="req_delivery_date" id="req_delivery_date_id" value="[req_delivery_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_req_delivery_date" onmouseover="this.style.cursor='hand'">
+						<script type="text/javascript">
+							Calendar.setup({
+								inputField     :    "req_delivery_date_id",
+								ifFormat       :    "%Y-%m-%d",
+								button         :    "icon_req_delivery_date",
+								singleClick    :    true,
+								step           :    1
+							});
+						</script></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Delivery by</td>
+				<td><select name='req_delivery_time_start'>
+				[req_delivery_time_start]
+				</select>
+				<select name='req_delivery_time_end'>
+				[req_delivery_time_end]
+				</select>		
+				</td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Insurance</td>
+				<td><input type='text' name='insurance' size='10' value='[insurance]'></td>
+			</tr>
+		</table>
+		</td>
+		<td valign='top'>
+		<table cellpadding="3" >
+			<tr>
+				<td class="tblHeader">Order Number:</td>
+				<td><input type='text' name='shipped_carrier_pronum' size='10' value='[shipped_carrier_pronum]'></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Container #:</td>
+				<td><input type='text' name='shipped_tracknum' size='10' value='[shipped_tracknum]'></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Sales Rep:</td>
+				<td><select name='sales_admin_login_id'>[sales_reps]</select></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Freight Rep:</td>
+				<td><select name='freight_admin_login_id'>[freight_reps]</select></td>
+			</tr>
+			<tr>
+				<td class="tblHeader" NOWRAP>Pickup Date</td>
+				<td><input type="text" name="shipped_pickup_date" id="shipped_pickup_date_id" value="[shipped_pickup_newdate]" size="10" maxlength="10"><img src="images/icon-calendar.gif" id="icon_shipped_pickup_date" onmouseover="this.style.cursor='hand'">
+						<script type="text/javascript">
+							Calendar.setup({
+								inputField     :    "shipped_pickup_date_id",
+								ifFormat       :    "%Y-%m-%d",
+								button         :    "icon_shipped_pickup_date",
+								singleClick    :    true,
+								step           :    1
+							});
+						</script></td>
+			</tr>
+			<tr>
+				<td class="tblHeader" NOWRAP>Delivery Date</td>
+				<td><input type="text" name="shipped_delivery_date" id="shipped_delivery_date_id" value="[shipped_delivery_newdate]" size="10" maxlength="10"><img src="images/icon-calendar.gif" id="icon_shipped_delivery_date" onmouseover="this.style.cursor='hand'">
+						<script type="text/javascript">
+							Calendar.setup({
+								inputField     :    "shipped_delivery_date_id",
+								ifFormat       :    "%Y-%m-%d",
+								button         :    "icon_shipped_delivery_date",
+								singleClick    :    true,
+								step           :    1
+							});
+						</script></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Special Instructions</td>
+		<td><textarea name="special_instructions" rows=3 cols=50>[special_instructions]</textarea></td>
+	</tr>
+</table>

@@ -1,0 +1,30 @@
+<fieldset>
+<legend>Customer Search</legend>
+<form name='customer' method='POST' action='./?action=accounting_payments'>
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td align='center'><input type="text" name="search" size="25"> <input type='submit' value='Search'></td>
+	</tr>
+</table>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>Customer Search Results</legend>
+<br />
+<table cellpadding="3" cellspacing="1" width="100%">
+	<tr>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=id&asc_id=[asc_id][url]">ID</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=company&asc_company=[asc_company][url]">Company Name</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=address&asc_address=[asc_address][url]">Address</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=city&asc_city=[asc_city][url]">City</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=state&asc_state=[asc_state][url]">State</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=zip&asc_zip=[asc_zip][url]">Zip</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=contact_name&asc_contact_name=[asc_contact_name][url]">Contact Name</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=contact_phone&asc_contact_phone=[asc_contact_phone][url]">Contact Phone</a></td>
+		<td class="tblHeader"><a href="./?action=accounting_payments&sort=contact_email&asc_contact_email=[asc_contact_email][url]">Contact Email</a></td>
+	</tr>
+	[customers_list]
+</table>
+<br />
+</fieldset>

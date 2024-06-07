@@ -1,0 +1,24 @@
+<fieldset>
+<legend>Terminal Finder</legend>
+<form action="./?action=terminalfinder&carrier_id=[carrier_id]" method="post" name="terminalfinder">
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td><b>Carrier:</b></td>
+		<td><b>[carrier]</b></td>
+	</tr>
+	<tr>
+		<td>Terminal:</td>
+		<td><input type='text' name='terminal' size='15'></td>
+	</tr>
+	<tr>
+		<td colspan='2' align='center'><input type='submit' value='go'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='button' value='close' onClick="window.opener.location.reload(true);window.close();"></td>
+	</tr>
+</table>
+</form>
+</fieldset>
+<br><div align=center>
+[terminal_list]
+</div>
+<script>
+	document.terminalfinder.terminal.focus();
+</script>

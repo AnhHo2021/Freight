@@ -1,0 +1,150 @@
+<?php
+
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
+// includes
+include("php/functions.php");
+include("php/db.php");
+
+// env vars
+if($_POST){extract($_POST);}
+if($_GET){extract($_GET);}
+if($_COOKIE){extract($_COOKIE);}
+
+// paths
+/*
+$htmlpath = "/home/cnordahl/public_html/html/";
+$phppath = "/home/cnordahl/public_html/php/";
+$htpath = "/home/cnordahl/public_html/";
+$admin_phppath = "/home/cnordahl/public_html/admin/php/";
+$admin_htpath = "/home/cnordahl/public_html/admin/htdocs/";
+$pdfpath = "/home/cnordahl/public_html/admin/pdf/";
+
+$htmlpath = "/home/hillman/public_html/freight/html/";
+$phppath = "/home/hillman/public_html/freight/php/";
+$htpath = "/home/hillman/public_html/freight/";
+$admin_phppath = "/home/hillman/public_html/freight/admin/php/";
+$admin_htpath = "/home/hillman/public_html/freight/admin/htdocs/";
+$pdfpath = "/home/hillman/public_html/freight/admin/pdf/";
+*/
+
+
+
+
+$htmlpath = "/mnt/web/transport/transport/freight/html/";
+$phppath = "/mnt/web/transport/transport/freight/php/";
+$htpath = "/mnt/web/transport/transport/freight/";
+$admin_phppath = "/mnt/web/transport/transport/freight/admin/php/";
+$admin_htpath = "/mnt/web/transport/transport/freight/admin/htdocs/";
+$pdfpath = "/mnt/web/transport/transport/freight/admin/pdf/";
+
+include $phppath.'volumeloads.php';
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Norway Freight - Sales Prices</title>
+
+        <!-- Some META tags to help with Search Engine Optimization.  Please
+        note however that META tags are NOT a magic bullet to get your web page
+        to the top of search engine rankings.  They are just part of that effort.  You
+        can get more information by googling SEO. -->
+        <meta name="description" content="Shipping throughout the United States and Canada, our Air and Ground services can meet your various needs." />
+        <meta name="keywords" content="shipping, freight, carriers, save, savings, time, money, ltl, ship, ground, air, service, airfreight, truckload, pallet, less than load, ebay, partial load, next day, 2nd day, hub" />
+        <meta name="generator" content="Norway Freight - Shipping Services to Save You Time and Money" />
+
+        <!-- The Primary External CSS style sheet. -->
+        <link rel="stylesheet" type="text/css" href="css/psd2css.css" media="screen" />
+
+        <style type="text/css">
+            body {
+                font-family: Geneva, Arial, Helvetica, sans-serif;                
+            }
+            table, td {
+                border-color: black;
+                border-style: solid;
+            }
+            table {
+                border-width: 1px;
+                border-spacing: 0;
+                border-collapse: collapse;                
+                font-size: 0.75em;
+                width: 100%;                
+            }
+            th {
+                margin: 0;
+                padding: 4px;
+                border-width: 1px;
+                text-align: center;
+                font-weight: bold;
+                border-style: solid;
+                background-color:#ec3027 /*#cfb497*/;
+            }
+            td {
+                margin: 0;
+                padding: 4px;
+                border-width: 1px 1px 0 0;
+                text-align: center;
+            }
+            #loads-title {
+                position: absolute;
+                font-weight: bold;
+                left: 420px;
+                top: 10px;
+            }
+            #Layer-list {
+                position: absolute;
+                left: 0px;
+                top: 100px;
+                width: 90%;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            #small-font {
+                font-size: small;
+            }
+            #tiny-font {
+                font-size: x-small;
+            }
+            p {
+                margin-top: .25em;
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- This is 'Logo' -->
+        <div id="Layer-4"  >
+            <a href="http://freight.brandonshome.com/"><img src="images/Layer-4.jpg" width="231" height="55" border="0" alt="Logo" class="pngimg" /></a>
+        </div>
+        <!-- This is 'Call anytime' -->
+        <div id="Layer-call"  >
+            <!--<img src="images/Layer-call.png" width="131" height="52" alt="Call us anytime 801-657-9826" class="pngimg" />-->
+                <p>Call us any time!</p>
+                <p>801 - 948 - 4187</p>
+                <p>Air <span class="middle">.</span> LTL  <span class="middle">.</span> Truckload</p>
+        </div>
+        <div id="Layer-list">
+            <div id="loads-title">SALES PRICES</div>
+            <br/><br/>
+            <!--<p>Save up to 85% on shipments of 4 pallets or more!</p>
+            <p id="small-font">Similar to “stand by” service with airlines for passengers, we have space available 
+                for your freight in certain lanes at deeply discounted rates!  While offering SUBSTANTIAL savings, 
+                these shipments require payments to be made after the pickup has been completed (NO credit card fees 
+                will be added!).</p>
+            <br>
+            <p id="small-font">Below you can see some examples of our discounted rates.  Please call us anytime for
+                live space available rates for your larger shipments.</p>
+            <p id="tiny-font">(Volume loads is a part of Norway Freight, a Nationwide discount freight brokerage service.)</p>
+            <br/>-->
+        <?php
+            echo replace($vars,rf($htmlpath."volumeloads.html"));
+        ?>
+        </div>
+    </body>
+</html>

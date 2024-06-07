@@ -1,0 +1,49 @@
+<script>
+	function submitForm(print){
+		document.report.print.value='';
+			document.report.target="_self";
+		if(print){
+			document.report.print.value='true';
+			document.report.target="_blank";
+		}
+		document.report.submit();
+	}
+</script>
+<form name="report" method="post" action="./?action=reports_customerlist&do=run">
+<input type="hidden" name="print">
+<fieldset style="width:750">
+	<legend>Report Filters</legend>
+	<table border=0>
+		<tr>
+			<td><b><input type="text" name="last_quote" size="5" value="[last_quote]"> Days Since Last Quote</b></td>
+			<td rowspan="2">
+				<table>
+					<tr>
+						<td valign="top"><b>Reps</b></td>
+						<td>
+							<select multiple size=3 name="reps[]">
+								[reps]
+							</select>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td><b><input type="text" name="last_shipment" size="5" value="[last_shipment]"> Days Since Last Shipment</b></td>
+		</tr>
+		<tr>
+			<td><b>Over $<input type="text" name="ytd" size="5" value="[ytd]"> Total Revenue YTD</b></td>
+			<td rowspan=2 align=center><input type="submit" value="Go"></td>
+		</tr>
+		<tr>
+			<td><b>Over $<input type="text" name="mtd" size="5" value="[mtd]"> Total Revenue MTD</b></td>
+		</tr>
+	</table>
+</fieldset>
+</form>
+<br><br>
+<fieldset style="width:750">
+	<legend align="right"><a href="javascript:submitForm(true)">Print Report</a></legend>
+	[REPORT]
+</fieldset>

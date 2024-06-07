@@ -1,0 +1,54 @@
+<table cellpadding="3" cellspacing="1">
+	<tr>
+		<td class="tblHeader">Service</td>
+		<td><select name='service_type' id="service_type" onchange="calcDimWeightAll();">
+				<!--<option value="air"[service_type_air]>Air</option> -->
+				<option value="ground"[service_type_ground]>Ground</option>
+			</select></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Req Pickup</td>
+		<td><input type="text" name="req_pickup_date" id="req_pickup_date_id" value="[req_pickup_date]" size="10" maxlength="10" readonly><img src="images/icon-calendar.gif" id="icon_pickup_date" onmouseover="this.style.cursor='hand'">
+				<script type="text/javascript">
+					Calendar.setup({
+						inputField     :    "req_pickup_date_id",
+						ifFormat       :    "%Y-%m-%d",
+						button         :    "icon_pickup_date",
+						singleClick    :    true,
+						step           :    1
+					});
+				</script></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Pickup Window</td>
+		<td><select name='req_pickup_time_start' id="req_pickup_time_start" onchange="checkSpecial();">
+		[req_pickup_time_start]
+		</select>
+		<select name='req_pickup_time_end' id="req_pickup_time_end" onchange="checkSpecial();">
+		[req_pickup_time_end]
+		</select>		
+    <br />
+    <div id="special_pickup_mssg" style="display: none; color: red;">Special Pickup Required (less than 2 1/2 hr pickup window)</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Delivery Window</td>
+		<td><select name='req_delivery_time_start' id="req_delivery_time_start" onchange="checkSpecial();">
+		[req_delivery_time_start]
+		</select>
+		<select name='req_delivery_time_end' id="req_delivery_time_end" onchange="checkSpecial();">
+		[req_delivery_time_end]
+		</select>		
+    <br />
+    <div id="special_delivery_mssg" style="display: none; color: red;">Special Delivery Required (delivery before 1:00pm)</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Insurance Amount</td>
+		<td><input type='text' name='insurance' size='10' value='[insurance]'></td>
+	</tr>
+	<tr>
+		<td class="tblHeader">Special Instructions</td>
+		<td><textarea name="special_instructions" rows=3 cols=50>[special_instructions]</textarea></td>
+	</tr>
+</table>

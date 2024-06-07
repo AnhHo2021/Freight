@@ -1,0 +1,35 @@
+<form name="shipmentbol" method="post" target="main" action="./?action=statements_print-main&id=[id]&send=true">
+	<table>
+		<tr>
+			<td colspan=5><big><b><font color=white>Invoice #[id]</font></b></big></td>
+			<td colspan=6 align=right><input type="checkbox" name="send_fax" value="true" id="send_fax"> <label for="send_fax"><font color=white><b>FAX</b></font></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox" name="send_email" value="true" id="send_email"> <label for="send_email"><font color=white><b>EMAIL</b></font></label></td>
+		</tr>		
+		<tr>
+			<td><font color=white><b>Email:</b></font></td>
+			<td><input type="text" size="20" name="email[]" value="[email1]" tabindex=1 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="email[]" value="[email2]" tabindex=3 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="email[]" value="[email3]" tabindex=5 onfocus="this.select()"></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td><font color=white><b>Fax:</b></font></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax1]" tabindex=7 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax2]" tabindex=9 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="fax[]" value="[fax3]" tabindex=11 onfocus="this.select()"></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><font color=white><b>Name:</b></font></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname1]" tabindex=2 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname2]" tabindex=4 onfocus="this.select()"></td>
+			<td><input type="text" size="20" name="emailname[]" value="[emailname3]" tabindex=6 onfocus="this.select()"></td>
+			<td></td>
+			<td><font color=white><b>Name:</b></font></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname1]" tabindex=8 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname2]" tabindex=10 onfocus="this.select()"></td>
+			<td><input type="text" size="10" name="faxname[]" value="[faxname3]" tabindex=12 onfocus="this.select()"></td>
+			<td></td>
+			<td><input type="submit" value="Send" tabindex=13></td>
+		</tr>
+	</table>
+</form>

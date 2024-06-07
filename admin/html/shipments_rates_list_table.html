@@ -1,0 +1,37 @@
+<table width="100%">
+	<tr>
+		<td><input name="shipped_shipment_rate_id" type="radio" value='[id]'[checked] onclick="doTerminals()"></td>
+		<td>
+		<table cellpadding="3" cellspacing="1" width="100%">
+			<tr>
+				<td class="tblHeader">Service Level</td>
+				<td class="tblHeader">Carrier</td>
+				<td class="tblHeader">Transit</td>
+				<td align=right class="tblHeader">Cost</td>
+				<td align=right class="tblHeader">Rate</td>
+				<td align=right class="tblHeader">Profit</td>
+				<td align=right class="tblHeader">Percent</td>
+			</tr>
+			<tr bgcolor="[bg]">
+				<td>[service_name]</td>
+				<td nowrap>[company]</td>
+				<td>[transit_days] days</td>
+				<td align=right nowrap>$[cost]</td>
+				<td align=right nowrap>$[rate]</td>
+				<td align=right nowrap>$[profit]</td>
+				<td align=right nowrap>[percent]%</td>
+			</tr>
+			[shipments_rates_list_table_row]
+			<tr bgcolor="[bg]">
+				<td></td>
+				<td></td>
+				<td><b>TOTAL</b></td>
+				<td align=right><b>$[total_cost]</b></td>
+				<td align=right><b>$[total_rate]</b></td>
+				<td align=right><b>$[total_profit]</b></td>
+				<td align=right><b>[total_percent]%</b></td>				
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>

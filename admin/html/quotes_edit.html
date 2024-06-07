@@ -1,0 +1,447 @@
+
+
+<script>
+	[javascript]
+  var _use_defaults = [use_defaults];
+	function buttonFunction(mode,id) {
+		document.getElementById("mode").value = mode;
+		document.greatform.submit();
+	}
+	function updateCustomer(id,name) {
+		document.greatform.customer_id.value = id;
+		document.getElementById("customer").innerHTML = name;
+
+		updateAddresses(id,"origin_address");
+		updateAddresses(id,"destination_address");
+    updateProdBook(id);
+	}
+	function updateZipOrigin(city,state,zip) {
+		document.greatform.o_city.value = city;
+		document.greatform.o_state.value = state;
+		document.greatform.o_zip.value = zip;
+	}
+	function updateZipDestination(city,state,zip) {
+		document.greatform.d_city.value = city;
+		document.greatform.d_state.value = state;
+		document.greatform.d_zip.value = zip;
+	}
+	function zipFinder(which) {
+		window.open("./?action=zipfinder&"+which,"zip_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+	}
+	function customerFinder() {
+		window.open("./?action=customerfinder","customer_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+	}
+	function updateAddresses(id,select){
+		var elem=document.getElementById(select);
+		if(elem){
+			elem.options.length=0;
+		}
+
+		var elOptNew = document.createElement('option');
+		elOptNew.text = 'Set Address To';
+		elOptNew.value = '';
+		if(document.all){
+			elem.add(elOptNew);
+		}else{
+			elem.appendChild(elOptNew);
+		}
+
+        var quote_id = parseInt(getUrlParameter1("id"));
+        if(Number.isInteger(quote_id)){
+            var url = "./?action=customers_addresslist&id="+id+"&select="+select+"&quote_id="+quote_id;
+        }else{
+            var url = "./?action=customers_addresslist&id="+id+"&select="+select;
+        }
+        //console.log(quote_id);
+
+		var xmlhttp=getXMLHTTP();
+		if(xmlhttp){
+			xmlhttp.open("GET",url,true);
+			xmlhttp.onreadystatechange=function() {
+			if(xmlhttp.readyState==4 && xmlhttp.responseText){
+				eval(xmlhttp.responseText);
+			}
+		}
+		xmlhttp.send(null);
+		}
+	}
+	function getXMLHTTP(){
+	  var ret=null;
+	  try{
+		ret=new ActiveXObject("Msxml2.XMLHTTP");
+	  }catch(e){
+		try{
+		  ret=new ActiveXObject("Microsoft.XMLHTTP");
+		} catch(oc){
+		  ret=null;
+		}
+	  }
+	  if(!ret && typeof XMLHttpRequest != "undefined"){
+		ret=new XMLHttpRequest();
+	  }
+	  return ret;
+	}
+  
+  function updateProdBook(customer_id)
+  {
+    var url = "index.php?action=quotes_getprodbook&selectdefault=" + _use_defaults + "&customer_id=" + customer_id;
+    var xmlhttp2=getXMLHTTP();
+		if(xmlhttp2)
+    {
+			xmlhttp2.open("GET",url,true);
+			xmlhttp2.onreadystatechange=function() 
+      {
+        if(xmlhttp2.readyState==4){
+          eval(xmlhttp2.responseText);
+        }
+      }
+      xmlhttp2.send(null);
+    }
+  }
+
+	function setAddress(val,type){
+		vals=val.split("|");
+		for(i=0;i<=10;i++){if(!vals[i]){vals[i]="";}}
+		eval("document.greatform."+type+"_to.value=vals[0];");
+		eval("document.greatform."+type+"_address1.value=vals[2];");
+		eval("document.greatform."+type+"_address2.value=vals[3];");
+		eval("document.greatform."+type+"_city.value=vals[4];");
+		eval("document.greatform."+type+"_state.value=vals[5];");
+		eval("document.greatform."+type+"_zip.value=vals[6];");
+		eval("document.greatform."+type+"_contact_name.value=vals[7];");
+		eval("document.greatform."+type+"_contact_phone.value=vals[8];");
+		//eval("document.greatform."+type+"_contact_fax.value=vals[9];");
+		eval("document.greatform."+type+"_contact_email.value=vals[10];");
+	}
+
+	document.body.onload=setupPage;
+	function setupPage(){
+		updateAddresses("[customer_id]","origin_address");
+		updateAddresses("[customer_id]","destination_address");
+    updateProdBook("[customer_id]");
+	}
+  
+  function checkSpecial(){
+    document.getElementById("special_pickup_mssg").style.display='none';
+    document.getElementById("special_delivery_mssg").style.display='none';
+  
+    pu_s = document.getElementById("req_pickup_time_start").value;
+    times1 = pu_s.split(":");
+    pu_e = document.getElementById("req_pickup_time_end").value;
+    times2 = pu_e.split(":");
+  
+  
+    diff = (((times2[0]*3600)+(times2[1]*60))-((times1[0]*3600)+(times1[1]*60)))/3600;
+    if(diff <= 2){
+      document.getElementById("special_pickup_mssg").style.display='block';
+     // document.getElementById("accessorial_4").checked = true;
+    }
+    //else
+      //document.getElementById("accessorial_4").checked = false;
+    
+    del_s = document.getElementById("req_delivery_time_end").value;
+    times = del_s.split(":");
+    if(times[0] < 13){
+      document.getElementById("special_delivery_mssg").style.display='block';
+      document.getElementById("accessorial_3").checked = true;
+    }
+    //else
+      //document.getElementById("accessorial_3").checked = false;
+  }
+  
+  function calcDimWeight(row_num){
+    var dim_factor=194;
+    if(document.getElementById("service_type").value == "ground"){
+      var dim_factor=250;
+    }
+  
+    dim_weight=0;
+    pieces=document.getElementById("pieces_"+row_num).value;
+    dim_d=document.getElementById("dim_d_"+row_num).value;
+    dim_w=document.getElementById("dim_w_"+row_num).value;
+    dim_h=document.getElementById("dim_h_"+row_num).value;
+    if(pieces && dim_d && dim_w && dim_h){
+      volweight = parseInt(pieces) * (parseInt(dim_d) * parseInt(dim_w) * parseInt(dim_h));
+      dim_weight=(volweight)?Math.ceil(volweight/dim_factor):0;		
+    }
+    document.getElementById("dim_weight_"+row_num).value=dim_weight;
+  }
+  
+  function calcDimWeightAll()
+  {
+    var i = 1;
+    var obj = null;
+    
+    while (obj = document.getElementById("pieces_" + i))
+      calcDimWeight(i++);
+  }
+  
+  function setCommodity(id){
+	removeAllCommodityRows();
+
+	var url = "./?action=quotes_prodbook&id="+id;
+  var xmlhttp = getXMLHTTP();
+
+	if(xmlhttp && xmlhttp.readyState != 0){
+	xmlhttp.abort()
+	}
+	xmlhttp=getXMLHTTP();
+	if(xmlhttp){
+	xmlhttp.open("GET",url,true);
+	xmlhttp.onreadystatechange=function() {
+	  if(xmlhttp.readyState==4 && xmlhttp.responseText){			
+		 eval(xmlhttp.responseText);
+	  }
+	}
+	xmlhttp.send(null);
+	}
+
+
+	document.getElementById("prodbook_id").selectedIndex=0;
+}
+
+function removeCommodityRow(row_id){
+	var tbl = document.getElementById("commodityTable");
+	if(tbl){
+		var ii = tbl.rows.length;
+		for(i=0;i<=ii;i++){
+			var trow=tbl.rows[i];		
+			if(trow && trow.id && trow.id==row_id){
+				tbl.deleteRow(i);
+			}
+		}			
+	}
+}
+
+function removeAllCommodityRows(){
+	var tbl = document.getElementById("commodityTable");
+	if(tbl){
+		i=tbl.rows.length-1;		
+		while(i){
+			tbl.deleteRow(i);
+			i=tbl.rows.length-1;
+		}		
+	}
+}
+
+    function getUrlParameter1(sParam) {
+        var sPageURL = document.location.href.substring(document.location.href.indexOf('?') + 1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                var tmp = sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                if (tmp == '0' || tmp == '' || tmp == 'undefined') return undefined;
+                else return tmp;
+            }
+        }
+    }
+</script>
+<div>[error_message]</div>
+<form name='greatform' id='greatform_id' method="POST" action="./?action=quotes_update&id=[id]">
+<input type="hidden" name="customer_id" value='[customer_id]'>
+<table width='100%'>
+	<tr>
+		<td colspan='2'>
+		<table>
+			<tr>
+				<td colspan=2><b>Quote #[id]</b></td>
+			</tr>
+			<tr>
+				<td width='50%'><b>Customer:</b><br>&nbsp;&nbsp;&nbsp;<span id='customer'>[customer]</span> &nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:customerFinder()'>Set New Customer</a></td>
+				<td width='50%'>[create_string]</td>
+			</tr>
+			<tr>
+				<td width='50%'></td>
+				<td width='50%'>[update_string]</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign='top'>
+		<fieldset>
+		<legend>Pickup Location</legend>
+		<table width='100%' border=0>
+
+			<tr>
+				<td colspan=3><select style="width:215px" id="origin_address" onchange="setAddress(this.value,'o')"></select></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Company (From)</td><td><input type='text' id="o_to_id" name='o_to' value='[o_to]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 1</td><td><input type='text' name='o_address1' value='[o_address1]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 2</td><td><input type='text' name='o_address2' value='[o_address2]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>City</td><td NOWRAP><input type='text' name='o_city' value='[o_city]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>State, Zip</td><td NOWRAP><select name='o_state'><option value='0'></option>[o_states]</select> <input type='text' size='3' name='o_zip' value='[o_zip]'></td>
+			</tr>
+			<tr>
+				<td align='right' colspan='3'><a href="javascript:zipFinder('origin')">Zip Finder</a></td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td align='right'>Contact</td><td><input type='text' name='o_contact_name' value='[o_contact_name]'></td>
+			</tr>-->
+			<tr>
+				<td></td>
+				<td align='right'>Phone</td><td><input type='text' name='o_contact_phone' value='[o_contact_phone]'></td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td align='right'>Fax</td><td><input type='text' name='o_contact_fax' value='[o_contact_fax]'></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td align='right'>Email</td><td><input type='text' name='o_contact_email' value='[o_contact_email]'></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Release #</td><td><input type='text' name='o_po' value='[o_po]'></td>
+			</tr>
+		</table>
+		<div align="right"><input type="checkbox" value="1" name="origin_save"> Save in address book</div>
+		</fieldset>
+		<br>
+		<fieldset>
+		<legend>Delivery To</legend>
+		<table width='100%'>
+			<tr>
+
+				<td colspan=3><select style="width:215px; display: none" id="destination_address" onchange="setAddress(this.value,'d')"></select></td>
+
+			</tr>
+            <tr>
+                <td></td>
+                <td align='right'>Contact</td><td><input type='text' name='d_contact_name' value='[d_contact_name]'></td>
+            </tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Company (To)</td><td><input type='text' name='d_to' value='[d_to]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 1</td><td><input type='text' name='d_address1' value='[d_address1]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 2</td><td><input type='text' name='d_address2' value='[d_address2]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>City</td><td NOWRAP><input type='text' name='d_city' value='[d_city]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>State, Zip</td><td NOWRAP><select name='d_state'><option value='0'></option>[d_states]</select> <input type='text' size='3' name='d_zip' value='[d_zip]'></td>
+			</tr>
+			<tr>
+				<td align='right' colspan='3'><a href="javascript:zipFinder('Destination')">Zip Finder</a></td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td align='right'>Contact</td><td><input type='text' name='d_contact_name' value='[d_contact_name]'></td>
+			</tr>-->
+			<tr>
+				<td></td>
+				<td align='right'>Phone</td><td><input type='text' name='d_contact_phone' value='[d_contact_phone]'></td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td align='right'>Fax</td><td><input type='text' name='d_contact_fax' value='[d_contact_fax]'></td>
+			</tr>-->
+			<tr>
+				<td></td>
+				<td align='right'>Email</td><td><input type='text' name='d_contact_email' value='[d_contact_email]'></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Container #</td><td><input type='text' name='d_po' value='[d_po]'></td>
+			</tr>
+		</table>
+		<div align="right"><input type="checkbox" value="1" name="dest_save"> Save in address book</div>
+		</fieldset>
+		</td>
+		<td valign='top'>
+		<table id="commodities_rate">
+			<tr>
+				<td colspan='2'>
+				<fieldset>
+				<legend>edit commodities</legend>
+        <div align=left style="float: left; width: 50%;">Product Book: <select style="display: inline;" id="prodbook_id" onchange="setCommodity(this.value);">[prod_book_opts]</select></div>
+				<div align=right style="float: left; width: 50%;"><a href="javascript:addRow()">+ Add Commodity</a></div>
+        <br /><br />
+				[quotes_commodities]
+				</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td valign='top' width='70%'>
+				<table width='100%'>
+					<tr>
+						<td>
+						<fieldset>
+						<legend>edit services</legend>
+						[quotes_services]
+						</fieldset>
+						</td>
+					</tr>
+					<tr>
+						<td><input type='hidden' name='formmode' id='mode' value=''><input type="button" value="save" onClick="buttonFunction('save','[id]')"> <input type='button' value='view' onClick="buttonFunction('view','[id]')"> <input type='button' value='shipment' onClick="buttonFunction('shipment','[id]')"> <input type='button' value='copy' onClick="buttonFunction('copy','[id]')"></td>
+					</tr>
+				</table>
+				</td>
+				<!--<td valign='top'>
+				<fieldset>
+				<legend>edit accessorials</legend>
+				[quotes_accessorials]
+				</fieldset>
+				</td>-->
+			</tr>
+			<tr>
+				<td colspan='2'>
+				[quotes_rates]
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td>
+		[quotes_notes]
+		</td>
+	</tr>
+</table>
+</form>
+
+<script>
+	document.getElementById("o_to_id").focus();
+  checkSpecial();
+  calcDimWeightAll();
+
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+

@@ -1,0 +1,354 @@
+<?php
+
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
+// includes
+include("php/functions.php");
+include("php/db.php");
+
+// env vars
+if($_POST){extract($_POST);}
+if($_GET){extract($_GET);}
+if($_COOKIE){extract($_COOKIE);}
+
+/*
+// paths
+$htmlpath = "/home/cnordahl/public_html/html/";
+$phppath = "/home/cnordahl/public_html/php/";
+$htpath = "/home/cnordahl/public_html/";
+$admin_phppath = "/home/cnordahl/public_html/admin/php/";
+$admin_htpath = "/home/cnordahl/public_html/admin/htdocs/";
+$pdfpath = "/home/cnordahl/public_html/admin/pdf/";
+// paths
+$htmlpath = "/home/hillman/public_html/freight/html/";
+$phppath = "/home/hillman/public_html/freight/php/";
+$htpath = "/home/hillman/public_html/freight/";
+$admin_phppath = "/home/hillman/public_html/freight/admin/php/";
+$admin_htpath = "/home/hillman/public_html/freight/admin/htdocs/";
+$pdfpath = "/home/hillman/public_html/freight/admin/pdf/";
+*/
+
+// paths
+$htmlpath = "/mnt/web/transport/transport/freight/html/";
+$phppath = "/mnt/web/transport/transport/freight/php/";
+$htpath = "/mnt/web/transport/transport/freight/";
+$admin_phppath = "/mnt/web/transport/transport/freight/admin/php/";
+$admin_htpath = "/mnt/web/transport/transport/freight/admin/htdocs/";
+$pdfpath = "/mnt/web/transport/transport/freight/admin/pdf/";
+
+
+
+$msg = "";
+if($action == "trackingview" && $id)
+{
+    include $phppath.'trackingview.php';
+    if(array_key_exists("shipped_tracknum", $vars))
+    {
+        $Tracking = $vars["shipped_tracknum"];
+    }
+    else
+    {
+        $msg = "No shipment information is available for ID: " .$id;
+        $Tracking = $action;
+    }
+}
+else
+{
+    if($Tracking && strlen($Tracking) > 3){
+        $sql = "SELECT id FROM shipment WHERE shipped_tracknum = '$Tracking' OR shipped_carrier_pronum = '$Tracking'";
+        $sel_shipment = $db->query($sql);
+        if($sel_shipment){
+            $id = $sel_shipment[0]["id"];
+            include $phppath.'trackingview.php';
+        }else{
+            $msg = "Invalid Tracking Number";
+        }
+    }else{
+        $msg = "Invalid Tracking Number";
+    }
+}
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <!-- This file was originally generated at http://psd2cssonline.com on March 31, 2010, 3:57 pm -->
+    <!-- psd2css Online version 1.77 -->
+
+    <title>Welcome to Norway Freight</title>
+
+    <!-- Some META tags to help with Search Engine Optimization.  Please
+    note however that META tags are NOT a magic bullet to get your web page
+    to the top of search engine rankings.  They are just part of that effort.  You
+    can get more information by googling SEO or visiting the psd2css Online forums. -->
+    <meta name="description" content="Shipping throughout the United States and Canada, our Air and Ground services can meet your various needs." />
+    <meta name="keywords" content="shipping, freight, carriers, save, savings, time, money, ltl, ship, ground, air, service, airfreight, truckload, pallet, less than load, ebay, partial load, next day, 2nd day, hub" />
+    <meta name="generator" content="Norway Freight - Shipping Services to Save You Time and Money" />
+
+    <!-- The CSS Reset from Eric Meyers -->
+    <!-- <link rel="stylesheet" type="text/css" href="cssreset.css" media="screen" /> -->
+
+    <!-- The Primary External CSS style sheet. -->
+    <link rel="stylesheet" type="text/css" href="css/psd2css.css" media="screen" />
+
+    <!-- We use the jquery javascript library for DOM manipulation and
+    some javascript tricks.  We serve the script from Google because it's
+    faster than most ISPs.  Get more information and documentation
+    at http://jquery.com -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- This is Drew Diller's PNG fix script that fixes the PNG
+    transparency problem with IE6.  It's available from here:
+    http://www.dillerdesign.com/experiment/DD_belatedPNG -->
+    <!--[if lt IE 7 ]>
+    <script type="text/javascript" src="scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+    <![endif]-->
+
+    <!-- All the javascript generated for your design is in this file -->
+
+
+    <script language="JavaScript" type="text/javascript">
+        <!--
+        function setpage ( pagetype )
+        {
+            document.trackingForm.pagetype.value = pagetype;
+        }
+
+        function DisplayDIV(d)
+        {
+            document.getElementById(d).style.display = "block";
+            setpage(d);
+            switch(d)
+            {
+                case "Layer-about":
+                    document.getElementById('Layer-18-new').style.fontWeight = "bold";
+                    break;
+                case "Layer-learn":
+                    document.getElementById('Layer-16-new').style.fontWeight = "bold";
+                    break;
+                case "Layer-contact":
+                    document.getElementById('Layer-14-new').style.fontWeight = "bold";
+                    break;
+                case "Layer-loads":
+                    document.getElementById('Layer-Loads-title-new').style.fontWeight = "bold";
+                    break;
+            }
+        }
+        function HideDIV(d)
+        {
+            document.getElementById(d).style.display = "none";
+            switch(d)
+            {
+                case "Layer-about":
+                    document.getElementById('Layer-18-new').style.fontWeight = "normal";
+                    break;
+                case "Layer-learn":
+                    document.getElementById('Layer-16-new').style.fontWeight = "normal";
+                    break;
+                case "Layer-contact":
+                    document.getElementById('Layer-14-new').style.fontWeight = "normal";
+                    break;
+                case "Layer-loads":
+                    document.getElementById('Layer-Loads-title-new').style.fontWeight = "normal";
+                    break;
+            }
+        }
+        -->
+    </script>
+
+</head>
+<body style="margin-left:0; margin-right:0">
+<div id="Layer-header">
+    <div class="header-left">
+        <!-- This is 'Logo' -->
+        <div id="Layer-4-new"  >
+            <a href="<?php echo $_SERVER['PHP_SELF']; ?>" onmouseover="javascript:HideDIV('Layer-about');HideDIV('Layer-contact');HideDIV('Layer-loads');DisplayDIV('Layer-learn');"><img src="images/logo_admin.png" width="231" height="55" border="0" alt="Logo" class="pngimg" /></a>
+        </div>
+    </div>
+    <div class="header-right">
+        <!-- This is 'Call anytime' -->
+        <div id="Layer-call-new"  >
+            <!--<img src="images/Layer-call.png" width="131" height="52" alt="Call us anytime 801-657-9826" class="pngimg" />-->
+            <p>Call us any time!</p>
+            <p>801 - 948 - 4187</p>
+            <p>Air <span class="middle">.</span> LTL  <span class="middle">.</span> Truckload</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="menu-items">
+    <div class="menu-items-center">
+        <div id="Layer-18-new" >
+            <a href="javascript:DisplayDIV('Layer-about')" onmouseover="DisplayDIV('Layer-about');HideDIV('Layer-learn');HideDIV('Layer-contact');HideDIV('Layer-loads')">About Us</a>
+        </div>
+
+        <!-- This is 'Learn More' -->
+        <div id="Layer-16-new" style="font-weight:bold;">
+            <a href="javascript:DisplayDIV('Layer-learn')" onmouseover="DisplayDIV('Layer-learn');HideDIV('Layer-about');HideDIV('Layer-contact');HideDIV('Layer-loads')">Services</a>
+        </div>
+
+        <!-- This is 'Contact Us' -->
+        <div id="Layer-14-new" >
+            <a href="javascript:DisplayDIV('Layer-contact')" onmouseover="DisplayDIV('Layer-contact');HideDIV('Layer-about');HideDIV('Layer-learn');HideDIV('Layer-loads')">Contact Us</a>
+        </div>
+
+        <!-- This is 'Volume Loads' -->
+        <div id="Layer-Loads-title-new">
+            <a href="volumeloads.phtml" onmouseover="DisplayDIV('Layer-loads');HideDIV('Layer-about');HideDIV('Layer-learn');HideDIV('Layer-contact')">Volume Loads</a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="contain-body">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="contain-left">
+        <div class="Layer-viking"  >
+            <img class="layer-viking-image pngimg" src="images/viking.png" border="0" alt="Logo"/>
+        </div>
+    </div>
+    <div class="contain-center">
+        <div id="Layer-about" class="width400"<?php if($pagetype == "Layer-about") echo "style=\"display: block;\""; ?>>
+            <br/>We are the Vikings that coordinate the delivery of your great container that will prevent the plunder of your precious things!<br/>
+            <br/>A team of specialists with years of experience bringing these, thy containers, to homes across this great barren and unbarren land that Colonists obtained before we could snag it ourselves.<br/>
+            <br/>
+            <br/>We will contact you by using some means other than knocking on your door.&nbsp;&nbsp;&nbsp;Perhaps we will call.&nbsp;&nbsp;&nbsp;Sometimes an electronic letter via text.&nbsp;&nbsp;&nbsp;&nbsp;Other times we will even use the archaic form of email.&nbsp;&nbsp;Nevertheless, we will reach you and thank you and coordinate with you.<br/>
+            <br/>It works in this manner:<br/><br/>
+            1- We learn of your land and work schedule.<br/>
+            2- We brag of our abilities.<br/>
+            3- We get your container unloaded, inspected for delivery, and assigned to your order.<br/>
+            4- We set a date whereby we can deliver.<br/>
+            5- By golly, we keep our word and we deliver indeed!<br/>
+
+            <br/>And so we will seek your approval.<br/>
+            <br/>Questions about your deivery?  Call us now or later:&nbsp;&nbsp;&nbsp;<b>801-948-4187</b><br/>
+           
+        </div>
+        <div id="Layer-learn" class="width400"<?php if($pagetype == "Layer-learn") echo "style=\"display: block;\""; ?>>
+            <br/>There are essentially two ways we deliver your container.   Without flowering our words, here they are in a mildly descriptive form:<br/>
+            <br/><b>1- The great Customer Assist.</b><br/>
+            <br/>This is where we participate in a game of tug-o’-war, like in olden times.<br/>
+            <br/>Here’s how it works:<br/>
+            <br/>You have a tractor.  A tree.  A horse.  A big pickup truck.   Or 53 husky men.<br/>
+            <br/>We use our pickup truck pulling a typically 40’ gooseneck trailer with your Contisner One contiainer strapped to the top.<br/>
+            <br/>A chain rests between us......<br/>
+            <br/>At the sound of the whip both sides move opposite eachother and the container slides in the direction of you, your equipment, and/or your people (just how we like it).&nbsp;&nbsp;&nbsp;Before you know it you have won the contest!&nbsp;&nbsp;&nbsp;Your container is on your land.<br/>
+            <br/><img src="images/viking.png" alt=containers style="height:80px; width: 180px"/><br/>
+            <br/>OR<br/>
+            <br/><b>2- Rolloff delivery.</b><br/>
+            <br/>This way is boring, and sometimes costs more.<br/>
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the lazy man in you: Your driver arrives and shakes your hand.&nbsp;&nbsp;You set out your rocking chair and place your bottom upon it.&nbsp;&nbsp;You watch as the great hydraulic gooseneck trailer of old backs to the place of your choosing (no mud or sand or cliffs please people).&nbsp;&nbsp;The great driver raises the front end of his trailer so the container reaches a maximum height of 21 almighty feet.&nbsp;&nbsp;Your container naturally slides off the back end (not a rump) of the trailer and onto your beautiful (hopefully) property.<br/>
+            <br/><img src="images/viking.png" alt=containers style="height:80px; width: 180px"/><br/>
+            <br/><br/>
+            <br/>SUCCESS!!!!!!<br/>
+            <br/>Now you are ready to store your great grandmothers chinaware and the many, many can openers that you received as wedding gifts.  Or the machinery that you enjoy, considering your wife allows it being near unto her precious things.<br/>
+            <br/>Questions about how this works?  Please read it again, look at the pictures again, or call us at 801-948-4187<br/>
+            <br/>Pictures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40’st.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40’hc.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20’st<br/>
+            <br/>Dimensions</br>
+            <br/>Weights<br/>
+
+        </div>
+        <div id="Layer-contact" class="width400"<?php if($pagetype == "Layer-contact") echo "style=\"display: block;\""; ?>>
+            <br/>Logistics office:<br/>
+            Address:<br/>
+            Phone: 801-948-4187<br/>
+            Email: clintnordahl@gmail.com<br/>
+            Text:<br/>
+            <br/>The great corporate office:<br/>
+            Address:<br/>
+            Phone: 801-948-4187<br/>
+            Email: clintnordahl@gmail.com<br/>
+            Website link:<br/>
+        </div>
+        <div id="Layer-loads" class="width400"<?php if($pagetype == "Layer-loads") echo "style=\"display: block;\""; ?>>
+            Save up to 85% on shipments of 4 pallets or more!<br/>
+            <br/>Shipping your larger shipments as "space available", commonly known as "stand by" service offers SUBSTANTIAL savings and only adds 1-2 additional transit days to your shipment.<br/>
+            <br/><p style="text-align: center">Go to our <a id="bigger-link" href="volumeloads.phtml">Volume Loads</a> page to learn more or call us today!</p>
+        </div>
+    </div>
+    <div class="contain-right">
+
+        <!-- This is 'tracking_form' -->
+        <div id="Layer-5"  >
+            <form name="trackingForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <img src="images/Layer-5.png" width="250" height="250" alt="tracking" class="pngimg" />
+                <!-- This is 'Track_submit_linkover' -->
+                <div id="Layer-10"  >
+                    <a href="javascript:document.trackingForm.submit();"><img src="images/Layer-10.png" width="67" height="29" alt="Track" class="pngimg" border="0" /></a></div>
+
+                <!-- This is 'Track_submit_link' -->
+                <div id="Layer-9"  >
+                    <a href="javascript:document.trackingForm.submit();"><img src="images/Layer-9.png" width="67" height="29" alt="Track" class="pngimg" border="0" /></a></div>
+
+                <!-- This is 'Enter Tracking \#' -->
+                <div id="Layer-7"  >
+                    <img src="images/Layer-7.png" width="120" height="13" alt="Enter Tracking \#" class="pngimg" /></div>
+
+                <!-- This is 'Tracking_inputtext' -->
+                <div id="Layer-6"  >
+                    <!-- This is your Tracking_inputtext input field.  Change the size to fit your form -->
+                    <input type="text" name="Tracking" id="Tracking" />
+                </div>
+                <input type="hidden" name="pagetype"/>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="Layer-footer">
+    <?php
+    if(isset($Tracking))
+    {
+        ?>
+        <!-- This is 'Tracking Results' -->
+        <div id="Layer-3"  >
+            <img src="images/Layer-3.png" width="198" height="18" alt="Tracking Results" class="pngimg" /></div>
+
+        <!-- This is 'Tracking Details' -->
+        <div id="Layer-12"  >
+            <?php
+            if(strlen($msg) > 0)
+            {
+                echo "<br/>".$msg;
+            }
+            else
+            {
+                echo replace($vars,rf($htmlpath."trackingview.html"));
+                echo "<div id=\"copyright\">&copy; 2010 Norway Freight. All rights reserved.</div>";
+            }
+            ?>
+        </div>
+    <?php
+    }
+    ?>
+</div>
+<?php if(strlen($msg) > 0) { ?>
+    <div id="award-center">
+        <div id="award-vik500">
+            <img src="images/award-vik500.png" width="117" height="150" alt="Viking 500" class="pngimg" />
+        </div>
+        <div id="award-bvb">
+            <img src="images/award-bvb.png" width="86" height="150" alt="Better Viking Bureau" class="pngimg" />
+        </div>
+        <div id="award-bir">
+            <img src="images/award-bir.png" width="114" height="150" alt="Best In Row" class="pngimg" />
+        </div>
+    </div>
+    <div id="copyright">
+        &copy; 2010 Norway Freight. All rights reserved.
+    </div>
+<?php } ?>
+</div>
+
+</body>
+</html>

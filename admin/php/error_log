@@ -1,0 +1,8 @@
+[18-Sep-2018 04:13:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/hillman/public_html/freight/admin/php/accounting.php:115
+Stack trace:
+#0 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/accounting.php on line 115
+[19-Sep-2018 03:42:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/hillman/public_html/freight/admin/php/home.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/home.php on line 6

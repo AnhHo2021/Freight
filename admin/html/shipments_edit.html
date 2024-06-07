@@ -1,0 +1,363 @@
+<script>
+	[javascript]
+	function buttonFunction(mode,id) {
+		document.getElementById("mode").value = mode;
+		document.greatform.submit();
+	}
+	function updateCustomer(id,name) {
+		document.greatform.customer_id.value = id;
+		document.getElementById("customer").innerHTML = name;
+
+		updateAddresses(id,"origin_address");
+		updateAddresses(id,"destination_address");
+	}
+	function updateZipOrigin(city,state,zip) {
+		document.greatform.o_city.value = city;
+		document.greatform.o_state.value = state;
+		document.greatform.o_zip.value = zip;
+	}
+	function updateZipDestination(city,state,zip) {
+		document.greatform.d_city.value = city;
+		document.greatform.d_state.value = state;
+		document.greatform.d_zip.value = zip;
+	}
+	function zipFinder(which) {
+		window.open("/?action=zipfinder&"+which,"zip_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+	}
+	function customerFinder() {
+		window.open("/?action=customerfinder","customer_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+	}
+	function changeTerminal(mymode){
+		var carrier_id = document.getElementById("carrier_id").value;
+
+		document.getElementById("term_prefix").value=mymode+'_';
+		window.open("/?action=terminalfinder&carrier_id="+carrier_id,"terminal_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+	}
+	function updateAddresses(id,select){
+		var elem=document.getElementById(select);
+		if(elem){
+			elem.options.length=0;
+		}
+
+		var elOptNew = document.createElement('option');
+		elOptNew.text = 'Set Address To';
+		elOptNew.value = '';
+		elem.add(elOptNew);
+
+		var url = "?action=customers_addresslist&id="+id+"&select="+select;
+		var xmlhttp;
+		if(xmlhttp && xmlhttp.readyState != 0){
+			xmlhttp.abort()
+		}
+		xmlhttp=getXMLHTTP();
+		if(xmlhttp){
+			xmlhttp.open("GET",url,true);
+			xmlhttp.onreadystatechange=function() {
+			if(xmlhttp.readyState==4 && xmlhttp.responseText){
+				eval(xmlhttp.responseText);
+			}
+		}
+		xmlhttp.send(null);
+		}
+	}
+	function getXMLHTTP(){
+	  var ret=null;
+	  try{
+		ret=new ActiveXObject("Msxml2.XMLHTTP");
+	  }catch(e){
+		try{
+		  ret=new ActiveXObject("Microsoft.XMLHTTP");
+		} catch(oc){
+		  ret=null;
+		}
+	  }
+	  if(!ret && typeof XMLHttpRequest != "undefined"){
+		ret=new XMLHttpRequest();
+	  }
+	  return ret;
+	}
+
+	function setAddress(val,type){
+		vals=val.split("|");
+		for(i=0;i<=10;i++){if(!vals[i]){vals[i]="";}}
+		eval("document.greatform."+type+"_to.value=vals[0];");
+		eval("document.greatform."+type+"_attention.value=vals[1];");
+		eval("document.greatform."+type+"_address1.value=vals[2];");
+		eval("document.greatform."+type+"_address2.value=vals[3];");
+		eval("document.greatform."+type+"_city.value=vals[4];");
+		eval("document.greatform."+type+"_state.value=vals[5];");
+		eval("document.greatform."+type+"_zip.value=vals[6];");
+		eval("document.greatform."+type+"_contact_name.value=vals[7];");
+		eval("document.greatform."+type+"_contact_phone.value=vals[8];");
+		//eval("document.greatform."+type+"_contact_fax.value=vals[9];");
+		eval("document.greatform."+type+"_contact_email.value=vals[10];");
+	}
+
+	document.body.onload=setupPage;
+	function setupPage(){
+		updateAddresses("[customer_id]","origin_address");
+		updateAddresses("[customer_id]","destination_address");
+	}
+</script>
+<div>[error_message]</div>
+
+<!--// temp storage of which terminal we are editing //-->
+<input type="hidden" id="term_prefix">
+
+
+<form name='greatform' id='greatform_id' method="POST" action="./?action=shipments_update&id=[id]">
+<input type="hidden" name="customer_id" value='[customer_id]'>
+<table width='100%'>
+	<tr>
+		<td colspan='2'>
+		<table>
+			<tr>
+				<td colspan=2><b>Shipment #[id]</b></td>
+			</tr>
+			<tr>
+				<td colspan=2 NOWRAP><b>Status:</b> <select name='status'>
+				[status_options]
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td width='50%' nowrap><b>Customer:</b><br>
+				&nbsp;&nbsp;&nbsp;<span id='customer'>[customer]</span> &nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:customerFinder()'>Set New Customer</a></td>
+				<td width='50%'>[create_string]</td>
+			</tr>
+			<tr>
+				<td width='50%'></td>
+				<td width='50%'>[update_string]</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign='top'>
+		<fieldset>
+		<legend>Pickup Location</legend>
+		<table width='100%'>
+			<tr>
+				<td colspan=3><select style="width:215px" id="origin_address" onchange="setAddress(this.value,'o')"><option>Set Origin Address To</option></select></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>Company (To:)</td><td><input type='text' id="o_to_id" name='o_to' value='[o_to]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Attention</td><td><input type='text' name='o_attention' value='[o_attention]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>Address 1</td><td><input type='text' name='o_address1' value='[o_address1]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 2</td><td><input type='text' name='o_address2' value='[o_address2]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>City</td><td NOWRAP><input type='text' name='o_city' value='[o_city]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>City, State, Zip</td><td NOWRAP><select name='o_state'><option value='0'></option>[o_states]</select> <input type='text' size='3' name='o_zip' value='[o_zip]'></td>
+			</tr>
+			<tr>
+				<td align='right' colspan='3'><a href="javascript:zipFinder('origin')">Zip Finder</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Contact</td><td><input type='text' name='o_contact_name' value='[o_contact_name]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Phone</td><td><input type='text' name='o_contact_phone' value='[o_contact_phone]'></td>
+			</tr><!--
+			<tr>
+				<td></td>
+				<td align='right'>Fax</td><td><input type='text' name='o_contact_fax' value='[o_contact_fax]'></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td align='right'>Email</td><td><input type='text' name='o_contact_email' value='[o_contact_email]'></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Release #</td><td><input type='text' name='o_po' value='[o_po]'></td>
+			</tr>
+		</table>
+		</fieldset>
+		<br>
+		<fieldset>
+		<legend>Delivery To</legend>
+		<table width='100%'>
+			<tr>
+				<td colspan=3 ><select  style="width:215px; display: none" id="destination_address" onchange="setAddress(this.value,'d')"><option value="">Set Destination Address To</option></select></td>
+
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>Company (To:)</td><td><input type='text' name='d_to' value='[d_to]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Attention</td><td><input type='text' name='d_attention' value='[d_attention]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>Address 1</td><td><input type='text' name='d_address1' value='[d_address1]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td NOWRAP align='right'>Address 2</td><td><input type='text' name='d_address2' value='[d_address2]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>City</td><td NOWRAP><input type='text' name='d_city' value='[d_city]'></td>
+			</tr>
+			<tr>
+				<td><span style="color:red">*</span></td>
+				<td NOWRAP align='right'>State, Zip</td><td NOWRAP><select name='d_state'><option value='0'></option>[d_states]</select> <input type='text' size='3' name='d_zip' value='[d_zip]'></td>
+			</tr>
+			<tr>
+				<td align='right' colspan='3'><a href="javascript:zipFinder('Destination')">Zip Finder</a></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Contact</td><td><input type='text' name='d_contact_name' value='[d_contact_name]'></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align='right'>Phone</td><td><input type='text' name='d_contact_phone' value='[d_contact_phone]'></td>
+			</tr>
+            <!--
+			<tr>
+				<td></td>
+				<td align='right'>Fax</td><td><input type='text' name='d_contact_fax' value='[d_contact_fax]'></td>
+			</tr> -->
+			<tr>
+				<td></td>
+				<td align='right'>Email</td><td><input type='text' name='d_contact_email' value='[d_contact_email]'></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<!--<tr>
+				<td></td>
+				<td align='right'>PO / Ref Num</td><td><input type='text' name='d_po' value='[d_po]'></td>
+			</tr> -->
+		</table>
+		</fieldset>
+		</td>
+		<td valign='top'>
+		<table>
+			<tr>
+				<td colspan='2'>
+				<fieldset>
+				<legend>edit commodities</legend>
+				<div align=right><a href="javascript:addRow()">+ Add Commodity</a></div>
+				[shipments_commodities]
+				</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td valign='top' width='70%'>
+				<table width='100%'>
+					<tr>
+						<td>
+						<fieldset>
+						<legend>edit services</legend>
+						[shipments_services]
+						</fieldset>
+						</td>
+					</tr>
+					<tr>
+						<td><input type='hidden' name='formmode' id='mode' value=''><input type="button" value="save" onClick="buttonFunction('save','[id]')"> <input type='button' value='bill of lading' onClick="buttonFunction('bol','[id]')"> <input type='button' value='tracking' onClick="buttonFunction('tracking','[id]')"> <input type='button' value='invoice' onClick="buttonFunction('invoice','[id]')"> <input type='button' value='copy' onClick="buttonFunction('copy','[id]')"></td>
+					</tr>
+				</table>
+				</td>
+                <!--11/72023 anh
+				<td valign='top'>
+
+				<fieldset>
+				<legend>edit accessorials</legend>
+				[shipments_accessorials]
+				</fieldset>
+				</td>-->
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<div align="right"><input type="checkbox" name="roll_off" id="roll_off" value=1 [roll_off]><b><label for="roll_off">Roll off</label></b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="expedited" id="expedited" value=1 [expedited]><b><label for="expedited">Expedited</label></b>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="cost_verified" id="cost_verified" value=1 [cost_verified]> <b><label for="cost_verified"> welcome call made</label></b><br>[verified_by]</div>
+				<!--<div align="right"><input type="checkbox" name="cost_verified" id="cost_verified" value=1 [cost_verified]> <b><label for="cost_verified">Carrier Costs Verified</label></b><br>[verified_by]</div>-->
+				[shipments_rates]
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2'>
+					<input type="hidden" name="shipped_o_carrier_terminal_id" id="shipped_o_carrier_terminal_id" value="[shipped_o_carrier_terminal_id]">
+					<input type="hidden" name="shipped_d_carrier_terminal_id" id="shipped_d_carrier_terminal_id" value="[shipped_d_carrier_terminal_id]">
+                    <!--
+					<table width="100%">
+						<tr>
+							<td valign=top width="50%">
+								<fieldset width="100%">
+								<legend>origin terminal</legend>
+								<table width=100%>
+									<tr>
+										<td align=right><a href="javascript:changeTerminal('o')"><u>Change Terminal</u></a></td>
+									</tr>
+								</table>
+								<table align=center cellpadding=3 id="o_terminal_table" style="display:block">
+									<tr>
+										<td valign=top><b>[o_terminal_name] [o_terminal_code]</b><br>[o_terminal_address1] [o_terminal_address2]<br>[o_terminal_city] [o_terminal_state] [o_terminal_zip]</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td valign=top>[o_terminal_contact]<br><a href="mailto:[terminal_email]">[o_terminal_email]</a><br>[o_terminal_phone]<br>[o_terminal_fax]</td>
+									</tr>
+								</table>
+								</fieldset>
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;</td>
+							<td valign=top>
+								<fieldset width="100%">
+								<legend>destination terminal</legend>
+								<table width=100%>
+									<tr>
+										<td align=right><a href="javascript:changeTerminal('d')"><u>Change Terminal</u></a></td>
+									</tr>
+								</table>
+								<table align=center cellpadding=3 id="d_terminal_table" style="display:block">
+									<tr>
+										<td valign=top><b>[d_terminal_name] [d_terminal_code]</b><br>[d_terminal_address1] [d_terminal_address2]<br>[d_terminal_city] [d_terminal_state] [d_terminal_zip]</td>
+										<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										<td valign=top>[d_terminal_contact]<br><a href="mailto:[terminal_email]">[d_terminal_email]</a><br>[d_terminal_phone]<br>[d_terminal_fax]</td>
+									</tr>
+								</table>
+								</fieldset>
+							</td>
+						</tr>
+					</table>
+                    -->
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<td>
+		[shipments_notes]
+		</td>
+	</tr>
+</table>
+</form>
+
+<script>
+	document.getElementById("o_to_id").focus();
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>

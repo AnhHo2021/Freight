@@ -1,0 +1,1341 @@
+[18-Sep-2018 04:11:24 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:11:24 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:12:31 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:12:31 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:15:38 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:15:38 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:16:02 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:16:02 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:14 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:14 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'cnordahl_freight'@'localhost' (using password: YES) in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:21 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:23:58 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'hillman_freight'@'localhost' to database 'norwayfreight' in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:23:58 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:25:04 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'hillman_freight'@'localhost' to database 'norwayfreight' in /home/hillman/public_html/freight/admin/php/db.php on line 10
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:25:04 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[18-Sep-2018 04:30:34 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[18-Sep-2018 04:30:34 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:05:18 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; DB has a deprecated constructor in /home/hillman/public_html/freight/admin/php/db.php on line 3
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:05:18 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:16:42 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:23:22 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 01:44:50 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:16:41 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 02:16:42 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 175
+[19-Sep-2018 02:28:02 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 176
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fopen(/home/cnordahl/public_html/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 173
+[19-Sep-2018 02:39:16 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 174
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fopen(public_html/freight/admin/html/login.html): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[19-Sep-2018 03:23:09 America/Chicago] PHP Warning:  chmod(): No such file or directory in /home/hillman/public_html/freight/admin/php/functions.php on line 173
+[19-Sep-2018 04:13:56 America/Chicago] PHP Warning:  include(../php/core.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/index.php on line 3
+[19-Sep-2018 04:13:56 America/Chicago] PHP Warning:  include(../php/core.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/index.php on line 3
+[19-Sep-2018 04:13:56 America/Chicago] PHP Warning:  include(): Failed opening '../php/core.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/index.php on line 3
+[19-Sep-2018 04:31:27 America/Chicago] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/hillman/public_html/freight/admin/php/db.php:32
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/login.php(20): DB->query('SELECT id,fname...')
+#1 /home/hillman/public_html/freight/admin/php/core.php(72): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/db.php on line 32
+[19-Sep-2018 20:08:41 America/Chicago] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/hillman/public_html/freight/admin/php/db.php:32
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/login.php(19): DB->query('SELECT id,fname...')
+#1 /home/hillman/public_html/freight/admin/php/core.php(71): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/db.php on line 32
+[19-Sep-2018 20:37:42 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/hillman/public_html/freight/admin/php/db.php on line 35
+[19-Sep-2018 20:38:20 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/hillman/public_html/freight/admin/php/db.php on line 34
+[19-Sep-2018 20:43:50 America/Chicago] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/hillman/public_html/freight/admin/php/db.php on line 32
+[19-Sep-2018 20:44:34 America/Chicago] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/hillman/public_html/freight/admin/php/db.php:39
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/login.php(19): DB->query('SELECT id,fname...')
+#1 /home/hillman/public_html/freight/admin/php/core.php(71): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/db.php on line 39
+[19-Sep-2018 20:45:36 America/Chicago] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/hillman/public_html/freight/admin/php/db.php:39
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/login.php(19): DB->query('SELECT id,fname...')
+#1 /home/hillman/public_html/freight/admin/php/core.php(71): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/db.php on line 39
+[19-Sep-2018 20:53:03 America/Chicago] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /home/hillman/public_html/freight/admin/php/db.php:39
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/login.php(19): DB->query('SELECT id,fname...')
+#1 /home/hillman/public_html/freight/admin/php/core.php(71): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/db.php on line 39
+[19-Sep-2018 20:56:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hillman/public_html/freight/admin/php/db.php:40) in /home/hillman/public_html/freight/admin/php/login.php on line 21
+[19-Sep-2018 20:56:05 America/Chicago] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/hillman/public_html/freight/admin/php/db.php on line 28
+[19-Sep-2018 20:56:05 America/Chicago] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/hillman/public_html/freight/admin/php/db.php on line 50
+[19-Sep-2018 21:56:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$html' (T_VARIABLE) in /home/hillman/public_html/freight/admin/php/marketing.php on line 116
+[19-Sep-2018 23:21:34 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[19-Sep-2018 23:21:34 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:224
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[19-Sep-2018 23:27:42 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[19-Sep-2018 23:27:42 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:224
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[19-Sep-2018 23:29:11 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[19-Sep-2018 23:29:11 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:224
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 224
+[20-Sep-2018 01:00:59 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 233
+[20-Sep-2018 01:00:59 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:233
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 233
+[20-Sep-2018 01:07:36 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 233
+[20-Sep-2018 01:07:36 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:233
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 233
+[20-Sep-2018 01:12:38 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:12:38 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:228
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:16:26 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:16:26 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:228
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:18:20 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:18:20 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:228
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:19:01 America/Chicago] PHP Warning:  fopen(/): failed to open stream: Is a directory in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[20-Sep-2018 01:19:01 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 170
+[20-Sep-2018 01:19:01 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/hillman/public_html/freight/admin/php/functions.php on line 171
+[20-Sep-2018 01:19:01 America/Chicago] PHP Warning:  chmod(): Operation not permitted in /home/hillman/public_html/freight/admin/php/functions.php on line 172
+[20-Sep-2018 01:19:01 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:19:01 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:228
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 228
+[20-Sep-2018 01:21:07 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 230
+[20-Sep-2018 01:21:07 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:230
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 230
+[20-Sep-2018 01:23:48 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 230
+[20-Sep-2018 01:23:48 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:230
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 230
+[20-Sep-2018 01:26:13 America/Chicago] PHP Warning:  Illegal string offset 'quotes_rates_list_table' in /home/hillman/public_html/freight/admin/php/quotes.php on line 229
+[20-Sep-2018 01:26:13 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use assign-op operators with string offsets in /home/hillman/public_html/freight/admin/php/quotes.php:229
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes.php on line 229
+[21-Sep-2018 04:39:36 America/Chicago] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/hillman/public_html/freight/admin/php/accounting_listprint.php on line 3
+[21-Sep-2018 04:40:05 America/Chicago] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/hillman/public_html/freight/admin/php/accounting_listprint.php on line 3
+[21-Sep-2018 04:40:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hillman/public_html/freight/admin/php/accounting_listprint.php:2) in /home/hillman/public_html/freight/admin/php/accounting_listprint.php on line 15
+[23-Sep-2018 19:51:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 19:51:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 19:51:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 19:51:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 19:51:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 19:51:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 19:51:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 19:51:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 19:51:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 19:51:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 19:51:51 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 19:51:51 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 19:51:51 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 19:51:51 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 19:51:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:02:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 21:02:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:02:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:02:28 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:02:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:09:06 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 21:09:06 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:09:06 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:09:06 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:09:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:10:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 21:10:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:10:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:10:36 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:10:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:13:19 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 21:13:19 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:13:19 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:13:19 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:13:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:13:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 38
+[23-Sep-2018 21:13:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:13:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:13:22 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:13:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:24:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdf_tpl has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[23-Sep-2018 21:24:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:24:21 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:24:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:32:38 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 16
+[23-Sep-2018 21:32:38 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:32:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:34:45 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 47
+[23-Sep-2018 21:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:36:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 237
+[23-Sep-2018 21:38:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 238
+[23-Sep-2018 21:40:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 238
+[23-Sep-2018 22:02:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:03:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:12:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:12:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 238
+[23-Sep-2018 22:14:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 238
+[23-Sep-2018 22:16:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:21:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:32:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:35:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:50:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[23-Sep-2018 22:51:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:32:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:32:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:43:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:56:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:56:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:57:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 00:59:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 01:00:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 01:10:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 01:10:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 01:10:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[24-Sep-2018 04:35:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[25-Sep-2018 02:56:46 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 02:56:46 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 02:56:46 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 02:56:52 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 02:56:52 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 02:56:52 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 03:01:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[25-Sep-2018 04:07:09 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:07:09 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:07:09 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:07:25 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:07:25 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:07:25 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:09:49 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:09:49 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:09:49 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:10:59 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:10:59 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:10:59 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:27:44 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:27:44 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:27:44 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:07 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:07 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:07 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:20 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:20 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:28:20 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:36:18 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:36:18 America/Chicago] PHP Warning:  include(/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:36:18 America/Chicago] PHP Warning:  include(): Failed opening '/opt/www/htdocs/admin.norwayfreight.com/php/rateQuote.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 31
+[25-Sep-2018 04:42:17 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/hillman/public_html/freight/admin/php/quotes_rates-auto.php on line 32
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:43:17 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:44:02 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 34
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.saia.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.eagle.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-37.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-14.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:57:34 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.usf-23.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:58:03 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:58:03 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 35
+[25-Sep-2018 04:59:00 America/Chicago] PHP Warning:  include_once(/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 36
+[25-Sep-2018 04:59:00 America/Chicago] PHP Warning:  include_once(): Failed opening '/opt/www/htdocs/admin.trollcompany.com/php/rate.watkins.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/rateQuote.php on line 36
+[26-Sep-2018 04:30:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[26-Sep-2018 04:37:24 America/Chicago] PHP Warning:  require(./fpdf/fpdi.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:37:24 America/Chicago] PHP Warning:  require(./fpdf/fpdi.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:37:24 America/Chicago] PHP Fatal error:  require(): Failed opening required './fpdf/fpdi.php' (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:37:58 America/Chicago] PHP Warning:  require(/fpdf/fpdi.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:37:58 America/Chicago] PHP Warning:  require(/fpdf/fpdi.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:37:58 America/Chicago] PHP Fatal error:  require(): Failed opening required '/fpdf/fpdi.php' (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 43
+[26-Sep-2018 04:38:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[26-Sep-2018 09:12:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/hillman/public_html/freight/admin/php/trackingfinder.php:99
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/trackingfinder.php on line 99
+[26-Sep-2018 20:01:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[26-Sep-2018 20:08:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:97
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 97
+[26-Sep-2018 20:47:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDF::fpdf() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php:73
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(97): fpdf_tpl->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#2 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#5 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 73
+[26-Sep-2018 20:51:30 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 259
+[26-Sep-2018 20:51:30 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 259
+[26-Sep-2018 20:51:30 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 259
+[26-Sep-2018 20:51:30 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 259
+[26-Sep-2018 20:51:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:2255
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(204): FPDF->_putfonts()
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(2492): fpdi->_putresources()
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(196): FPDF->_enddoc()
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(314): fpdi->_enddoc()
+#4 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(1237): FPDF->Close()
+#5 /home/hillman/public_html/freight/admin/php/invoices_print.php(278): FPDF->Output('invoice.pdf', 'I')
+#6 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#8 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#9 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 2255
+[26-Sep-2018 21:13:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/hillman/public_html/freight/admin/php/trackingfinder.php:99
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/trackingfinder.php on line 99
+[26-Sep-2018 21:23:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[26-Sep-2018 21:23:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[26-Sep-2018 21:46:36 America/Chicago] PHP Warning:  Declaration of fpdf_tpl::AddPage($orientation = '') should be compatible with FPDF::AddPage($orientation = '', $size = '', $rotation = 0) in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[26-Sep-2018 21:46:36 America/Chicago] PHP Warning:  Declaration of fpdf_tpl::Image($file, $x, $y, $w = 0, $h = 0, $type = '', $link = '') should be compatible with FPDF::Image($file, $x = NULL, $y = NULL, $w = 0, $h = 0, $type = '', $link = '') in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[26-Sep-2018 21:46:36 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Cannot open  ! in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php(114): FPDF->Error('Cannot open  !')
+#1 /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php(90): fpdi_pdf_parser->error('Cannot open  !')
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php(93): pdf_parser->__construct(NULL, NULL, NULL)
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(110): fpdi_pdf_parser->__construct('/home/hillman/p...', Object(fpdi))
+#4 /home/hillman/public_html/freight/admin/php/invoices_print.php(62): fpdi->setSourceFile('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#6 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#8 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 271
+[26-Sep-2018 22:21:00 America/Chicago] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/hillman/public_html/freight/admin/php/fpdf/pdf_parser.php on line 88
+[26-Sep-2018 22:50:59 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:50:59 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:50:59 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:50:59 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:50:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:2255
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(205): FPDF->_putfonts()
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(2492): fpdi->_putresources()
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(197): FPDF->_enddoc()
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(314): fpdi->_enddoc()
+#4 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(1237): FPDF->Close()
+#5 /home/hillman/public_html/freight/admin/php/invoices_print.php(278): FPDF->Output('invoice.pdf', 'I')
+#6 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#8 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#9 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 2255
+[26-Sep-2018 22:53:04 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:53:04 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:53:04 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:53:04 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 22:53:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:2255
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(204): FPDF->_putfonts()
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(2492): fpdi->_putresources()
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(196): FPDF->_enddoc()
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(314): fpdi->_enddoc()
+#4 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(1237): FPDF->Close()
+#5 /home/hillman/public_html/freight/admin/php/invoices_print.php(278): FPDF->Output('invoice.pdf', 'I')
+#6 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#8 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#9 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 2255
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  Declaration of fpdf_tpl::AddPage($orientation = '') should be compatible with FPDF::AddPage($orientation = '', $size = '', $rotation = 0) in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  Declaration of fpdf_tpl::Image($file, $x, $y, $w = 0, $h = 0, $type = '', $link = '') should be compatible with FPDF::Image($file, $x = NULL, $y = NULL, $w = 0, $h = 0, $type = '', $link = '') in /home/hillman/public_html/freight/admin/php/fpdf/fpdf_tpl.php on line 22
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:01:57 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:01:57 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot access protected property fpdi::$k in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php:409
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php(383): fpdi_pdf_parser->getPageBox(Array, '/MediaBox')
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(133): fpdi_pdf_parser->getPageMediaBox(1)
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(63): fpdi->ImportPage(1)
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 409
+[26-Sep-2018 23:03:00 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:03:00 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:03:00 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:03:00 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:03:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:2255
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(204): FPDF->_putfonts()
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(2492): fpdi->_putresources()
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(196): FPDF->_enddoc()
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(314): fpdi->_enddoc()
+#4 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(1237): FPDF->Close()
+#5 /home/hillman/public_html/freight/admin/php/invoices_print.php(278): FPDF->Output('invoice.pdf', 'I')
+#6 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#8 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#9 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 2255
+[26-Sep-2018 23:33:53 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:33:53 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:33:53 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:33:53 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/hillman/public_html/freight/admin/php/fpdf/fpdi_pdf_parser.php on line 260
+[26-Sep-2018 23:33:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php:2255
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(204): FPDF->_putfonts()
+#1 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(2492): fpdi->_putresources()
+#2 /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php(196): FPDF->_enddoc()
+#3 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(314): fpdi->_enddoc()
+#4 /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php(1237): FPDF->Close()
+#5 /home/hillman/public_html/freight/admin/php/invoices_print.php(278): FPDF->Output('invoice.pdf', 'I')
+#6 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#7 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#8 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#9 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdf.php on line 2255
+[26-Sep-2018 23:35:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[27-Sep-2018 04:10:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'use' (T_USE), expecting case (T_CASE) or default (T_DEFAULT) or '}' in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 47
+[27-Sep-2018 04:24:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(46): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[27-Sep-2018 20:47:58 America/Chicago] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 47
+[27-Sep-2018 20:47:58 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 47
+[27-Sep-2018 20:50:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::ClippingRect() in /home/hillman/public_html/freight/admin/php/functions.php:113
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices_print.php(103): setItem('date1', '10/02/2018')
+#1 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/functions.php on line 113
+[27-Sep-2018 21:18:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::Code39() in /home/hillman/public_html/freight/admin/php/invoices_print.php:147
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 147
+[27-Sep-2018 21:19:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:289
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 289
+[27-Sep-2018 21:22:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[27-Sep-2018 21:22:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:289
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 289
+[27-Sep-2018 21:26:41 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/invoices_print.php:146) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1067): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1014): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(292): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 21:27:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 21:31:35 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/invoices_print.php:123) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1067): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1014): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(293): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 21:34:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 21:41:28 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:117) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1067): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1014): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 21:47:38 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:116) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 21:48:57 America/Chicago] PHP Parse error:  syntax error, unexpected '"  ;DATAs="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/hillman/public_html/freight/admin/php/functions.php on line 117
+[27-Sep-2018 21:49:33 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:116) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 21:58:50 America/Chicago] PHP Parse error:  syntax error, unexpected '"  ;DATAs="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/hillman/public_html/freight/admin/php/functions.php on line 117
+[27-Sep-2018 21:59:22 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:116) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 22:00:09 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:118) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 22:01:01 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:119) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 22:01:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 22:02:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 22:06:19 America/Chicago] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/hillman/public_html/freight/admin/php/functions.php:106) in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1122): FPDF->Error('Some data has a...')
+#1 /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php(1069): FPDF->_checkoutput()
+#2 /home/hillman/public_html/freight/admin/php/invoices_print.php(289): FPDF->Output('I', 'invoice.pdf')
+#3 /home/hillman/public_html/freight/admin/php/invoices.php(6): include('/home/hillman/p...')
+#4 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#5 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#6 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdi1.6.2/vendor/setasign/fpdf/fpdf.php on line 271
+[27-Sep-2018 22:16:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 22:21:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 22:47:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 23:01:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 23:02:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 23:06:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 23:08:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[27-Sep-2018 23:09:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements_print.php(77): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/statements.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[27-Sep-2018 23:18:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/statements_print.php:212
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/statements_print.php on line 212
+[27-Sep-2018 23:19:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/statements_print.php:212
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/statements_print.php on line 212
+[27-Sep-2018 23:21:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/statements_print.php:212
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/statements_print.php on line 212
+[28-Sep-2018 01:06:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[28-Sep-2018 04:23:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[16-Oct-2018 22:30:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hillman/public_html/freight/admin/php/shipments_edit.php:76) in /home/hillman/public_html/freight/admin/php/shipments_edit.php on line 218
+[16-Oct-2018 22:50:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hillman/public_html/freight/admin/php/shipments_edit.php:81) in /home/hillman/public_html/freight/admin/php/shipments_edit.php on line 218
+[17-Oct-2018 02:04:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 02:26:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:26:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:27:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:28:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:30:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:30:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:30:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:31:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:31:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:33:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:33:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:33:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 02:34:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/statements_print.php:212
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/statements.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/statements_print.php on line 212
+[17-Oct-2018 03:07:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:07:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:08:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:09:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:10:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:11:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:11:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:11:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:11:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:11:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:12:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:12:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:13:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:14:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:15:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[17-Oct-2018 03:17:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:18:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:21:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes_view.php(86): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/quotes.php(287): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 03:25:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/quotes_view.php:316
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes.php(287): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes_view.php on line 316
+[17-Oct-2018 03:25:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/quotes_view.php:316
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes.php(287): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes_view.php on line 316
+[17-Oct-2018 03:26:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/quotes_view.php:316
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes.php(287): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes_view.php on line 316
+[17-Oct-2018 03:26:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/quotes_view.php:316
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/quotes.php(287): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/quotes_view.php on line 316
+[17-Oct-2018 08:27:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 08:28:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 08:29:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 10:20:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function eregi() in /home/hillman/public_html/freight/admin/php/trackingfinder.php:99
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/core.php(98): include()
+#1 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#2 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/trackingfinder.php on line 99
+[17-Oct-2018 10:20:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 14:18:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[17-Oct-2018 14:18:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method fpdf_tpl::fpdf_tpl() in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php:96
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/shipments_bol.php(71): fpdi->__construct('P', 'in', 'Letter')
+#1 /home/hillman/public_html/freight/admin/php/shipments.php(6): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#3 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#4 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/fpdf/fpdi.php on line 96
+[18-Oct-2018 11:13:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[22-Oct-2018 15:28:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:290
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 290
+[22-Oct-2018 15:29:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method FPDI::closeParsers() in /home/hillman/public_html/freight/admin/php/invoices_print.php:295
+Stack trace:
+#0 /home/hillman/public_html/freight/admin/php/invoices.php(6): include()
+#1 /home/hillman/public_html/freight/admin/php/core.php(98): include('/home/hillman/p...')
+#2 /home/hillman/public_html/freight/admin/index.php(3): include('/home/hillman/p...')
+#3 {main}
+  thrown in /home/hillman/public_html/freight/admin/php/invoices_print.php on line 295

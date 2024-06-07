@@ -1,0 +1,102 @@
+<script language="JavaScript1.2">
+	function ask_user(){
+		valid = true;
+		user_response=window.confirm("Are you sure you would like delete this letter?")
+		if (user_response == false){
+			valid=false;
+		}
+		return valid;
+	}
+	function sortBy(orderby,orderdir){
+		document.list.orderby.value=orderby;
+		document.list.orderdir.value=orderdir;
+		document.list.submit();
+	}
+	function checkAll(){
+		var i,ii=document.list.length;
+		for(i=0;i<ii;i++){
+			document.list[i].checked=true;
+		}
+	}
+	function checkNone(){
+		var i,ii=document.list.length;
+		for(i=0;i<ii;i++){
+			document.list[i].checked=false;
+		}
+	}
+	function editLetter(id){
+		window.open('/?action=marketing_edit&id='+id,'editWin','width=400,height=350,scrollbars=no,resizable=no');
+	}
+	function printLetters(){
+		valid = false;
+		var i,ii=document.list.length;
+		for(i=0;i<ii;i++){
+			if(document.list[i].checked==true){
+				valid = true;
+				break;
+			}
+		}
+		if(valid){
+			document.list.type.value="print";
+			document.list.target='_blank';
+			document.list.submit();
+			window.setTimeout('window.location.reload()',10);
+		}else{
+			alert("You must select at least one letter to process.");
+		}
+	}
+	function faxLetters(){
+		valid = false;
+		var i,ii=document.list.length;
+		for(i=0;i<ii;i++){
+			if(document.list[i].checked==true){
+				valid = true;
+				break;
+			}
+		}
+		if(valid){
+			document.list.type.value="fax";
+			document.list.target='_parent';
+			document.list.submit();
+			window.setTimeout('window.location.reload()',10);
+		}else{
+			alert("You must select at least one letter to process.");
+		}
+	}
+	function emailLetters(){
+		valid = false;
+		var i,ii=document.list.length;
+		for(i=0;i<ii;i++){
+			if(document.list[i].checked==true){
+				valid = true;
+				break;
+			}
+		}
+		if(valid){
+			document.list.type.value="email";
+			document.list.target='_parent';
+			document.list.submit();
+			window.setTimeout('window.location.reload()',10);
+		}else{
+			alert("You must select at least one letter to process.");
+		}
+	}
+</script>
+<div align="center" style="color:red;font-weight:bold;">[msg]</div>
+<form name="list" method="post" action="/?action=marketing_[mode]&status=[status]">
+<input type="hidden" name="type" value="">
+<input type="hidden" name="orderby" value="[orderby]">
+<input type="hidden" name="orderdir" value="[orderdir]">
+<table border="0" cellpadding="3" cellspacing="2" width="100%">
+	<tr>
+		<td class='tblHeader' align="center" nowrap><b>Process</b></td>
+		<td class='tblHeader' align="center" nowrap><a href="javascript:sortBy('marketing_letters.date_created','[asc]')"><b>Date Created</b></a></td>
+		<td class='tblHeader' nowrap><a href="javascript:sortBy('marketing_letters.customer_id','[asc]')"><b>Recipient</b></a></td>
+		<td class='tblHeader' nowrap><a href="javascript:sortBy('marketing_letters.email','[asc]')"><b>Email</b></a></td>
+		<td class='tblHeader' nowrap><a href="javascript:sortBy('marketing_letters.fax','[asc]')"><b>Fax</b></a></td>
+		<td class='tblHeader' align="center" nowrap><a href="javascript:sortBy('marketing_letters.shipment_id','[asc]')"><b>Shipment ID</b></a></td>
+		<td class='tblHeader' align="center" nowrap>Action</td>
+	</tr>
+	[rows]
+</table>
+</form>

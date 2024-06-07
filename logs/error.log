@@ -1,0 +1,311 @@
+[Sat Feb 13 15:44:25 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/
+[Sat Feb 13 15:44:25 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 15:44:28 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 15:52:28 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/
+[Sat Feb 13 15:52:29 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/
+[Sat Feb 13 15:55:11 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/
+[Sat Feb 13 15:55:12 2010] [error] [client 127.0.0.1] client denied by server configuration: C:/opt/www/htdocs/trollcompany.com/htdocs/
+[Sat Feb 13 20:34:25 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 20:40:19 2010] [error] [client ::1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/xampp
+[Sat Feb 13 20:40:22 2010] [error] [client ::1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 20:42:22 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 20:42:25 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 20:43:29 2010] [error] [client ::1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/xampp
+[Sat Feb 13 21:24:47 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 21:24:47 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Sat Feb 13 22:24:51 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Mon Feb 15 12:18:28 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/trollcompany.com/htdocs/favicon.ico
+[Thu Feb 25 09:36:24 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Mar 30 21:20:19 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Mar 30 21:20:19 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Mar 30 21:20:22 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Mar 31 12:20:54 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:20:54 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:20:54 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/Layer-6.png, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:21:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:21:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/images, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:21:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:21:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:21:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:21:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/images, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:22:38 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:22:38 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/images, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:22:38 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:23:44 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:23:44 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:23:44 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/Layer-6.png, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:23:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:23:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:23:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/css/Layer-6.png, referer: http://norwayfreight.com/css/psd2css.css
+[Wed Mar 31 12:24:17 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:24:17 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/
+[Wed Mar 31 12:24:28 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:24:28 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:24:30 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:24:30 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:24:31 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:24:31 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:37:11 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/index.html, referer: http://norwayfreight.com/index.html
+[Wed Mar 31 12:37:20 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:37:20 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:37:24 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:37:24 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:49 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:39:49 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:41:52 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:41:52 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:41:56 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:41:56 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:42:32 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:42:32 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:42:36 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-10.png, referer: http://norwayfreight.com/index.phtml
+[Wed Mar 31 12:42:36 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/Layer-9.png, referer: http://norwayfreight.com/index.phtml
+[Thu Apr 01 10:30:48 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 01 10:31:26 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 01 11:39:03 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 01 11:42:15 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/images/Layer2-png, referer: http://norwayfreight.com/index.phtml
+[Thu Apr 01 11:43:39 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/images/Layer2-png, referer: http://norwayfreight.com/css/psd2css.css
+[Thu Apr 01 15:42:29 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 01 15:42:32 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sun Apr 04 16:48:38 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Mon Apr 05 14:37:57 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Mon Apr 05 19:55:40 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Mon Apr 05 20:52:02 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/images/Layer-viking.png, referer: http://norwayfreight.com/index.phtml
+[Mon Apr 05 22:25:01 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Apr 06 11:19:25 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Apr 06 11:19:25 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Apr 06 11:19:28 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 08 10:32:56 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 08 21:07:12 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 14 11:43:40 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 14 11:43:40 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 14 11:43:43 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 22 19:58:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 22 19:58:46 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 22 19:58:49 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 22 20:17:17 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Thu Apr 22 20:35:41 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 28 09:36:27 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 28 09:47:17 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Wed Apr 28 11:06:59 2010] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Jan 15 11:30:56 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Jan 15 13:06:57 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Jan 15 13:06:57 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Jan 15 13:07:00 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 10:15:36 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 10:17:08 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:20:39 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:23:16 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:24:37 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:26:01 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:26:50 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:30:20 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:40:53 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:43:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:49:03 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:49:45 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:50:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:53:43 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 11:54:28 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:06:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:07:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:07:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:09:41 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:10:32 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:12:55 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 12:13:58 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:21:33 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:22:48 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:26:54 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:27:23 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:30:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:30:42 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:31:00 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:32:25 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:32:27 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:33:02 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:34:44 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:36:20 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:45:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:45:10 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:46:14 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 13:46:23 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:04:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:04:17 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:06:03 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:12:36 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:12:43 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:18:10 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:18:13 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:18:51 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:18:58 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:19:37 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:19:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:21:13 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:23:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:56:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:59:45 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 14:59:59 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:23:15 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:25:22 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:25:39 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:29:29 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:31:14 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:31:16 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:31:51 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:32:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:34:11 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:37:32 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:39:00 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:39:31 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:40:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:40:29 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:41:45 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:42:02 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:42:36 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:43:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:43:19 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:44:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:44:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:45:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:46:06 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:49:24 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:49:46 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:50:00 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:50:45 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:51:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:52:03 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:52:48 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:55:45 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:56:49 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:57:03 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:57:35 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:58:04 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:58:42 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:59:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:59:25 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 15:59:36 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:00:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:03:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:04:06 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:04:58 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:05:15 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:05:17 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:05:41 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:22:32 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:23:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:23:32 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:34:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:36:18 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:36:58 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:37:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:37:20 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:40:08 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:41:59 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:42:51 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:48:10 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:50:49 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:52:34 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:54:22 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:55:56 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:56:27 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:58:16 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:58:21 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:58:23 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 16:59:42 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:01:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:02:21 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:02:29 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:02:31 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:05:02 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:05:48 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:07:56 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:10:02 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:13:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:14:05 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:14:27 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:15:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:16:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:17:01 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:17:08 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:17:33 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:17:35 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:17:46 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:18:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:18:34 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:18:44 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:12 2011] [error] [client 127.0.0.1] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /volumeloads.phtml;javascript:DisplayDIV('Layer-loads') HTTP/1.1 to file, referer: http://www.norwayfreight.com/
+[Fri Feb 04 17:20:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:39 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:40 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:43 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:20:44 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:21:04 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:31:14 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:36:37 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Fri Feb 04 17:36:46 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:05:08 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:05:51 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:05:52 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:08:28 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:10:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:10:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:10:27 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:10:28 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:10:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:11:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:11:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:11:31 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:13:13 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:13:14 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:16:07 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:16:44 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:16:46 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:17:19 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:17:41 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:17:43 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:18:48 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:19:11 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:19:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:20:52 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:21:20 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:21:39 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:22:50 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:23:05 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:25:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:25:55 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:26:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Sat Feb 05 11:26:50 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 11:27:26 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 12:11:23 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:38:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:38:50 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:39:44 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:40:28 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:41:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:41:22 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:41:29 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:41:42 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:41:57 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:42:06 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 08 21:42:30 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:05:05 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:07:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:07:28 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:08:41 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:10:27 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:12:09 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:15:12 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:15:34 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:19:15 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:21:01 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:21:22 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:22:47 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:23:04 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:24:50 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico
+[Tue Feb 15 21:25:17 2011] [error] [client 127.0.0.1] File does not exist: C:/opt/www/htdocs/norwayfreight.com/htdocs/favicon.ico

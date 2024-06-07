@@ -1,0 +1,35 @@
+<script>
+function checkAll(whichForm) {
+	for(i=0;i<document.forms.length;i++) {
+		if(document.forms[i].name == whichForm) {
+			var workingForm = i;
+		}
+	}
+	for(i=1;i<document.forms[workingForm].elements.length;i++) {
+		var check_it = (document.forms[workingForm].elements[0].checked) ? 1 : 0;
+		if(document.forms[workingForm].elements[i].type == "checkbox") {
+			document.forms[workingForm].elements[i].checked = check_it;
+		}
+	}
+}
+</script>
+[message]
+<fieldset>
+<legend>current</legend>
+[age_current]
+</fieldset>
+<br>
+<fieldset>
+<legend>30</legend>
+[age_30]
+</fieldset>
+<br>
+<fieldset>
+<legend>60</legend>
+[age_60]
+</fieldset>
+<br>
+<fieldset>
+<legend>90</legend>
+[age_90]
+</fieldset>

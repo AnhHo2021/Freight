@@ -1,0 +1,10 @@
+<tr id="row_[index]">
+	<td><input size='2' style="width:30px" type='text' name='pieces[]' value='[pieces]' id="pieces_[index]" style="background:#EBEBD5"></td>
+	<td><select name='packaging_list_id[]' style="background:#EBEBD5"><option value='0'></option>[packaging_list]</select></td>
+	<td><nobr><input size='1' style="width:30px;background:#FFFFFF" type='text' name='dim_d[]' value='[dim_d]' id="dim_d_[index]"> x <input size='1' type='text' style="width:30px;background:#FFFFFF" name='dim_w[]' value='[dim_w]' id="dim_w_[index]"> x <input size='1' style="width:30px;background:#FFFFFF" type='text' name='dim_h[]' id="dim_h_[index]" value='[dim_h]'></nobr></td>
+	<td><select name='class_list_id[]' id="class_list_id_[index]" style="background:#FFFFFF"><option value='0'></option>[class_list]</select></td>
+	<td><input size='8' type='text' name='nmfc[]' value='[nmfc]' style="background:#FFFFFF" id="nmfc_[index]"></td>
+	<td><input size='60' type='text' style="background:#EBEBD5" name='description[]' value='[description]'></td>
+	<td><input size='8' type='text' style="background:#EBEBD5" name='weight[]' style="text-align:right" value='[weight]'> lbs</td>
+	<td><input type='button' value='X' onclick="removeCommodityRow('row_[index]')"></td>
+</tr>

@@ -1,0 +1,14 @@
+	<tr id="row_[index]">
+        <!--
+		<td><input size='2' style="width:30px" type='text' name='pieces[]' value='[pieces]'></td>
+		<td><select name='packaging_list_id[]'><option value='0'></option>[packaging_list]</select></td>
+		<td><nobr><input size='1' style="width:25px" type='text' name='dim_d[]' value='[dim_d]'> x <input size='1' type='text' style="width:25px" name='dim_w[]' value='[dim_w]'> x <input size='1' style="width:25px" type='text' name='dim_h[]' value='[dim_h]'></nobr></td>
+		<td><select name='class_list_id[]'><option value='0'></option>[class_list]</select></td>
+		<td><input size='3' type='text' name='nmfc[]' value='[nmfc]'></td>-->
+        <td><select class="product_cls" name='product_id[]'><option value='0'></option>[product_list]</select></td>
+        <td><div>$</div><input  class="in_line container_cost" type='number' name='container_cost[]' value='[container_cost]'></td>
+        <td><div>$</div><input  class="in_line container_price" type='number' name='container_price[]' value='[container_price]'></td>
+		<td><input  type='text' name='description[]' value='[description]'></td>
+		<td><input  type='weight' name='weight[]' value='[weight]'></td>
+		<td><input type='button' value='X' onclick="removeRow('row_[index]')"></td>
+	</tr>

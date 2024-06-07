@@ -1,0 +1,145 @@
+<script language="JavaScript">
+<!--
+
+function updateTerminal(id){
+	var term_prefix=document.getElementById("term_prefix").value;
+	document.getElementById("shipped_"+term_prefix+"carrier_terminal_id").value=id;
+	document.greatform.submit();
+}
+function updateCarrier(id,name,place_holder) {
+	var carrier_id = "carrier_id";
+	var place_holder_id = "carrier";
+
+	if(document.getElementById(carrier_id).value != id){
+		document.getElementById("shipped_o_carrier_terminal_id").value="0";
+		document.getElementById("shipped_d_carrier_terminal_id").value="0";
+		document.getElementById("o_terminal_table").style.display="none";
+		document.getElementById("d_terminal_table").style.display="none";
+	}
+
+	document.getElementById(carrier_id).value = id;
+	document.getElementById(place_holder_id).innerHTML = name;
+}
+function carrierFinder(place_holder) {
+	window.open("/?action=carrierfinder&place_holder="+place_holder,"carrier_finder","top=0,left=0,width=300,height=400,scrollbars=yes,menu=no,resizable=yes");
+}
+function calcTotals(rate_id){
+	var cost=0;
+	var rate=0;
+
+	var ii = document.greatform.length;
+	for(i=0;i<ii;i++){
+		var elem = document.greatform[i];
+		if(elem && elem.name){
+			if(elem.name.substring(0,6)=="cost__"){
+				var pcs = elem.name.split("__");
+				if(pcs && pcs[1]==rate_id){
+					val = eval(elem.value);
+					cost += (val > 0)?val:0;
+				}
+			}
+			if(elem.name.substring(0,6)=="rate__"){
+				var pcs = elem.name.split("__");
+				if(pcs && pcs[1]==rate_id){					
+					val = eval(elem.value);
+					rate += (val > 0)?val:0;
+				}
+			}
+		}
+	}
+
+	for(i=0;i<ii;i++){
+		var elem = document.greatform[i];
+		if(elem && elem.name){
+			if(elem.name.substring(0,6)=="cost__"){
+				var pcs = elem.name.split("__");
+				if(pcs && pcs[1]==rate_id){
+					if(pcs[2]){
+						var this_cost=eval(elem.value);
+						var this_rate=eval("document.greatform.rate__"+rate_id+"__"+pcs[2]+".value");
+
+						profit = this_rate-this_cost;
+						document.getElementById("profit__"+rate_id+"__"+pcs[2]).innerHTML=dp(profit);
+						percent = (this_cost>0)?(profit/this_cost)*100:0;	
+						document.getElementById("percent__"+rate_id+"__"+pcs[2]).innerHTML=dp(percent);
+					}else{
+						var this_cost=eval(elem.value);
+						var this_rate=eval("document.greatform.rate__"+rate_id+".value");
+
+						profit = this_rate-this_cost;
+						document.getElementById("profit__"+rate_id).innerHTML=dp(profit);
+						percent = (this_cost>0)?(profit/this_cost)*100:0;	
+						document.getElementById("percent__"+rate_id).innerHTML=dp(percent);
+					}
+				}
+			}
+		}
+	}
+
+	document.getElementById("total_cost_"+rate_id).innerHTML=dp(cost);
+	document.getElementById("total_rate_"+rate_id).innerHTML=dp(rate);
+	
+	profit = rate-cost;
+	document.getElementById("total_profit_"+rate_id).innerHTML=dp(profit);
+	percent = (cost>0)?(profit/cost)*100:0;
+	document.getElementById("total_percent_"+rate_id).innerHTML=dp(percent);
+}
+function round(number,X){X = (!X ? 2 : X);return Math.round(number*Math.pow(10,X))/Math.pow(10,X);}
+
+function dp(price){
+   string = "" + price;
+   number = string.length - string.indexOf('.');
+   if (string.indexOf('.') == -1)
+      return string + '.00';
+   if (number == 1)
+      return string + '00';
+   if (number == 2)
+      return string + '0';
+   if (number > 3)
+      return string.substring(0,string.length-number+3);
+return string;
+}
+-->
+</script>
+<table width="100%">
+	<tr>
+		<td>
+		<fieldset width="100%">
+		<legend>edit carrier rates</legend>
+		<table cellpadding="3" cellspacing="1" width="100%">
+			<tr>
+				<td colspan="6" bgcolor="black" style="color:white"><span id='carrier' style="color:white">[company]</span>&nbsp;&nbsp;&nbsp;&nbsp;+ <a href='javascript:carrierFinder([id])' style="color:white">change carrier</a><input type='hidden' id='carrier_id' name='carrier_id' value='[carrier_id]'></td>
+			</tr>
+			<tr>
+				<td class="tblHeader">Service Level</td>
+				<td class="tblHeader">Transit</td>
+				<td class="tblHeader" align=right>Cost</td>
+				<td class="tblHeader" align=right>Rate</td>
+				<td class="tblHeader" align=right>Profit</td>
+				<td class="tblHeader" align=right>Margin</td>
+			</tr>
+			<tr bgcolor="[bg]" style="cursor:hand">
+				<td><select name="service_id">
+				[service_list]
+				</select>
+				</td>
+				<td nowrap><input type='text' size='1' style="width:20px" name='transit_days' value='[transit_days]'> days</td>
+				<td align=right NOWRAP>$<input type='text' onfocus="this.select()" onblur="this.value=dp(this.value);calcTotals([shipped_shipment_rate_id])" size='5' name='cost__[shipped_shipment_rate_id]' value='[cost]' style="text-align:right"><input type='hidden' name='calc_cost__[shipped_shipment_rate_id]' value='[calc_cost]'></td>
+				<td align=right NOWRAP>$<input type='text' onfocus="this.select()"  onblur="this.value=dp(this.value);calcTotals([shipped_shipment_rate_id])" size='5' name='rate__[shipped_shipment_rate_id]' value='[rate]' style="text-align:right"><input type='hidden' name='calc_rate__[shipped_shipment_rate_id]' value='[calc_rate]'></td>
+				<td align=right>$<div id="profit__[shipped_shipment_rate_id]" style="display:inline">[profit]</div></td>
+				<td align=right><div id="percent__[shipped_shipment_rate_id]" style="display:inline">[percent]</div>%</td>
+			</tr>
+			[shipments_rates_list_table_row]
+			<tr bgcolor="[bg]" style="cursor:hand">
+				<td></td>
+				<td><b>TOTAL</b></td>
+				<td align=right NOWRAP><b>$<div id="total_cost_[shipped_shipment_rate_id]" style="display:inline">[total_cost]</div></b></td>
+				<td align=right NOWRAP><b>$<div id="total_rate_[shipped_shipment_rate_id]" style="display:inline">[total_rate]</div></b></td>
+				<td align=right><b>$<div id="total_profit_[shipped_shipment_rate_id]" style="display:inline">[total_profit]</div></b></td>
+				<td align=right><b><div id="total_percent_[shipped_shipment_rate_id]" style="display:inline">[total_percent]</div>%</b></td>
+			</tr>
+		</table>
+		</fieldset>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,140 @@
+	<table width="100%">
+    <tr>
+			<td valign="top" width="100%" colspan=3>
+				<fieldset>
+					<legend style="font-size:14px"><b>Customer</b></legend>
+					<table width="100%" border=0>
+						<tr>
+							<td><select style="width:320px" name="customer_id" onchange="document.location = './?action=customers_defaults&customer_id=' + this.value;"><option value="0"></option>[customer_list]</select></td>
+						</tr>
+					</table>
+				</fieldset>
+      </td>
+		</tr>
+		<tr style="display: [show_table]">
+			<td valign="top" width="50%">
+				<fieldset>
+					<legend style="font-size:14px"><b>Default Origin</b></legend>
+					<table width="100%" border=0>
+						<tr>
+							<td NOWRAP align="right"><div style="display:[customer_show]"><b>Address Book</b></div></td>
+							<td colspan="3"><div style="display:[customer_show]"><select style="width:320px" name="o_addressbook_id"><option value="0"></option>[origin_addressbook]</select></div></td>
+						</tr>
+					</table>
+				</fieldset></td>
+			<td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td valign="top" width="50%">
+				<fieldset>
+					<legend style="font-size:14px"><b>Destination</b></legend>
+					<table width="100%" border=0>
+						<tr>
+							<td NOWRAP align="right"><div style="display:[customer_show]"><b>Address Book</b></div></td>
+							<td colspan="3"><div style="display:[customer_show]"><select style="width:320px" name="d_addressbook_id"><option value="0"></option>[destination_addressbook]</select></div></td>
+						</tr>
+					</table>
+				</fieldset></td>
+		</tr>
+		<tr style="display: [show_table]">
+			<td colspan="3"><br>
+				<table cellpadding="3" width="100%">
+					<tr>
+						<td valign=top>
+							<fieldset style="height:195px">
+								<legend style="font-size:14px"><b>Default Service Options</b></legend>
+								<table width="100%" cellpadding="3">
+									<tr>
+										<td align=right nowrap><b>Service</b></td>
+										<td><input type="radio" name="service_type" value="air" id="service_air" [service_air] onClick="setServiceReq()"> <label for="service_air">Air</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<input type="radio" name="service_type" value="ground" id="service_ground" [service_ground] onClick="setServiceReq()"> <label for="service_ground">Ground</label><td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Pickup Window</b></td>
+										<td><select name="req_pickup_time_start" id="req_pickup_time_start" onchange="checkSpecial()">
+											[req_pickup_time_start]
+											</select>
+											&nbsp;-to-&nbsp;
+											<select name="req_pickup_time_end" id="req_pickup_time_end" onchange="checkSpecial()">
+											[req_pickup_time_end]
+											</select><td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Delivery Window</b></td>
+										<td><select name="req_delivery_time_start" id="req_delivery_time_start" onchange="checkSpecial()">
+											[req_delivery_time_start]
+											</select>
+											&nbsp;-to-&nbsp;
+											<select name="req_delivery_time_end" id="req_delivery_time_end" onchange="checkSpecial()">
+											[req_delivery_time_end]
+											</select></td>
+									</tr>
+								</table>
+								<center>
+								<div id="special_pickup_mssg" style="display:[special_pickup_mssg];margin-top:5px;color:red">Special Pickup Required (less than 2 1/2 hr pickup window)</div>
+								<div id="special_delivery_mssg" style="display:[special_delivery_mssg];margin-top:10px;color:red">Special Delivery Required (delivery before 1:00 pm)</div>
+								</center>
+							</fieldset>
+						</td>
+						<td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td valign=top>
+							<fieldset style="height:195px">
+								<legend style="font-size:14px"><b>Additional Services</b></legend>
+								<table width="100%" cellpadding="3">
+									<tr>
+										<td align=right nowrap><b>Insurance</b></td>
+										<td>$<input type="text" name="insurance" size="6" value="[insurance]"> dollars<td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Liftgate</b></td>
+										<td><select name="liftgate">
+											<option value="">N/A</option>
+											<option value="pickup"[liftgate_pickup]>Pickup</option>
+											<option value="delivery"[liftgate_delivery]>Delivery</option>
+											<option value="pickup_delivery"[liftgate_pickup_delivery]>Pickup & Delivery</option>
+											</select><td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Residential</b></td>
+										<td><select name="residential">
+											<option value="">N/A</option>
+											<option value="pickup"[residential_pickup]>Pickup</option>
+											<option value="delivery"[residential_delivery]>Delivery</option>
+											<option value="pickup_delivery"[residential_pickup_delivery]>Pickup & Delivery</option>
+											</select><td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Inside</b></td>
+										<td><select name="inside">
+											<option value="">N/A</option>
+											<option value="pickup"[inside_pickup]>Pickup</option>
+											<option value="delivery"[inside_delivery]>Delivery</option>
+											<option value="pickup_delivery"[inside_pickup_delivery]>Pickup & Delivery</option>
+											</select><td>
+									</tr>
+									<tr>
+										<td align=right nowrap><b>Tradeshow</b></td>
+										<td><select name="tradeshow">
+											<option value="">N/A</option>
+											<option value="pickup"[tradeshow_pickup]>Pickup</option>
+											<option value="delivery"[tradeshow_delivery]>Delivery</option>
+											<option value="pickup_delivery"[tradeshow_pickup_delivery]>Pickup & Delivery</option>
+											</select><td>
+									</tr>
+								</table>
+							</fieldset>
+						</td>
+						<td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td valign="top">
+							<fieldset style="height:195px">
+								<legend style="font-size:14px"><b>Default Pieces and Weight</b></legend>
+								[product_book]
+							</fieldset>
+            </td>
+					</tr>
+				</table>
+			</td>
+		</tr>	
+	</table>
+	<br>
+	<div align=center style="display: [show_table]">
+		<input type="submit" name="submit" value="Save">
+	</div>

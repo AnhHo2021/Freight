@@ -1,0 +1,30 @@
+<script>
+function trackingPop(id) {
+	window.open("/?action=trackingfinder&id="+id,"tracking_finder","top=0,left=0,width=600,height=600,scrollbars=yes,menu=no");
+}
+function bolPop(id) {
+	window.open("/?action=shipments_bol&id="+id,"shipments_bol","top=0,left=0,width=850,height=700,scrollbars=yes,menu=no,resizable=yes");
+}
+</script>
+<fieldset>
+<legend>All Shipments</legend>
+<table width='100%' cellpadding=3>
+	<tr>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=id&asc_id=[asc_id]&customer_id=[customer_id]">ID</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=status&asc_status=[asc_status]&customer_id=[customer_id]">Status</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=pickup_date&asc_pickup_date=[asc_pickup_date]&customer_id=[customer_id]">[pickup_date]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=delivery_date&asc_delivery_date=[asc_delivery_date]&customer_id=[customer_id]">[delivery_date]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=carrier&asc_carrier=[asc_carrier]&customer_id=[customer_id]">[carrier]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=o_city&asc_o_city=[asc_o_city]&customer_id=[customer_id]">[origin]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=d_city&asc_d_city=[asc_d_city]&customer_id=[customer_id]">[destination]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=tracking&asc_tracking=[asc_tracking]&customer_id=[customer_id]">[tracking]</a></td>
+		<td class="tblHeader" NOWRAP>BOL</td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=cost&asc_cost=[asc_cost]&customer_id=[customer_id]">[cost]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=total&asc_total=[asc_total]&customer_id=[customer_id]">[invoice]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_history&sort=profit&asc_profit=[asc_profit]&customer_id=[customer_id]">[margin]</a></td>
+	</tr>
+	[rows]
+</table>
+
+</fieldset>
+<br>

@@ -1,0 +1,27 @@
+<script language="JavaScript">
+<!--
+function openClasses(carrier_id,id) {
+	window.open("/?action=customers_classes&id="+id+"&carrier_id="+carrier_id,"open_classes","top=0,left=0,width=130,height=510,scrollbars=no,menu=no");
+}
+function openFinder(id) {
+	window.open("/?action=addressfinder&customer_id="+id,"open_addresses","top=0,left=0,width=330,height=410,scrollbars=yes,menu=no");
+}
+function confirm_contact_delete(id){
+	if(confirm("Are you sure you want to remove this address information?")){
+		window.location.href = "./?action=customers_addresses&id=[customer_id]&remove="+id;
+	}
+}
+-->
+</script>
+<table width='1' width="100%">
+	<tr>
+		<td>
+			<table cellpadding="3" cellspacing="1" width="100%">
+				<tr>
+					<td colspan='5' align='right'><a href='javascript:openFinder([customer_id]);'><strong>Add Address</strong></a></td>
+				</tr>
+			</table>
+			[customers_addresses_list_row]
+		</td>
+	</tr>
+</table>

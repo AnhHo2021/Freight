@@ -1,0 +1,32 @@
+<fieldset>
+<legend>Scheduled</legend>
+<form method='POST' name='intransit' id='intransit'>
+<table width='100%' cellpadding=3>
+	<tr>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=id&asc_id=[asc_id]">ID</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=req_delivery_date&asc_req_delivery_date=[asc_req_delivery_date]">[est_delivery_date]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=req_delivery_time_start&asc_req_delivery_time_start=[asc_req_delivery_time_start]">[est_delivery_time]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=company&asc_company=[asc_company]">[customer]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=carrier&asc_carrier=[asc_carrier]">[carrier]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=o_city&asc_o_city=[asc_o_city]">[origin]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=d_city&asc_d_city=[asc_d_city]">[destination]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=tracking&asc_tracking=[asc_tracking]">[tracking]</a></td>
+		<td class="tblHeader" NOWRAP>BOL</td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=cost&asc_cost=[asc_cost]">[cost]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=total&asc_total=[asc_total]">[invoice]</a></td>
+		<td class="tblHeader" NOWRAP><a href="./?action=shipments_list&sort=profit&asc_profit=[asc_profit]">[margin]</a></td>
+		<td class="tblHeader" NOWRAP><input type='checkbox' name='checkall__intransit' onClick="checkAll('intransit')"></td>
+	</tr>
+	[intransit_row]
+</table>
+<table width='100%'>
+	<tr>
+		<td width='100%' align='right'><select name='status'>
+		[status_options]
+		</select><input type='submit' value='move'>
+		</td>
+	</tr>
+</table>
+</form>
+</fieldset>
+<br>
